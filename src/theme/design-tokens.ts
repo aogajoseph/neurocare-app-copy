@@ -2,8 +2,10 @@
 
 export const colors = {
   brand: {
-    primary: '#6B2C91',   // Neuro Care purple
-    secondary: '#AA2078',
+    primary: '#AA2078',
+    secondary: '#7A1556',
+    dark: 'dark',
+    link: '#3B82F6',
   },
 
   text: {

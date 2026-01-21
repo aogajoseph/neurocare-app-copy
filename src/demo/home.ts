@@ -7,7 +7,7 @@ export const DEMO_HOME = {
     },
     intro: {
       en: 'Find clear information, practical guidance and support for neurological health.',
-      sw: 'Pata taarifa sahihi, mwongozo wa vitendo na msaada kuhusu afya ya mfumo wa neva.',
+      sw: 'Pata taarifa sahihi, mwongozo wa vitendo na msaada kuhusu afya ya mfumo wa neurolojia.',
     },
   },
 
@@ -24,7 +24,7 @@ export const DEMO_HOME = {
       title: { en: 'Understand Conditions', sw: 'Fahamu Hali' },
       description: {
         en: 'Learn clearly about neurological conditions and how they affect the quality of life.',
-        sw: 'Jifunze kwa uwazi kuhusu hali za neva na jinsi zinavyoathiri maisha.',
+        sw: 'Jifunze kwa uwazi kuhusu hali za neurolojia na jinsi zinavyoathiri maisha.',
       },
       route: '/(drawer)/(content)/learn/neurology',
     },
@@ -73,7 +73,7 @@ export const DEMO_HOME = {
       title: { en: 'Child Protection', sw: 'Ulinzi wa Mtoto' },
       description: {
         en: 'Safeguarding children with neurological conditions.',
-        sw: 'Kulinda watoto wenye magonjwa ya mfumo wa neva',
+        sw: 'Kulinda watoto wenye hali ya mfumo wa neurolojia.',
       },
       route: '/(drawer)/(content)/legal/child-protection',
     },

@@ -85,7 +85,7 @@ export default function HomeScreen() {
       {home.learnWithConfidence.map((item) => (
         <Card
           key={item.id}
-          style={{ marginBottom: tokens.spacing.md }}
+          style={[styles.confidenceCard, { marginBottom: tokens.spacing.md }]}
           onPress={() => {
             switch (item.id) {
               case 'myths':
@@ -100,7 +100,8 @@ export default function HomeScreen() {
             }
           }}
         >
-          <Text style={styles.cardTitle}>{item.title[language]}</Text>
+          <Text style={styles.confidenceTitle}>{item.title[language]}</Text>
+          <Text style={styles.confidenceDesc}>{item.description[language]}</Text>
         </Card>
       ))}
 
@@ -146,7 +147,7 @@ const styles = StyleSheet.create({
   welcome: {
     fontSize: tokens.typography.size.xxl,
     fontWeight: tokens.typography.weight.bold,
-    color: tokens.colors.brand.secondary,
+    color: tokens.colors.brand.dark,
     marginBottom: tokens.spacing.sm,
   },
   intro: {
@@ -174,20 +175,27 @@ const styles = StyleSheet.create({
     marginBottom: tokens.spacing.md,
   },
 
-  reassurance: {
-    backgroundColor: tokens.colors.surface.soft,
-    marginTop: tokens.spacing.lg,
+  confidenceCard: {
+    backgroundColor: tokens.colors.brand.secondary,
+    paddingVertical: tokens.spacing.lg,
+    paddingHorizontal: tokens.spacing.lg,
   },
-  reassuranceText: {
+  confidenceTitle: {
+    fontSize: tokens.typography.size.md,
+    fontWeight: tokens.typography.weight.semibold,
+    color: tokens.colors.text.inverse, 
+    marginBottom: tokens.spacing.xs,
+  },
+  confidenceDesc: {
     fontSize: tokens.typography.size.sm,
-    color: tokens.colors.text.muted,
-    textAlign: 'center',
     lineHeight: tokens.typography.lineHeight.normal,
+    color: 'rgba(255,255,255,0.85)',
   },
+  
   helpCard: {
     backgroundColor: '#fff',
     borderLeftWidth: 6,
-    borderLeftColor: '#DC2626', // deep red accent
+    borderLeftColor: '#DC2626',
     paddingVertical: tokens.spacing.md,
     paddingHorizontal: tokens.spacing.lg,
     shadowColor: '#DC2626',
@@ -199,7 +207,18 @@ const styles = StyleSheet.create({
   helpCardTitle: {
     fontSize: tokens.typography.size.md,
     fontWeight: tokens.typography.weight.bold,
-    color: '#B91C1C', // deep red text
-  },  
+    color: '#000',
+  },
+
+  reassurance: {
+    backgroundColor: tokens.colors.surface.soft,
+    marginTop: tokens.spacing.lg,
+  },
+  reassuranceText: {
+    fontSize: tokens.typography.size.sm,
+    color: tokens.colors.text.muted,
+    textAlign: 'center',
+    lineHeight: tokens.typography.lineHeight.normal,
+  },
 });
 

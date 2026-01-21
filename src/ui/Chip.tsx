@@ -38,11 +38,11 @@ const styles = StyleSheet.create({
   },
   text: {
     fontSize: tokens.typography.size.sm,
-    color: tokens.colors.brand.secondary,
+    color: tokens.colors.brand.primary,
     fontWeight: tokens.typography.weight.medium,
   },
   emphasis: {
-    backgroundColor: tokens.colors.brand.secondary,
+    backgroundColor: tokens.colors.brand.primary,
   },
   emphasisText: {
     color: tokens.colors.text.inverse,
