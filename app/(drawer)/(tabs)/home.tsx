@@ -109,7 +109,7 @@ export default function HomeScreen() {
       {home.helpNow.map((item) => (
         <Card
           key={item.id}
-          style={{ marginBottom: tokens.spacing.md }}
+          style={[styles.helpCard, { marginBottom: tokens.spacing.md }]}
           onPress={() => {
             switch (item.id) {
               case 'emergency':
@@ -121,7 +121,7 @@ export default function HomeScreen() {
             }
           }}
         >
-          <Text style={styles.cardTitle}>{item.title[language]}</Text>
+          <Text style={styles.helpCardTitle}>🚨 {item.title[language]}</Text>
         </Card>
       ))}
 
@@ -184,4 +184,22 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     lineHeight: tokens.typography.lineHeight.normal,
   },
+  helpCard: {
+    backgroundColor: '#fff',
+    borderLeftWidth: 6,
+    borderLeftColor: '#DC2626', // deep red accent
+    paddingVertical: tokens.spacing.md,
+    paddingHorizontal: tokens.spacing.lg,
+    shadowColor: '#DC2626',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.25,
+    shadowRadius: 4,
+    elevation: 4,
+  },
+  helpCardTitle: {
+    fontSize: tokens.typography.size.md,
+    fontWeight: tokens.typography.weight.bold,
+    color: '#B91C1C', // deep red text
+  },  
 });
+

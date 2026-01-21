@@ -6,7 +6,7 @@ export const DEMO_DRAWER_SECTIONS = [
     items: [
       { id: 'neurology', label: 'Understanding Neurology', icon: 'brain-outline', target: 'learn/neurology' },
       { id: 'caregiver', label: 'Caregiver Guide', icon: 'people-outline', target: 'learn/caregiver' },
-      { id: 'living', label: 'Living Well', icon: 'heart-outline', target: 'learn/living' },
+      { id: 'living', label: 'Living Well with a Condition', icon: 'heart-outline', target: 'learn/living' },
       { id: 'myths', label: 'Myths and Facts', icon: 'help-buoy-outline', target: 'learn/myths' },
     ],
   },
