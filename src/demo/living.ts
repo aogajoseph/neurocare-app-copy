@@ -2,8 +2,8 @@
 export const livingData = {
   hero: {
     title: {
-      en: 'Living Well with Neurological Conditions',
-      sw: 'Kuishi Vizuri Ukiwa na Hali za Neurolojia',
+      en: 'Living with Neurological Conditions',
+      sw: 'Kuishi na Hali za Neurolojia',
     },
     subtitle: {
       en: 'Practical guidance, rehabilitation tips and encouragement for everyday life.',
