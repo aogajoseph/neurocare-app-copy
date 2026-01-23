@@ -1,6 +1,13 @@
 // app/(drawer)/(content)/learn/living.tsx
 
-import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Image } from 'react-native';
+import {
+  View,
+  Text,
+  StyleSheet,
+  ScrollView,
+  TouchableOpacity,
+  Image,
+} from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { router } from 'expo-router';
@@ -18,21 +25,40 @@ export default function LivingWellScreen() {
       case 'text':
         return (
           <View key={section.id} style={styles.section}>
-            <Text style={styles.subTitle}>{section.title[language]}</Text>
-            <Text style={styles.paragraph}>{section.content[language]}</Text>
+            <Text style={styles.subTitle}>
+              {section.title[language]}
+            </Text>
+            <Text style={styles.paragraph}>
+              {section.content[language]}
+            </Text>
           </View>
         );
 
       case 'cardList':
         return (
           <View key={section.id} style={styles.section}>
-            <Text style={styles.subTitle}>{section.title[language]}</Text>
+            <Text style={styles.subTitle}>
+              {section.title[language]}
+            </Text>
 
             {section.cards.map((card: any, index: number) => (
-              <View key={index} style={styles.card}>
-                <Text style={styles.cardTitle}>{card.title[language]}</Text>
-                <Text style={styles.cardDesc}>{card.description[language]}</Text>
-              </View>
+              <TouchableOpacity
+                key={index}
+                style={styles.card}
+                activeOpacity={0.85}
+                onPress={() =>
+                  router.push(
+                    `/(drawer)/(content)/learn/living/${card.slug}`
+                  )
+                }
+              >
+                <Text style={styles.cardTitle}>
+                  {card.title[language]}
+                </Text>
+                <Text style={styles.cardDesc}>
+                  {card.description[language]}
+                </Text>
+              </TouchableOpacity>
             ))}
           </View>
         );
@@ -81,7 +107,10 @@ export default function LivingWellScreen() {
         showsVerticalScrollIndicator={false}
       >
         {livingData.hero.image && (
-          <Image source={livingData.hero.image} style={styles.heroImage} />
+          <Image
+            source={livingData.hero.image}
+            style={styles.heroImage}
+          />
         )}
 
         <Text style={styles.heroSubtitle}>
