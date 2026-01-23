@@ -112,7 +112,7 @@ export default function HomeScreen() {
           key={item.id}
           style={[styles.helpCard, { marginBottom: tokens.spacing.md }]}
           onPress={() => {
-            switch (item.id) {
+            switch (item.id) { 
               case 'emergency':
                 router.push('/(drawer)/(content)/support/emergency');
                 break;
