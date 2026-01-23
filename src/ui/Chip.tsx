@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
   },
   text: {
     fontSize: tokens.typography.size.sm,
-    color: tokens.colors.brand.primary,
+    color: tokens.colors.brand.dark,
     fontWeight: tokens.typography.weight.medium,
   },
   emphasis: {

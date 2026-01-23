@@ -147,7 +147,7 @@ const styles = StyleSheet.create({
   welcome: {
     fontSize: tokens.typography.size.xxl,
     fontWeight: tokens.typography.weight.bold,
-    color: tokens.colors.brand.dark,
+    color: tokens.colors.brand.primary,
     marginBottom: tokens.spacing.sm,
   },
   intro: {
@@ -176,20 +176,20 @@ const styles = StyleSheet.create({
   },
 
   confidenceCard: {
-    backgroundColor: tokens.colors.brand.secondary,
+    backgroundColor: tokens.colors.surface.soft,
     paddingVertical: tokens.spacing.lg,
     paddingHorizontal: tokens.spacing.lg,
   },
   confidenceTitle: {
     fontSize: tokens.typography.size.md,
     fontWeight: tokens.typography.weight.semibold,
-    color: tokens.colors.text.inverse, 
+    color: tokens.colors.text.dark, 
     marginBottom: tokens.spacing.xs,
   },
   confidenceDesc: {
     fontSize: tokens.typography.size.sm,
     lineHeight: tokens.typography.lineHeight.normal,
-    color: 'rgba(255,255,255,0.85)',
+    color: tokens.colors.text.dark,
   },
   
   helpCard: {
@@ -211,12 +211,12 @@ const styles = StyleSheet.create({
   },
 
   reassurance: {
-    backgroundColor: tokens.colors.surface.soft,
+    backgroundColor: tokens.colors.brand.secondary,
     marginTop: tokens.spacing.lg,
   },
   reassuranceText: {
     fontSize: tokens.typography.size.sm,
-    color: tokens.colors.text.muted,
+    color: tokens.colors.text.inverse,
     textAlign: 'center',
     lineHeight: tokens.typography.lineHeight.normal,
   },

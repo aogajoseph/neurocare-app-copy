@@ -7,6 +7,7 @@ export function SectionTitle({ children }: { children: string }) {
 
 const styles = StyleSheet.create({
   title: {
+    color: tokens.colors.brand.primary,
     fontSize: tokens.typography.size.lg,
     fontWeight: tokens.typography.weight.semibold,
     marginTop: tokens.spacing.md,

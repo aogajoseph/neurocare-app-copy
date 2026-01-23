@@ -1,61 +1,94 @@
-import { View, Text, StyleSheet, ScrollView, TouchableOpacity } from 'react-native';
+// app/(drawer)/(content)/learn/living.tsx
+
+import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Image } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { router } from 'expo-router';
+import { useLanguage } from '@/i18n/LanguageContext';
+
+import { livingData } from '@/demo/living';
+import { tokens } from '@/theme/design-tokens';
 
 export default function LivingWellScreen() {
   const insets = useSafeAreaInsets();
+  const { language } = useLanguage();
+
+  const renderSection = (section: any) => {
+    switch (section.type) {
+      case 'text':
+        return (
+          <View key={section.id} style={styles.section}>
+            <Text style={styles.subTitle}>{section.title[language]}</Text>
+            <Text style={styles.paragraph}>{section.content[language]}</Text>
+          </View>
+        );
+
+      case 'cardList':
+        return (
+          <View key={section.id} style={styles.section}>
+            <Text style={styles.subTitle}>{section.title[language]}</Text>
+
+            {section.cards.map((card: any, index: number) => (
+              <View key={index} style={styles.card}>
+                <Text style={styles.cardTitle}>{card.title[language]}</Text>
+                <Text style={styles.cardDesc}>{card.description[language]}</Text>
+              </View>
+            ))}
+          </View>
+        );
+
+      case 'reassurance':
+        return (
+          <View key={section.id} style={styles.reassurance}>
+            <Text style={styles.reassuranceText}>
+              {section.message[language]}
+            </Text>
+          </View>
+        );
+
+      default:
+        return null;
+    }
+  };
 
   return (
     <View style={[styles.root, { paddingTop: insets.top }]}>
-      {/* ───── Header ───── */}
+      {/* Header */}
       <View style={styles.header}>
         <TouchableOpacity
           onPress={() => router.back()}
           style={styles.backButton}
           hitSlop={10}
         >
-          <Ionicons name="arrow-back" size={22} color="#111827" />
+          <Ionicons
+            name="arrow-back"
+            size={22}
+            color={tokens.colors.text.primary}
+          />
         </TouchableOpacity>
 
-        <Text style={styles.title}>Living Well</Text>
+        <Text style={styles.title}>
+          {livingData.hero.title[language]}
+        </Text>
       </View>
 
-      {/* ───── Content ───── */}
+      {/* Content */}
       <ScrollView
         contentContainerStyle={[
           styles.content,
-          { paddingBottom: insets.bottom + 24 },
+          { paddingBottom: insets.bottom + tokens.spacing.xl },
         ]}
         showsVerticalScrollIndicator={false}
       >
-        <Text style={styles.paragraph}>
-          Living well with a neurological condition is about maintaining quality of life, finding meaning, and engaging with the world in ways that bring satisfaction and joy.
+        {livingData.hero.image && (
+          <Image source={livingData.hero.image} style={styles.heroImage} />
+        )}
+
+        <Text style={styles.heroSubtitle}>
+          {livingData.hero.subtitle[language]}
         </Text>
 
-        <Text style={styles.subTitle}>Daily Wellness</Text>
-        <Text style={styles.paragraph}>
-          Practical strategies for energy management, balanced nutrition, gentle exercise, and maintaining routines to support physical and mental health.
-        </Text>
-
-        <Text style={styles.subTitle}>Social Connection</Text>
-        <Text style={styles.paragraph}>
-          Staying connected with family, friends, and support communities fosters emotional wellbeing and reduces feelings of isolation.
-        </Text>
-
-        <Text style={styles.subTitle}>Mental & Emotional Health</Text>
-        <Text style={styles.paragraph}>
-          Techniques for stress management, mindfulness, coping with challenges, and accessing professional support when needed.
-        </Text>
-
-        <Text style={styles.subTitle}>Engaging in Meaningful Activities</Text>
-        <Text style={styles.paragraph}>
-          Hobbies, creative outlets, volunteer work, and personal goals help nurture purpose, satisfaction, and resilience.
-        </Text>
-
-        <Text style={styles.paragraph}>
-          Content will be expanded and personalized based on backend configuration and user preferences.
-        </Text>
+        {livingData.sections.map(renderSection)}
       </ScrollView>
     </View>
   );
@@ -64,43 +97,95 @@ export default function LivingWellScreen() {
 const styles = StyleSheet.create({
   root: {
     flex: 1,
-    backgroundColor: '#FFFFFF',
+    backgroundColor: tokens.colors.surface.background,
   },
 
   /* Header */
   header: {
     flexDirection: 'row',
     alignItems: 'center',
-    paddingHorizontal: 16,
-    paddingVertical: 14,
+    paddingHorizontal: tokens.spacing.lg,
+    paddingVertical: tokens.spacing.md,
     borderBottomWidth: 1,
-    borderBottomColor: '#E5E7EB',
-    backgroundColor: '#FFFFFF',
+    borderBottomColor: tokens.colors.border.subtle,
+    backgroundColor: tokens.colors.surface.background,
   },
   backButton: {
-    marginRight: 12,
+    marginRight: tokens.spacing.sm,
   },
   title: {
-    fontSize: 18,
-    fontWeight: '600',
-    color: '#111827',
+    fontSize: tokens.typography.size.lg,
+    fontWeight: tokens.typography.weight.semibold,
+    color: tokens.colors.text.primary,
   },
 
   /* Content */
   content: {
-    paddingHorizontal: 16,
-    paddingTop: 16,
+    paddingHorizontal: tokens.spacing.lg,
+    paddingTop: tokens.spacing.lg,
   },
+
+  heroImage: {
+    width: '100%',
+    height: 180,
+    borderRadius: tokens.radius.md,
+    marginBottom: tokens.spacing.sm,
+  },
+  heroSubtitle: {
+    fontSize: tokens.typography.size.sm,
+    lineHeight: tokens.typography.lineHeight.normal,
+    color: tokens.colors.text.secondary,
+    marginBottom: tokens.spacing.xl,
+  },
+
+  section: {
+    marginBottom: tokens.spacing.xl,
+  },
+
   subTitle: {
-    fontSize: 16,
-    fontWeight: '600',
-    color: '#aa2078',
-    marginBottom: 8,
+    fontSize: tokens.typography.size.md,
+    fontWeight: tokens.typography.weight.semibold,
+    color: tokens.colors.brand.primary,
+    marginBottom: tokens.spacing.sm,
   },
+
   paragraph: {
-    fontSize: 15,
-    lineHeight: 22,
-    color: '#374151',
-    marginBottom: 16,
+    fontSize: tokens.typography.size.sm,
+    lineHeight: tokens.typography.lineHeight.normal,
+    color: tokens.colors.text.secondary,
+  },
+
+  /* Cards */
+  card: {
+    backgroundColor: tokens.colors.surface.subtle,
+    borderRadius: tokens.radius.md,
+    padding: tokens.spacing.md,
+    marginBottom: tokens.spacing.sm,
+    ...tokens.elevation.card,
+  },
+  cardTitle: {
+    fontSize: tokens.typography.size.sm,
+    fontWeight: tokens.typography.weight.semibold,
+    color: tokens.colors.text.primary,
+    marginBottom: tokens.spacing.xs,
+  },
+  cardDesc: {
+    fontSize: tokens.typography.size.xs,
+    lineHeight: tokens.typography.lineHeight.normal,
+    color: tokens.colors.text.secondary,
+  },
+
+  /* Reassurance */
+  reassurance: {
+    backgroundColor: tokens.colors.brand.secondary,
+    borderRadius: tokens.radius.lg,
+    padding: tokens.spacing.lg,
+    marginTop: tokens.spacing.sm,
+  },
+  reassuranceText: {
+    fontSize: tokens.typography.size.sm,
+    lineHeight: tokens.typography.lineHeight.normal,
+    color: 'rgba(255,255,255,0.9)',
+    textAlign: 'center',
   },
 });

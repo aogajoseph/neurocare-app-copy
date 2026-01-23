@@ -127,7 +127,7 @@ const styles = StyleSheet.create({
     backgroundColor: tokens.colors.surface.background,
   },
   backButton: { marginRight: 12 },
-  title: { fontSize: tokens.typography.size.lg, fontWeight: tokens.typography.weight.semibold, color: tokens.colors.brand.primary },
+  title: { fontSize: tokens.typography.size.lg, fontWeight: tokens.typography.weight.semibold, color: tokens.colors.brand.dark },
 
   /* Content */
   content: { paddingHorizontal: tokens.spacing.lg, paddingTop: tokens.spacing.md },
@@ -135,7 +135,7 @@ const styles = StyleSheet.create({
   heroSubtitle: { fontSize: tokens.typography.size.md, color: tokens.colors.text.secondary, marginBottom: 16 },
 
   section: { marginBottom: tokens.spacing.xl },
-  subTitle: { fontSize: tokens.typography.size.md, fontWeight: tokens.typography.weight.semibold, color: tokens.colors.text.primary, marginBottom: 8 },
+  subTitle: { fontSize: tokens.typography.size.md, fontWeight: tokens.typography.weight.semibold, color: tokens.colors.brand.primary, marginBottom: 8 },
   paragraph: { fontSize: tokens.typography.size.sm, lineHeight: tokens.typography.lineHeight.normal, color: tokens.colors.text.secondary, marginBottom: 12 },
 
   cardScroll: { flexDirection: 'row' },

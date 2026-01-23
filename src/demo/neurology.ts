@@ -77,7 +77,7 @@ export const neurologyData = {
     {
       id: 'livingWith',
       type: 'video',
-      title: { en: 'Living With Neurological Conditions', sw: 'Kuishi na Hali za Neurologia' },
+      title: { en: 'Living Well with Neurological Conditions', sw: 'Kuishi na Hali za Neurologia' },
       videoUrl: require('../../assets/videos/living.mp4'),
       description: {
         en: 'Many people live full and meaningful lives with neurological conditions. Support from healthcare providers, caregivers and access to accurate information plays a vital role in improving quality of life.',
