@@ -1,16 +1,29 @@
-// app/(drawer)/(content)/learn/neurology.tsx
+// app/(drawer)/(content)/learn/neurology/[slug].tsx
 import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Image, Linking } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Video } from 'expo-av';
-import { router } from 'expo-router';
+import { router, useLocalSearchParams } from 'expo-router';
 import { useLanguage } from '@/i18n/LanguageContext';
 import { neurologyData } from '@/demo/neurology';
 import { tokens } from '@/theme/design-tokens';
 
-export default function NeurologyScreen() {
-  const insets = useSafeAreaInsets();
+export default function NeurologyDetailScreen() {
+  const { slug } = useLocalSearchParams<{ slug: string }>();
   const { language } = useLanguage();
+  const insets = useSafeAreaInsets();
+
+  // Find selected card (from conditions section)
+  const cardSection = neurologyData.sections.find(s => s.type === 'cardList');
+  const selectedCard = cardSection?.cards.find(c => c.slug === slug);
+
+  if (!selectedCard) {
+    return (
+      <View style={[styles.fallback, { paddingTop: insets.top }]}>
+        <Text style={styles.fallbackText}>Content not found.</Text>
+      </View>
+    );
+  }
 
   const renderSection = (section: any) => {
     switch (section.type) {
@@ -27,19 +40,23 @@ export default function NeurologyScreen() {
           <View key={section.id} style={styles.section}>
             <Text style={styles.subTitle}>{section.title[language]}</Text>
             <ScrollView horizontal showsHorizontalScrollIndicator={false} style={styles.cardScroll}>
-              {section.cards.map((card: any, idx: number) => (
-                <TouchableOpacity
-                  key={idx}
-                  style={styles.card}
-                  onPress={() =>
-                    router.push(`/conditions/${card.title.en.toLowerCase().replace(/\s+/g, '-')}`)
-                  }
-                >
-                  <Image source={card.image} style={styles.cardImage} />
-                  <Text style={styles.cardTitle}>{card.title[language]}</Text>
-                  <Text style={styles.cardDesc}>{card.description[language]}</Text>
-                </TouchableOpacity>
-              ))}
+              {section.cards.map((card: any, idx: number) => {
+                const isSelected = card.slug === slug;
+                return (
+                  <TouchableOpacity
+                    key={card.slug}
+                    style={[
+                      styles.card,
+                      isSelected && { borderWidth: 2, borderColor: tokens.colors.brand.primary },
+                    ]}
+                    onPress={() => router.push(`/learn/neurology/${card.slug}`)}
+                  >
+                    <Image source={card.image} style={styles.cardImage} />
+                    <Text style={styles.cardTitle}>{card.title[language]}</Text>
+                    <Text style={styles.cardDesc}>{card.description[language]}</Text>
+                  </TouchableOpacity>
+                );
+              })}
             </ScrollView>
           </View>
         );
@@ -72,7 +89,7 @@ export default function NeurologyScreen() {
                 <Ionicons
                   name="arrow-forward-circle-outline"
                   size={16}
-                  color="#3B82F6"
+                  color={tokens.colors.brand.link}
                   style={{ marginLeft: 6 }}
                 />
               </TouchableOpacity>
@@ -89,30 +106,27 @@ export default function NeurologyScreen() {
     <View style={[styles.root, { paddingTop: insets.top }]}>
       {/* Header */}
       <View style={styles.header}>
-        <TouchableOpacity
-          onPress={() => router.back()}
-          style={styles.backButton}
-          hitSlop={10}
-        >
+        <TouchableOpacity onPress={() => router.back()} style={styles.backButton} hitSlop={10}>
           <Ionicons name="arrow-back" size={22} color={tokens.colors.text.primary} />
         </TouchableOpacity>
         <Text style={styles.title}>{neurologyData.hero.title[language]}</Text>
       </View>
 
-      {/* Content */}
-      <ScrollView
-        contentContainerStyle={[styles.content, { paddingBottom: insets.bottom + tokens.spacing.xl }]}
-        showsVerticalScrollIndicator={false}
-      >
+      <ScrollView contentContainerStyle={[styles.content, { paddingBottom: insets.bottom + tokens.spacing.xl }]} showsVerticalScrollIndicator={false}>
+        {/* Hero */}
         <Image source={neurologyData.hero.image} style={styles.heroImage} />
         <Text style={styles.heroSubtitle}>{neurologyData.hero.subtitle[language]}</Text>
 
+        {/* All sections */}
         {neurologyData.sections.map(renderSection)}
       </ScrollView>
     </View>
   );
 }
 
+/* ─────────────────────────────────────────────
+   STYLES
+───────────────────────────────────────────── */
 const styles = StyleSheet.create({
   root: { flex: 1, backgroundColor: tokens.colors.surface.background },
 
@@ -159,4 +173,7 @@ const styles = StyleSheet.create({
 
   linkRow: { flexDirection: 'row', alignItems: 'center', marginBottom: 8 },
   link: { fontSize: tokens.typography.size.sm, color: tokens.colors.brand.link },
+
+  fallback: { padding: tokens.spacing.lg },
+  fallbackText: { fontSize: tokens.typography.size.sm, color: tokens.colors.text.secondary },
 });

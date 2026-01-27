@@ -24,6 +24,7 @@ export const neurologyData = {
       title: { en: 'Popular Neurological Conditions', sw: 'Hali Maarufu za Neurologia' },
       cards: [
         {
+          slug: 'stroke',
           title: { en: 'Stroke', sw: 'Kiharusi' },
           description: {
             en: 'Sudden interruption of blood flow to the brain.',
@@ -32,6 +33,7 @@ export const neurologyData = {
           image: require('../../assets/images/stroke.jpg'),
         },
         {
+          slug: 'epilepsy',
           title: { en: 'Epilepsy', sw: 'Kiharusi cha Ubongo' },
           description: {
             en: 'A disorder causing recurrent seizures.',
@@ -40,6 +42,7 @@ export const neurologyData = {
           image: require('../../assets/images/epilepsy.jpg'),
         },
         {
+          slug: 'parkinsons-disease',
           title: { en: 'Parkinson’s Disease', sw: 'Ugonjwa wa Parkinson' },
           description: {
             en: 'Affects movement, causing tremors and stiffness.',
@@ -48,6 +51,7 @@ export const neurologyData = {
           image: require('../../assets/images/parkinsons.jpg'),
         },
         {
+          slug: 'migraine',
           title: { en: 'Migraine', sw: 'Kichwa Kuuma' },
           description: {
             en: 'Intense, recurring headaches with nausea and sensitivity.',
@@ -56,6 +60,7 @@ export const neurologyData = {
           image: require('../../assets/images/migraine.jpg'),
         },
         {
+          slug: 'dementia',
           title: { en: 'Dementia', sw: 'Ukosefu wa Akili' },
           description: {
             en: 'Conditions affecting memory, thinking and daily functioning.',
