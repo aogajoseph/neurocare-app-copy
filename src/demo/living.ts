@@ -14,19 +14,6 @@ export const livingData = {
 
   sections: [
     {
-      id: 'intro',
-      type: 'text',
-      title: {
-        en: 'You Are Not Alone',
-        sw: 'Huko Peke Yako',
-      },
-      content: {
-        en: 'Living with a neurological condition can affect movement, thinking, emotions and daily routines. While challenges are real, many people find new ways to adapt, remain independent and live meaningful lives.',
-        sw: 'Kuishi na hali ya neurolojia kunaweza kuathiri mwendo, fikra, hisia na shughuli za kila siku. Ingawa changamoto zipo, watu wengi hupata njia mpya za kuendelea kujitegemea na kuishi maisha yenye maana.',
-      },
-    },
-
-    {
       id: 'rehab',
       type: 'cardList',
       title: {
@@ -34,113 +21,228 @@ export const livingData = {
         sw: 'Urejeshaji na Msaada wa Kila Siku',
       },
       cards: [
+        /* ─────────────────────────────────────────────
+           Physical Rehabilitation
+        ───────────────────────────────────────────── */
         {
           slug: 'physical-rehabilitation',
+          icon: 'fitness-outline',
+          bannerImage: require('../../assets/images/living-hero.jpg'),
+
           title: {
             en: 'Physical Rehabilitation',
             sw: 'Urejeshaji wa Mwili',
           },
+
           description: {
             en: 'Exercises and therapies that help improve strength, balance and movement over time.',
-            sw: 'Mazoezi na tiba zinazosaidia kuboresha nguvu, usawa na mwendo, hatua kwa hatua.',
+            sw: 'Mazoezi na tiba zinazosaidia kuboresha nguvu, usawa na mwendo kwa muda.',
           },
-          content: {
-            en: `Physical rehabilitation focuses on helping your body move as well as it can, given your condition.
-            This may include exercises to improve strength, balance, coordination and flexibility. 
-            For some people, rehabilitation helps regain lost abilities. For others, it helps prevent complications and maintain independence.
-            Small, consistent movements matter more than intensity. Working with a physiotherapist or trained health worker can help you learn safe exercises you can continue at home.
-            Remember: progress is not always linear. Rest is part of rehabilitation, not a failure.`,
-            sw: `Urejeshaji wa mwili hulenga kusaidia mwili wako kufanya kazi kwa uwezo wake bora kulingana na hali yako.
-            Hii inaweza kujumuisha mazoezi ya kuboresha nguvu, usawa, uratibu na unyumbufu. Kwa wengine, urejeshaji husaidia kurejesha uwezo uliopotea. 
-            Kwa wengine, husaidia kuzuia matatizo na kudumisha uhuru.
-            Mwendo mdogo lakini wa mara kwa mara una umuhimu zaidi kuliko nguvu. 
-            Kufanya kazi na mtaalamu wa mazoezi ya tiba au mhudumu wa afya aliyefunzwa husaidia kujifunza mazoezi salama ya kufanya nyumbani.
-            Kumbuka: maendeleo si ya mstari mmoja. Kupumzika ni sehemu ya urejeshaji, si kushindwa.`,
+
+          sections: {
+            whyItMatters: {
+              title: {
+                en: 'Why Physical Rehabilitation Matters',
+                sw: 'Kwa Nini Urejeshaji wa Mwili ni Muhimu',
+              },
+              content: {
+                en: 'Neurological conditions can weaken muscles, affect balance and limit mobility. Physical rehabilitation helps the body adapt, regain function where possible and prevent complications such as stiffness, pain or falls.',
+                sw: 'Hali za neurolojia zinaweza kudhoofisha misuli, kuathiri usawa na kupunguza mwendo. Urejeshaji wa mwili husaidia mwili kuzoea, kurejesha uwezo pale inapowezekana na kuzuia matatizo kama kukakamaa, maumivu au kuanguka.',
+              },
+            },
+
+            tips: {
+              title: {
+                en: 'Practical Rehabilitation Tips',
+                sw: 'Vidokezo vya Urejeshaji wa Mwili',
+              },
+              bullets: {
+                en: [
+                  'Focus on small, consistent movements rather than intensity.',
+                  'Follow exercises recommended by a physiotherapist or health worker.',
+                  'Rest when tired — fatigue is part of the condition, not weakness.',
+                  'Use assistive devices if they make movement safer or easier.',
+                ],
+                sw: [
+                  'Lenga mwendo mdogo wa mara kwa mara badala ya nguvu nyingi.',
+                  'Fuata mazoezi yaliyopendekezwa na mtaalamu wa mazoezi.',
+                  'Pumzika unapochoka — uchovu ni sehemu ya hali, si udhaifu.',
+                  'Tumia vifaa saidizi ikiwa vinaongeza usalama au urahisi wa mwendo.',
+                ],
+              },
+            },
+
+            challenges: {
+              title: {
+                en: 'Overcoming Common Challenges',
+                sw: 'Kukabiliana na Changamoto za Kawaida',
+              },
+              content: {
+                en: 'Pain, fear of falling or slow progress can be discouraging. Rehabilitation is rarely linear. What matters most is persistence, support and adapting goals to your current abilities.',
+                sw: 'Maumivu, hofu ya kuanguka au maendeleo ya polepole yanaweza kukatisha tamaa. Urejeshaji si mstari mmoja. Kilicho muhimu ni kuendelea, kupata msaada na kurekebisha malengo kulingana na uwezo wako wa sasa.',
+              },
+            },
+
+            relatedTopics: [
+              { slug: 'speech-communication', label: { en: 'Speech & Communication', sw: 'Hotuba na Mawasiliano' } },
+              { slug: 'cognitive-support', label: { en: 'Cognitive Support', sw: 'Msaada wa Kumbukumbu na Fikra' } },
+            ],
+
+            reassurance: {
+              en: 'Your body is doing its best. Every effort, no matter how small, counts.',
+              sw: 'Mwili wako unafanya juhudi zake zote. Kila hatua, hata ndogo, ina maana.',
+            },
           },
         },
+
+        /* ─────────────────────────────────────────────
+           Speech & Communication
+        ───────────────────────────────────────────── */
         {
           slug: 'speech-communication',
+          icon: 'chatbubble-ellipses-outline',
+          bannerImage: require('../../assets/images/living-hero.jpg'),
+
           title: {
             en: 'Speech & Communication',
             sw: 'Hotuba na Mawasiliano',
           },
+
           description: {
             en: 'Support for speech, swallowing and alternative ways to communicate effectively.',
             sw: 'Msaada wa hotuba, kumeza na njia mbadala za mawasiliano.',
           },
-          content: {
-            en: `Neurological conditions can affect speech, voice, understanding or swallowing.
-            Speech and language therapy supports people to communicate in ways that work for them. 
-            Either through speech exercises, gestures, writing, communication boards or assistive technology.
-            Difficulties with swallowing are also common and should be assessed early to reduce the risk of choking or infections.
-            Communication is more than words. 
-            Being understood and heard is essential to dignity, relationships and mental wellbeing.`,
-            sw: `Hali za neurolojia zinaweza kuathiri hotuba, sauti uelewa au kumeza.
-            Tiba ya hotuba na lugha husaidia watu kuwasiliana kwa njia zinazowafaa. 
-            Iwe kupitia mazoezi ya hotuba, ishara, kuandika, mabango ya mawasiliano au teknolojia saidizi.
-            Changamoto za kumeza pia ni za kawaida na zinapaswa kuchunguzwa mapema ili kupunguza hatari ya kusongwa au maambukizi.
-            Mawasiliano ni zaidi ya maneno. 
-            Kueleweka na kusikilizwa ni muhimu kwa heshima, mahusiano na afya ya akili.`,
+
+          sections: {
+            whyItMatters: {
+              title: {
+                en: 'Why Speech & Communication Matter',
+                sw: 'Kwa Nini Hotuba na Mawasiliano ni Muhimu',
+              },
+              content: {
+                en: 'Communication affects relationships, independence and dignity. Neurological conditions may change how speech, voice or understanding works, but meaningful communication is always possible.',
+                sw: 'Mawasiliano huathiri mahusiano, uhuru na heshima. Hali za neurolojia zinaweza kubadilisha hotuba au uelewa, lakini mawasiliano yenye maana yanawezekana kila wakati.',
+              },
+            },
+
+            tips: {
+              title: {
+                en: 'Helpful Communication Tips',
+                sw: 'Vidokezo vya Mawasiliano',
+              },
+              bullets: {
+                en: [
+                  'Take your time — slow speech is still valid communication.',
+                  'Use gestures, writing or pictures if speech is difficult.',
+                  'Ask others to be patient and listen without rushing you.',
+                  'Seek early help for swallowing difficulties.',
+                ],
+                sw: [
+                  'Chukua muda wako — hotuba ya polepole bado ni mawasiliano.',
+                  'Tumia ishara, maandishi au picha ikiwa hotuba ni ngumu.',
+                  'Waombe wengine wawe na subira na wakusikilize bila haraka.',
+                  'Tafuta msaada mapema kwa changamoto za kumeza.',
+                ],
+              },
+            },
+
+            challenges: {
+              title: {
+                en: 'Overcoming Communication Barriers',
+                sw: 'Kuvuka Vikwazo vya Mawasiliano',
+              },
+              content: {
+                en: 'Feeling misunderstood can be painful. With the right tools, therapy and support, communication can improve or adapt in ways that preserve connection and confidence.',
+                sw: 'Kutoeleweka kunaweza kuumiza. Kwa zana sahihi, tiba na msaada, mawasiliano yanaweza kuboreshwa au kubadilishwa kwa njia zinazodumisha uhusiano na kujiamini.',
+              },
+            },
+
+            relatedTopics: [
+              { slug: 'physical-rehabilitation', label: { en: 'Physical Rehabilitation', sw: 'Urejeshaji wa Mwili' } },
+              { slug: 'cognitive-support', label: { en: 'Cognitive Support', sw: 'Msaada wa Kumbukumbu na Fikra' } },
+            ],
+
+            reassurance: {
+              en: 'Your voice matters — even when it sounds different.',
+              sw: 'Sauti yako ni muhimu — hata ikiwa imebadilika.',
+            },
           },
         },
+
+        /* ─────────────────────────────────────────────
+           Cognitive Support
+        ───────────────────────────────────────────── */
         {
           slug: 'cognitive-support',
+          icon: 'brain-outline',
+          bannerImage: require('../../assets/images/living-hero.jpg'),
+
           title: {
             en: 'Cognitive Support',
             sw: 'Msaada wa Kumbukumbu na Fikra',
           },
+
           description: {
             en: 'Strategies to manage memory, attention and problem-solving challenges.',
-            sw: 'Mikakati ya kukabiliana na changamoto za kumbukumbu, umakini na utatuzi wa matatizo.',
+            sw: 'Mikakati ya kukabiliana na changamoto za kumbukumbu na umakini.',
           },
-          content: {
-            en: `Cognitive challenges may affect memory, attention, planning or problem-solving.
-            Cognitive support focuses on practical strategies rather than “fixing” the brain. 
-            This may include routines, reminders, simplifying tasks and reducing distractions.
-            Some people benefit from cognitive rehabilitation with trained professionals, while others rely on family support and environmental adjustments.
-            Needing support with thinking does not reduce your intelligence, value or identity. 
-            Adaptation is a form of strength.`,
-            sw: `Changamoto za utambuzi zinaweza kuathiri kumbukumbu, umakini, kupanga au kutatua matatizo.
-            Msaada wa utambuzi hulenga mikakati ya vitendo badala ya “kurekebisha” ubongo. 
-            Hii inaweza kujumuisha ratiba, vikumbusho, kurahisisha shughuli na kupunguza vishawishi.
-            Wengine hunufaika na urejeshaji wa utambuzi kutoka kwa wataalamu, huku wengine wakitegemea msaada wa familia na marekebisho ya mazingira.
-            Kuhitaji msaada wa kufikiri hakupunguzi akili, thamani au utambulisho wako. 
-            Kujibadilisha ni aina ya nguvu.`,
+
+          sections: {
+            whyItMatters: {
+              title: {
+                en: 'Why Cognitive Support Matters',
+                sw: 'Kwa Nini Msaada wa Utambuzi ni Muhimu',
+              },
+              content: {
+                en: 'Cognitive changes can affect daily life, decision-making and confidence. Support focuses on adapting the environment and routines — not changing who you are.',
+                sw: 'Mabadiliko ya utambuzi yanaweza kuathiri maisha ya kila siku na kujiamini. Msaada hulenga kurekebisha mazingira na ratiba — si kubadilisha wewe.',
+              },
+            },
+
+            tips: {
+              title: {
+                en: 'Practical Cognitive Strategies',
+                sw: 'Mikakati ya Vitendo ya Utambuzi',
+              },
+              bullets: {
+                en: [
+                  'Use reminders, alarms or notes.',
+                  'Break tasks into small, manageable steps.',
+                  'Keep routines predictable.',
+                  'Reduce distractions when focusing.',
+                ],
+                sw: [
+                  'Tumia vikumbusho, alamu au maandishi.',
+                  'Gawanya kazi katika hatua ndogo.',
+                  'Dumisha ratiba zilizo wazi.',
+                  'Punguza vishawishi unapohitaji umakini.',
+                ],
+              },
+            },
+
+            challenges: {
+              title: {
+                en: 'Coping with Cognitive Changes',
+                sw: 'Kukabiliana na Mabadiliko ya Utambuzi',
+              },
+              content: {
+                en: 'Cognitive challenges can be invisible but deeply frustrating. Support, understanding and self-compassion are just as important as any strategy.',
+                sw: 'Changamoto za utambuzi zinaweza kutoonekana lakini kuumiza sana. Msaada, uelewa na kujihurumia ni muhimu kama mikakati yoyote.',
+              },
+            },
+
+            relatedTopics: [
+              { slug: 'physical-rehabilitation', label: { en: 'Physical Rehabilitation', sw: 'Urejeshaji wa Mwili' } },
+              { slug: 'speech-communication', label: { en: 'Speech & Communication', sw: 'Hotuba na Mawasiliano' } },
+            ],
+
+            reassurance: {
+              en: 'Needing support with thinking does not reduce your worth.',
+              sw: 'Kuhitaji msaada wa kufikiri hakupunguzi thamani yako.',
+            },
           },
         },
       ],
     },
-
-    {
-      id: 'dailyLife',
-      type: 'text',
-      title: {
-        en: 'Managing Everyday Life',
-        sw: 'Kusimamia Maisha ya Kila Siku',
-      },
-      content: {
-        en: 'Simple adjustments—such as pacing activities, using assistive devices and planning rest—can reduce fatigue and increase independence.',
-        sw: 'Marekebisho madogo kama kupanga shughuli, kutumia vifaa saidizi na kupumzika yanaweza kupunguza uchovu na kuongeza uhuru.',
-      },
-    },
-
-    {
-      id: 'encouragement',
-      type: 'reassurance',
-      message: {
-        en: 'Progress may be slow and some days are harder than others. That does not erase your strength or your worth.',
-        sw: 'Maendeleo yanaweza kuwa ya polepole na siku zingine kuwa ngumu zaidi. Hilo halipunguzi nguvu au thamani yako.',
-      },
-    },
   ],
 };
-
-// 🔹 Export a dedicated array for detail slug screens
-export const livingDetailSections = livingData.sections
-  .filter((section) => section.cards)
-  .flatMap((section) => section.cards)
-  .map((card) => ({
-    slug: card.slug,
-    title: card.title,
-    content: card.content,
-  }));
