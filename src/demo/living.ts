@@ -27,7 +27,7 @@ export const livingData = {
         {
           slug: 'physical-rehabilitation',
           icon: 'fitness-outline',
-          bannerImage: require('../../assets/images/living-hero.jpg'),
+          bannerImage: require('../../assets/images/physical-rehabilitation.jpg'),
 
           title: {
             en: 'Physical Rehabilitation',
@@ -101,7 +101,7 @@ export const livingData = {
         {
           slug: 'speech-communication',
           icon: 'chatbubble-ellipses-outline',
-          bannerImage: require('../../assets/images/living-hero.jpg'),
+          bannerImage: require('../../assets/images/speech-communication.jpg'),
 
           title: {
             en: 'Speech & Communication',
@@ -175,7 +175,7 @@ export const livingData = {
         {
           slug: 'cognitive-support',
           icon: 'brain-outline',
-          bannerImage: require('../../assets/images/living-hero.jpg'),
+          bannerImage: require('../../assets/images/cognitive-support.jpg'),
 
           title: {
             en: 'Cognitive Support',
