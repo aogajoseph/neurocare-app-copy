@@ -1,4 +1,5 @@
-import { View, Text, StyleSheet, ScrollView, TouchableOpacity } from 'react-native';
+// app/(drawer)/(content)/learn/caregiver/index.tsx
+import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Image } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { router } from 'expo-router';
@@ -23,6 +24,12 @@ export default function CaregiverGuideScreen() {
         ]}
         showsVerticalScrollIndicator={false}
       >
+        {/* Hero Image */}
+        <Image
+          source={caregiverData.hero.image}
+          style={styles.heroImage}
+        />
+
         {/* Intro */}
         <View style={styles.intro}>
           <Text style={styles.title}>
@@ -75,7 +82,6 @@ export default function CaregiverGuideScreen() {
 /* ─────────────────────────────────────────────
    STYLES / TOKENS
 ───────────────────────────────────────────── */
-
 const styles = StyleSheet.create({
   root: {
     flex: 1,
@@ -86,8 +92,14 @@ const styles = StyleSheet.create({
     paddingHorizontal: tokens.spacing.lg,
   },
 
+  heroImage: {
+    width: '100%',
+    height: 180,
+    borderRadius: tokens.radius.md,
+    marginBottom: tokens.spacing.md,
+  },
+
   intro: {
-    marginTop: tokens.spacing.lg,
     marginBottom: tokens.spacing.xl,
   },
 

@@ -9,7 +9,7 @@ export const caregiverData = {
       en: 'Supporting your life and the one you care for.',
       sw: 'Kusaidia maisha yako na yale ya unayemlea.',
     },
-    image: require('../../assets/images/living-hero.jpg'),
+    image: require('../../assets/images/caregiver-guide.jpg'),
   },
 
   sections: [
@@ -24,7 +24,7 @@ export const caregiverData = {
         {
           slug: 'personal-care',
           icon: 'heart-outline',
-          bannerImage: require('../../assets/images/living-hero.jpg'),
+          bannerImage: require('../../assets/images/personal-care.jpg'),
           title: {
             en: 'Personal Care',
             sw: 'Huduma Binafsi',
@@ -96,7 +96,7 @@ export const caregiverData = {
         {
           slug: 'caregiving',
           icon: 'people-outline',
-          bannerImage: require('../../assets/images/living-hero.jpg'),
+          bannerImage: require('../../assets/images/caregiving.png'),
           title: {
             en: 'Caregiving',
             sw: 'Ulezi',
