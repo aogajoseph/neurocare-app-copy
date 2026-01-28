@@ -1102,5 +1102,253 @@ bellsPalsy: {
       },
     },
   },
+
+  /* ───────────────────────────────
+     CEREBRAL PALSY
+  ──────────────────────────────── */
+  cerebralPalsy: {
+    slug: 'cerebralPalsy',
+    hero: {
+      title: { en: 'Cerebral Palsy', sw: 'Upungufu wa Ubongo' },
+      subtitle: {
+        en: 'A group of disorders affecting movement and muscle tone.',
+        sw: 'Kundi la matatizo yanayoathiri mwendo na msukumo wa misuli.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Cerebral palsy (CP) is caused by abnormal brain development or damage, often before birth. It affects movement, posture, and coordination.
+
+  **Causes & Risk Factors:** Premature birth, lack of oxygen during birth, brain infections.
+
+  **Impact:** Muscle stiffness or floppiness, balance issues, difficulty with motor skills.
+
+  **Long-Term Outlook:** CP is lifelong, but therapies improve function and quality of life.`,
+          sw: `Upungufu wa ubongo (CP) husababishwa na ukuaji wa ubongo usio wa kawaida au uharibifu, mara nyingi kabla ya kuzaliwa. Huathiri mwendo, mkao, na uratibu.
+
+  **Sababu & Vizingiti:** Kuzaliwa mapema, ukosefu wa oksijeni wakati wa kuzaliwa, maambukizi ya ubongo.
+
+  **Athari:** Ugumu au unyumbufu wa misuli, matatizo ya usawa, shida ya ujuzi wa mwendo.
+
+  **Matokeo ya Muda Mrefu:** CP ni ya maisha yote, lakini tiba huongeza utendaji na ubora wa maisha.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Delayed motor milestones', 'Stiff or floppy limbs', 'Poor coordination'],
+          sw: ['Kuchelewa kufikia hatua za mwendo', 'Miili ngumu au nyepesi', 'Uratibu duni'],
+        },
+        other: {
+          en: ['Speech difficulties', 'Seizures', 'Intellectual disability'],
+          sw: ['Shida ya kuzungumza', 'Degedege', 'Upungufu wa akili'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: [
+            'Noticeable delay in movement milestones',
+            'Abnormal muscle tone',
+            'Persistent difficulty with balance or posture',
+          ],
+          sw: [
+            'Kuchelewa kufikia hatua za mwendo',
+            'Msukumo wa misuli usio wa kawaida',
+            'Shida ya kudumu ya usawa au mkao',
+          ],
+        },
+        reassurance: {
+          en: 'Early intervention and therapy significantly improve function and independence.',
+          sw: 'Kuingilia mapema na tiba huboresha sana utendaji na uhuru.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+      CHRONIC MIGRAINE
+  ──────────────────────────────── */
+  chronicMigraine: {
+    slug: 'chronicMigraine',
+    hero: {
+      title: { en: 'Chronic Migraine', sw: 'Kichwa Kikali cha Migraine' },
+      subtitle: {
+        en: 'Frequent, long-lasting migraine headaches.',
+        sw: 'Maumivu ya kichwa ya migraine yanayojirudia mara kwa mara na kudumu.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Chronic migraine involves headache attacks occurring 15 or more days per month for over three months. Often accompanied by nausea, light sensitivity, and visual disturbances.
+
+  **Causes & Risk Factors:** Genetics, hormonal changes, stress, poor sleep.
+
+  **Impact:** Interferes with work, school, and daily activities.
+
+  **Long-Term Outlook:** Manageable with medications and lifestyle changes.`,
+          sw: `Migraine sugu inahusisha mashambulizi ya maumivu ya kichwa yanayotokea siku 15 au zaidi kwa mwezi kwa zaidi ya miezi mitatu. Mara nyingi huambatana na kichefuchefu, hisia za mwanga, na matatizo ya kuona.
+
+  **Sababu & Vizingiti:** Urithi, mabadiliko ya homoni, msongo, usingizi duni.
+
+  **Athari:** Huathiri kazi, shule, na shughuli za kila siku.
+
+  **Matokeo ya Muda Mrefu:** Inaweza kudhibitiwa kwa dawa na mabadiliko ya mtindo wa maisha.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Pulsating headache', 'Nausea', 'Sensitivity to light or sound'],
+          sw: ['Maumivu ya kichwa yanayopiga', 'Kichefuchefu', 'Hisia kwa mwanga au sauti'],
+        },
+        other: {
+          en: ['Visual auras', 'Fatigue', 'Irritability'],
+          sw: ['Auras za kuona', 'Uchovu', 'Hasira'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: [
+            'Headaches lasting more than 72 hours',
+            'New neurological symptoms',
+            'Severe interference with daily life',
+          ],
+          sw: [
+            'Maumivu ya kichwa yanayodumu zaidi ya masaa 72',
+            'Dalili mpya za neva',
+            'Kukwamisha sana maisha ya kila siku',
+          ],
+        },
+        reassurance: {
+          en: 'Regular treatment and lifestyle adjustments reduce frequency and severity.',
+          sw: 'Matibabu ya kawaida na mabadiliko ya mtindo wa maisha hupunguza mara na ukali.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+      CARPAL TUNNEL SYNDROME
+  ──────────────────────────────── */
+  carpalTunnel: {
+    slug: 'carpalTunnel',
+    hero: {
+      title: { en: 'Carpal Tunnel Syndrome', sw: 'Hali ya Carpal Tunnel' },
+      subtitle: {
+        en: 'Compression of the median nerve in the wrist.',
+        sw: 'Kukandamiza neva ya kati kwenye kiwiko.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Carpal tunnel syndrome occurs when the median nerve is compressed at the wrist, causing numbness, tingling, and weakness in the hand.
+
+  **Causes & Risk Factors:** Repetitive hand movements, arthritis, diabetes.
+
+  **Impact:** Difficulty gripping objects, performing fine motor tasks.
+
+  **Long-Term Outlook:** Often improves with ergonomic adjustments, splints, or surgery.`,
+          sw: `Hali ya Carpal Tunnel hutokea pale neva ya kati inapokandamizwa kwenye kiwiko, na kusababisha ganzi, maumivu ya kushika, na udhaifu wa mkono.
+
+  **Sababu & Vizingiti:** Harakati za mkono zinazorudiwa, arthritis, kisukari.
+
+  **Athari:** Shida ya kushika vitu, kufanya kazi ndogo za mikono.
+
+  **Matokeo ya Muda Mrefu:** Mara nyingi huboreka kwa marekebisho ya ergonomic, splints, au upasuaji.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Numbness in fingers', 'Tingling sensation', 'Hand weakness'],
+          sw: ['Ganzi kwenye vidole', 'Hisia ya kushika', 'Udhaifu wa mkono'],
+        },
+        other: {
+          en: ['Pain radiating to arm', 'Difficulty gripping objects', 'Wrist stiffness'],
+          sw: ['Maumivu yanayosambaa hadi mkono', 'Shida ya kushika vitu', 'Ugumu wa kiwiko'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: [
+            'Persistent numbness or tingling',
+            'Weak grip or hand function loss',
+            'Pain interfering with daily tasks',
+          ],
+          sw: [
+            'Ganzi au hisia ya kushika inayoendelea',
+            'Kupoteza nguvu ya kushika au kazi ya mkono',
+            'Maumivu yanayozuia shughuli za kila siku',
+          ],
+        },
+        reassurance: {
+          en: 'Early diagnosis and ergonomic interventions prevent long-term disability.',
+          sw: 'Utambuzi wa mapema na marekebisho ya ergonomic huzuia ulemavu wa muda mrefu.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+      CERVICAL MYELOPATHY
+  ──────────────────────────────── */
+  cervicalMyelopathy: {
+    slug: 'cervicalMyelopathy',
+    hero: {
+      title: { en: 'Cervical Myelopathy', sw: 'Myelopathy ya Kifua' },
+      subtitle: {
+        en: 'Spinal cord compression in the neck causing neurological deficits.',
+        sw: 'Kukandamiza uti wa mgongo kwenye shingo kunasababisha ulemavu wa neva.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Cervical myelopathy occurs when the spinal cord in the neck is compressed, affecting motor and sensory pathways.
+
+  **Causes & Risk Factors:** Degenerative changes, arthritis, trauma.
+
+  **Impact:** Weakness, numbness, balance issues, fine motor impairment.
+
+  **Long-Term Outlook:** Surgical and non-surgical treatments can improve function.`,
+          sw: `Myelopathy ya kifua hutokea pale uti wa mgongo kwenye shingo unapokandamizwa, ukiharibu njia za motor na hisia.
+
+  **Sababu & Vizingiti:** Mabadiliko ya kuzeeka, arthritis, jeraha.
+
+  **Athari:** Udhaifu, ganzi, matatizo ya usawa, kuharibika kwa ujuzi wa mwendo.
+
+  **Matokeo ya Muda Mrefu:** Matibabu ya upasuaji na yasiyo ya upasuaji huongeza utendaji.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Neck pain', 'Hand numbness', 'Difficulty walking'],
+          sw: ['Maumivu ya shingo', 'Ganzi la mkono', 'Shida ya kutembea'],
+        },
+        other: {
+          en: ['Balance problems', 'Weak grip', 'Muscle spasticity'],
+          sw: ['Matatizo ya usawa', 'Shida ya kushika', 'Kukaza kwa misuli'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: [
+            'Persistent neck pain',
+            'Progressive numbness or weakness',
+            'Difficulty with fine motor tasks',
+          ],
+          sw: [
+            'Maumivu ya shingo yanayoendelea',
+            'Kuongezeka kwa ganzi au udhaifu',
+            'Shida ya kufanya kazi ndogo za mikono',
+          ],
+        },
+        reassurance: {
+          en: 'Early detection and treatment prevent long-term neurological damage.',
+          sw: 'Uchunguzi na matibabu ya mapema huzuia uharibifu wa neva wa muda mrefu.',
+        },
+      },
+    },
+  },
   
 };
