@@ -4634,5 +4634,143 @@ bellsPalsy: {
       },
     },
   },
+
+  /* ───────────────────────────────
+      VASCULAR DEMENTIA
+   ─────────────────────────────── */
+  vascularDementia: {
+    slug: 'vascularDementia',
+    hero: {
+      title: { en: 'Vascular Dementia', sw: 'Ulemavu wa Fikira unaohusiana na Mishipa ya Damu' },
+      subtitle: {
+        en: 'Cognitive decline caused by reduced blood flow to the brain.',
+        sw: 'Kupungua kwa fikra kunachosababishwa na mtiririko wa damu duni kwenda ubongo.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Vascular dementia occurs when damaged blood vessels reduce brain oxygen and nutrient supply.
+
+  **Neurological Link:** Leads to cognitive impairment, memory loss, and executive dysfunction.
+
+  **Impact:** Can affect thinking, reasoning, mood, and daily functioning.`,
+          sw: `Ulemavu wa fikra unaohusiana na mishipa ya damu hutokea pale mishipa iliyoathirika inapopunguza oksijeni na virutubisho vinavyofika ubongo.
+
+  **Uhusiano wa Neva:** Husababisha kupungua kwa fikra, kupoteza kumbukumbu, na uharibifu wa uendeshaji wa shughuli za akili.
+
+  **Athari:** Inaweza kuathiri fikra, hoja, hisia, na shughuli za kila siku.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Memory problems', 'Confusion', 'Difficulty planning or organizing', 'Mood changes'],
+          sw: ['Matatizo ya kumbukumbu', 'Kuchanganyikiwa', 'Ugumu wa kupanga au kupanga kazi', 'Mabadiliko ya hisia'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Progressive memory loss', 'Difficulty with daily tasks', 'Confusion or disorientation'],
+          sw: ['Kupoteza kumbukumbu kwa kiwango kinachoendelea', 'Ugumu wa shughuli za kila siku', 'Kuchanganyikiwa au kupotea mwelekeo'],
+        },
+        reassurance: {
+          en: 'Lifestyle changes, therapy, and medical management can slow progression.',
+          sw: 'Mabadiliko ya mtindo wa maisha, tiba, na usimamizi wa matibabu vinaweza kupunguza kasi ya kuendelea kwa ugonjwa.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+        VERTIGO
+    ─────────────────────────────── */
+  vertigo: {
+    slug: 'vertigo',
+    hero: {
+      title: { en: 'Vertigo', sw: 'Kizunguzungu' },
+      subtitle: {
+        en: 'A sensation of spinning or dizziness often linked to inner ear or brain issues.',
+        sw: 'Hisia ya kuzunguka au kizunguzungu mara nyingi inahusiana na matatizo ya sikio la ndani au ubongo.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Vertigo is the sensation that you or your environment is moving or spinning.
+
+  **Neurological Link:** Can be caused by inner ear disorders, brainstem or cerebellar lesions, or vestibular nerve dysfunction.
+
+  **Impact:** Affects balance, coordination, and daily activities.`,
+          sw: `Kizunguzungu ni hisia kwamba wewe au mazingira yako vinazunguka au kusogea.
+
+  **Uhusiano wa Neva:** Inaweza kusababishwa na matatizo ya sikio la ndani, kuumia kwa ubongo au cerebellum, au uharibifu wa neva ya vestibular.
+
+  **Athari:** Inaathiri usawa, uratibu, na shughuli za kila siku.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Spinning sensation', 'Nausea', 'Loss of balance', 'Difficulty walking'],
+          sw: ['Hisia ya kuzunguka', 'Kichefuchefu', 'Kupoteza usawa', 'Ugumu wa kutembea'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Persistent dizziness', 'Falls', 'Severe nausea'],
+          sw: ['Kizunguzungu kinachoendelea', 'Kuanguka', 'Kichefuchefu kikali'],
+        },
+        reassurance: {
+          en: 'Treatment depends on the cause and can improve balance and comfort.',
+          sw: 'Tiba inategemea sababu na inaweza kuboresha usawa na faraja.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+        VASCULITIS (NEUROLOGICAL INVOLVEMENT)
+    ─────────────────────────────── */
+  vasculitisNeurological: {
+    slug: 'vasculitisNeurological',
+    hero: {
+      title: { en: 'Vasculitis (Neurological Involvement)', sw: 'Vasculitis (Uhusiano wa Neva)' },
+      subtitle: {
+        en: 'Inflammation of blood vessels affecting the nervous system.',
+        sw: 'Uvimbe wa mishipa ya damu unaoathiri mfumo wa neva.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Vasculitis affecting the nervous system can cause nerve injury or brain dysfunction.
+
+  **Neurological Link:** Inflammation or blockage of blood vessels reduces oxygen and nutrient supply to nerves and brain tissue.
+
+  **Impact:** Can cause weakness, numbness, cognitive changes, headaches, or stroke-like symptoms.`,
+          sw: `Vasculitis inayohusisha mfumo wa neva inaweza kusababisha uharibifu wa neva au kazi duni ya ubongo.
+
+  **Uhusiano wa Neva:** Uvimbe au kuzuia kwa mishipa ya damu hupunguza oksijeni na virutubisho vinavyofika neva na tishu za ubongo.
+
+  **Athari:** Inaweza kusababisha udhaifu, ganzi, mabadiliko ya fikra, maumivu ya kichwa, au dalili zinazofanana na kiharusi.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Numbness or weakness', 'Headache', 'Confusion', 'Vision changes'],
+          sw: ['Ganzi au udhaifu', 'Maumivu ya kichwa', 'Kuchanganyikiwa', 'Mabadiliko ya kuona'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Sudden neurological deficits', 'Persistent headache or confusion'],
+          sw: ['Upungufu wa ghafla wa neva', 'Maumivu ya kichwa au kuchanganyikiwa kinachodumu'],
+        },
+        reassurance: {
+          en: 'Early diagnosis and treatment with medication can prevent serious complications.',
+          sw: 'Uchunguzi wa mapema na matibabu ya dawa yanaweza kuzuia matatizo makubwa.',
+        },
+      },
+    },
+  },
   
 };
