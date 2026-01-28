@@ -460,6 +460,316 @@ export const conditionsData: Record<string, Condition> = {
   },
 
   /* ───────────────────────────────
+     DIABETIC NEUROPATHY
+  ──────────────────────────────── */
+  diabeticNeuropathy: {
+    slug: 'diabeticNeuropathy',
+    hero: {
+      title: { en: 'Diabetic Neuropathy', sw: 'Neva ya Kisukari' },
+      subtitle: {
+        en: 'Nerve damage caused by diabetes, affecting feet, hands, and organs.',
+        sw: 'Uharibifu wa neva unaosababishwa na kisukari, unaoathiri miguu, mikono, na viungo.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Diabetic neuropathy is a common complication of diabetes where high blood sugar damages nerves throughout the body.
+
+  **Causes & Risk Factors:** Poor blood sugar control, long-term diabetes, high blood pressure.
+
+  **Impact:** Numbness, tingling, pain, digestive or urinary problems.
+
+  **Long-Term Outlook:** Controlling blood sugar and medications reduce progression.`,
+          sw: `Neva ya kisukari ni tatizo la kawaida la kisukari ambapo sukari ya juu ya damu huharibu neva katika mwili wote.
+
+  **Sababu & Vizingiti:** Kudhibiti sukari vibaya, kisukari cha muda mrefu, shinikizo la damu kubwa.
+
+  **Athari:** Ganzi, hisia za kushika, maumivu, matatizo ya mmeng’enyo au mkojo.
+
+  **Matokeo ya Muda Mrefu:** Kudhibiti sukari ya damu na dawa hupunguza maendeleo.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Tingling in hands or feet', 'Mild numbness', 'Burning sensation'],
+          sw: ['Hisia za kushika mikono au miguu', 'Ganzi kidogo', 'Hisia ya kuchoma'],
+        },
+        other: {
+          en: ['Muscle weakness', 'Digestive issues', 'Urinary problems'],
+          sw: ['Udhaifu wa misuli', 'Matatizo ya mmeng’enyo', 'Matatizo ya mkojo'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: [
+            'Persistent numbness or tingling',
+            'Foot ulcers or infections',
+            'Weakness affecting daily activities',
+          ],
+          sw: [
+            'Ganzi au hisia za kushika zinazodumu',
+            'Vidonda au maambukizi miguu',
+            'Udhaifu unaoathiri shughuli za kila siku',
+          ],
+        },
+        reassurance: {
+          en: 'Good blood sugar control and early treatment prevent serious complications.',
+          sw: 'Kudhibiti sukari vizuri na matibabu mapema huzuia matatizo makubwa.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+      DEPRESSION (NEUROLOGICAL IMPACT)
+  ──────────────────────────────── */
+  neurologicalDepression: {
+    slug: 'neurologicalDepression',
+    hero: {
+      title: { en: 'Depression', sw: 'Hali ya Unyogovu' },
+      subtitle: {
+        en: 'Mood disorder affecting brain function and neurological health.',
+        sw: 'Tatizo la hisia linaloathiri kazi ya ubongo na afya ya neva.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Neurological depression refers to depressive disorders with a direct impact on brain circuits, sometimes secondary to other neurological conditions.
+
+  **Causes & Risk Factors:** Brain injury, neurotransmitter imbalance, chronic illness.
+
+  **Impact:** Low mood, fatigue, cognitive changes.
+
+  **Long-Term Outlook:** Therapy, medication, and lifestyle adjustments improve outcomes.`,
+          sw: `Unyogovu wa neva unahusu matatizo ya hisia yanayoathiri moja kwa moja mzunguko wa ubongo, mara nyingine kutokana na hali nyingine ya neva.
+
+  **Sababu & Vizingiti:** Jeraha la ubongo, mchanganyiko wa neurotransmitter, ugonjwa sugu.
+
+  **Athari:** Hisia za chini, uchovu, mabadiliko ya utambuzi.
+
+  **Matokeo ya Muda Mrefu:** Tiba, dawa, na mabadiliko ya mtindo wa maisha huboresha matokeo.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Persistent sadness', 'Loss of interest', 'Fatigue'],
+          sw: ['Huzuni inayodumu', 'Kupoteza hamu', 'Uchovu'],
+        },
+        other: {
+          en: ['Cognitive slowing', 'Sleep disturbances', 'Appetite changes'],
+          sw: ['Kupungua kwa utambuzi', 'Matatizo ya usingizi', 'Mabadiliko ya hamu ya chakula'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: [
+            'Depressed mood lasting more than two weeks',
+            'Difficulty performing daily activities',
+            'Thoughts of self-harm',
+          ],
+          sw: [
+            'Hisia za unyogovu zinazodumu zaidi ya wiki mbili',
+            'Shida ya kufanya shughuli za kila siku',
+            'Mawazo ya kujiua',
+          ],
+        },
+        reassurance: {
+          en: 'Early intervention and therapy improve mental and neurological health.',
+          sw: 'Kuingilia mapema na tiba huboresha afya ya akili na neva.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+      DEGENERATIVE DISC DISEASE
+  ──────────────────────────────── */
+  degenerativeDisc: {
+    slug: 'degenerativeDisc',
+    hero: {
+      title: { en: 'Degenerative Disc Disease', sw: 'Hali ya Diski Kubadilika' },
+      subtitle: {
+        en: 'Spinal discs deteriorate, affecting nerves and mobility.',
+        sw: 'Diski za uti wa mgongo hubadilika, zikioathiri neva na mwendo.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Degenerative disc disease is a condition where spinal discs wear down, causing nerve compression, pain, and reduced mobility.
+
+  **Causes & Risk Factors:** Aging, repetitive strain, injury.
+
+  **Impact:** Back pain, numbness, weakness, limited range of motion.
+
+  **Long-Term Outlook:** Physical therapy, medications, or surgery can relieve symptoms.`,
+          sw: `Hali ya diski kubadilika ni pale diski za uti wa mgongo zinapozeeka au kuharibika, zikisababisha kukandamizwa kwa neva, maumivu, na kupungua kwa mwendo.
+
+  **Sababu & Vizingiti:** Kuzeeka, msongo unaojirudia, jeraha.
+
+  **Athari:** Maumivu ya mgongo, ganzi, udhaifu, kupunguzwa kwa mwendo.
+
+  **Matokeo ya Muda Mrefu:** Tiba ya mwili, dawa, au upasuaji unaweza kupunguza dalili.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Lower back pain', 'Mild numbness', 'Stiffness'],
+          sw: ['Maumivu ya chini ya mgongo', 'Ganzi kidogo', 'Uchovu wa misuli'],
+        },
+        other: {
+          en: ['Pain radiating to legs', 'Weakness', 'Loss of flexibility'],
+          sw: ['Maumivu yanayosambaa hadi miguu', 'Udhaifu', 'Kupoteza unyumbufu'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: [
+            'Persistent back pain',
+            'Numbness or tingling in limbs',
+            'Weakness affecting walking or movement',
+          ],
+          sw: [
+            'Maumivu ya mgongo yanayoendelea',
+            'Ganzi au hisia za kushika kwenye miguu/mikono',
+            'Udhaifu unaoathiri kutembea au mwendo',
+          ],
+        },
+        reassurance: {
+          en: 'Early therapy and lifestyle modifications reduce long-term complications.',
+          sw: 'Tiba mapema na mabadiliko ya mtindo wa maisha hupunguza matatizo ya muda mrefu.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+      DYSAUTONOMIA
+  ──────────────────────────────── */
+  dysautonomia: {
+    slug: 'dysautonomia',
+    hero: {
+      title: { en: 'Dysautonomia', sw: 'Dysautonomia' },
+      subtitle: {
+        en: 'Disorders of the autonomic nervous system affecting heart rate, blood pressure, and digestion.',
+        sw: 'Matatizo ya mfumo wa neva wa moja kwa moja unaoathiri kasi ya moyo, shinikizo la damu, na mmeng’enyo.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Dysautonomia refers to conditions where the autonomic nervous system malfunctions, affecting involuntary functions.
+
+  **Causes & Risk Factors:** Genetic disorders, autoimmune conditions, chronic illness.
+
+  **Impact:** Dizziness, fainting, abnormal heart rate, digestive issues.
+
+  **Long-Term Outlook:** Symptom management, lifestyle adjustments, and medications improve quality of life.`,
+          sw: `Dysautonomia inahusu hali ambapo mfumo wa neva wa moja kwa moja haufanyi kazi vizuri, ukioathiri kazi zisizo za hiari.
+
+  **Sababu & Vizingiti:** Magonjwa ya urithi, hali za kinga ya mwili, ugonjwa sugu.
+
+  **Athari:** Kizunguzungu, kuanguka, kasi ya moyo isiyo ya kawaida, matatizo ya mmeng’enyo.
+
+  **Matokeo ya Muda Mrefu:** Usimamizi wa dalili, mabadiliko ya mtindo wa maisha, na dawa huboresha ubora wa maisha.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Dizziness', 'Fainting', 'Rapid heartbeat'],
+          sw: ['Kizunguzungu', 'Kuanguka', 'Moyo kukimbia haraka'],
+        },
+        other: {
+          en: ['Low blood pressure', 'Digestive problems', 'Fatigue'],
+          sw: ['Shinikizo la damu la chini', 'Matatizo ya mmeng’enyo', 'Uchovu'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: [
+            'Frequent fainting episodes',
+            'Rapid or irregular heart rate',
+            'Persistent dizziness or fatigue',
+          ],
+          sw: [
+            'Kuanguka mara kwa mara',
+            'Kasi ya moyo haraka au isiyo ya kawaida',
+            'Kizunguzungu au uchovu unaoendelea',
+          ],
+        },
+        reassurance: {
+          en: 'Monitoring and lifestyle changes help maintain safety and quality of life.',
+          sw: 'Ufuatiliaji na mabadiliko ya mtindo wa maisha husaidia kudumisha usalama na ubora wa maisha.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+      DIFFUSE AXONAL INJURY
+  ──────────────────────────────── */
+  diffuseAxonalInjury: {
+    slug: 'diffuse-axonal-injury',
+    hero: {
+      title: { en: 'Diffuse Axonal Injury', sw: 'Jeraha la Axonal Lenyeene' },
+      subtitle: {
+        en: 'Brain injury caused by shearing forces damaging axons.',
+        sw: 'Jeraha la ubongo linalosababishwa na nguvu za kuvuta zinazoathiri axons.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Diffuse axonal injury (DAI) occurs after traumatic brain injury, causing widespread damage to axons and severe neurological impairment.
+
+  **Causes & Risk Factors:** Car accidents, falls, sports injuries.
+
+  **Impact:** Loss of consciousness, cognitive deficits, coma.
+
+  **Long-Term Outlook:** Rehabilitation can improve function, but severe cases may result in permanent disability.`,
+          sw: `Jeraha la axonal lenyeene (DAI) hutokea baada ya jeraha la kichwa, likisababisha uharibifu mkubwa wa axons na ulemavu mkubwa wa neva.
+
+  **Sababu & Vizingiti:** Ajali za gari, kuanguka, majeraha ya michezo.
+
+  **Athari:** Kupoteza fahamu, upungufu wa utambuzi, koma.
+
+  **Matokeo ya Muda Mrefu:** Urejeshaji unaweza kuongeza utendaji, lakini kesi mbaya zinaweza kusababisha ulemavu wa kudumu.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Loss of consciousness', 'Confusion', 'Memory issues'],
+          sw: ['Kupoteza fahamu', 'Kuchanganyikiwa', 'Matatizo ya kumbukumbu'],
+        },
+        other: {
+          en: ['Persistent headaches', 'Balance problems', 'Fatigue'],
+          sw: ['Maumivu ya kichwa yanayoendelea', 'Matatizo ya usawa', 'Uchovu'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: [
+            'Severe head trauma',
+            'Prolonged unconsciousness',
+            'Neurological deterioration',
+          ],
+          sw: [
+            'Jeraha kubwa la kichwa',
+            'Kutokuwa na fahamu kwa muda mrefu',
+            'Kupungua kwa hali ya neva',
+          ],
+        },
+        reassurance: {
+          en: 'Immediate medical attention is critical for recovery.',
+          sw: 'Huduma ya dharura ya kitiba ni muhimu kwa nafuu.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
      ATAXIA
   ──────────────────────────────── */
   ataxia: {
