@@ -2519,5 +2519,556 @@ bellsPalsy: {
     },
   },
 
+  /* ───────────────────────────────
+      HEAD INJURY
+    ─────────────────────────────── */
+  headInjury: {
+    slug: 'headInjury',
+    hero: {
+      title: { en: 'Head Injury', sw: 'Jeraha la Kichwa' },
+      subtitle: {
+        en: 'Damage to the brain caused by external force.',
+        sw: 'Uharibifu wa ubongo unaosababishwa na mshtuko wa nje.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `A head injury occurs when an external force impacts the head and affects brain function.
+
+  **Neurological Link:** May cause concussion, bleeding, or swelling in the brain.
+
+  **Impact:** Can affect memory, movement, emotions, or consciousness.`,
+          sw: `Jeraha la kichwa hutokea pale nguvu ya nje inapogonga kichwa na kuathiri kazi ya ubongo.
+
+  **Uhusiano wa Neva:** Huenda likasababisha mtikisiko wa ubongo, damu, au uvimbe.
+
+  **Athari:** Huathiri kumbukumbu, mwendo, hisia, au fahamu.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Headache', 'Confusion', 'Dizziness'],
+          sw: ['Maumivu ya kichwa', 'Kuchanganyikiwa', 'Kizunguzungu'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Loss of consciousness', 'Persistent vomiting', 'Severe headache'],
+          sw: ['Kupoteza fahamu', 'Kutapika mara kwa mara', 'Maumivu makali ya kichwa'],
+        },
+        reassurance: {
+          en: 'Early medical care greatly improves recovery.',
+          sw: 'Huduma ya mapema huongeza uwezekano wa kupona.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+        HEADACHE DISORDERS
+    ─────────────────────────────── */
+  headacheDisorders: {
+    slug: 'headacheDisorders',
+    hero: {
+      title: { en: 'Headache Disorders', sw: 'Magonjwa ya Maumivu ya Kichwa' },
+      subtitle: {
+        en: 'Recurring headaches linked to brain and nerve activity.',
+        sw: 'Maumivu ya kichwa ya mara kwa mara yanayohusiana na neva.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Headache disorders include migraines, tension headaches, and cluster headaches.
+
+  **Neurological Link:** Involves abnormal pain signaling in the brain.
+
+  **Impact:** Can disrupt daily life, focus, and sleep.`,
+          sw: `Magonjwa haya yanajumuisha kipandauso, maumivu ya mvutano, na cluster headaches.
+
+  **Uhusiano wa Neva:** Hutokana na ishara zisizo za kawaida za maumivu katika ubongo.
+
+  **Athari:** Huathiri kazi za kila siku, umakini, na usingizi.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Throbbing pain', 'Light sensitivity', 'Nausea'],
+          sw: ['Maumivu yanayodunda', 'Kusumbuliwa na mwanga', 'Kichefuchefu'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Frequent headaches', 'Sudden severe headache'],
+          sw: ['Maumivu ya mara kwa mara', 'Maumivu makali ya ghafla'],
+        },
+        reassurance: {
+          en: 'Most headache disorders can be managed effectively.',
+          sw: 'Magonjwa mengi ya maumivu ya kichwa hudhibitika.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+        HEMIPLEGIA
+    ─────────────────────────────── */
+  hemiplegia: {
+    slug: 'hemiplegia',
+    hero: {
+      title: { en: 'Hemiplegia', sw: 'Kupooza Nusu ya Mwili' },
+      subtitle: {
+        en: 'Paralysis affecting one side of the body.',
+        sw: 'Kupooza kunakoathiri upande mmoja wa mwili.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Hemiplegia is paralysis on one side of the body, commonly caused by stroke or brain injury.
+
+  **Neurological Link:** Damage to motor pathways in the brain.
+
+  **Impact:** Affects movement, balance, and independence.`,
+          sw: `Hemiplegia ni kupooza kwa upande mmoja wa mwili, mara nyingi husababishwa na kiharusi au jeraha la ubongo.
+
+  **Uhusiano wa Neva:** Uharibifu wa njia za mwendo kwenye ubongo.
+
+  **Athari:** Huathiri harakati, usawa, na kujitegemea.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Loss of movement on one side', 'Muscle stiffness'],
+          sw: ['Kupoteza mwendo upande mmoja', 'Misuli kukakamaa'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Sudden paralysis', 'Speech difficulty'],
+          sw: ['Kupooza ghafla', 'Ugumu wa kuzungumza'],
+        },
+        reassurance: {
+          en: 'Rehabilitation can significantly improve function.',
+          sw: 'Ukarabati unaweza kuboresha uwezo kwa kiasi kikubwa.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+        HUNTINGTON’S DISEASE
+    ─────────────────────────────── */
+  huntingtonsDisease: {
+    slug: 'huntingtonsDisease',
+    hero: {
+      title: { en: "Huntington’s Disease", sw: 'Ugonjwa wa Huntington' },
+      subtitle: {
+        en: 'A genetic condition affecting movement and cognition.',
+        sw: 'Ugonjwa wa kurithi unaoathiri mwendo na fikra.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Huntington’s disease is a progressive genetic disorder affecting the brain.
+
+  **Neurological Link:** Causes gradual loss of nerve cells.
+
+  **Impact:** Leads to movement problems, memory decline, and emotional changes.`,
+          sw: `Ugonjwa wa Huntington ni ugonjwa wa kurithi unaoendelea kuathiri ubongo.
+
+  **Uhusiano wa Neva:** Husababisha kupotea kwa seli za neva polepole.
+
+  **Athari:** Huathiri mwendo, kumbukumbu, na hali ya kihisia.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Involuntary movements', 'Mood changes'],
+          sw: ['Harakati zisizodhibitiwa', 'Mabadiliko ya hisia'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Family history with symptoms', 'Progressive movement issues'],
+          sw: ['Historia ya kifamilia na dalili', 'Matatizo ya mwendo yanayoendelea'],
+        },
+        reassurance: {
+          en: 'Supportive care can improve quality of life.',
+          sw: 'Huduma saidizi huboresha ubora wa maisha.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+        HYDROCEPHALUS
+    ─────────────────────────────── */
+  hydrocephalus: {
+    slug: 'hydrocephalus',
+    hero: {
+      title: { en: 'Hydrocephalus', sw: 'Maji Kuzidi Kwenye Ubongo' },
+      subtitle: {
+        en: 'Excess fluid buildup in the brain.',
+        sw: 'Kuzidi kwa maji ndani ya ubongo.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Hydrocephalus occurs when cerebrospinal fluid accumulates in the brain.
+
+  **Neurological Link:** Increases pressure on brain tissue.
+
+  **Impact:** Can affect thinking, walking, and vision.`,
+          sw: `Hydrocephalus hutokea pale maji ya ubongo yanapozidi na kukusanyika.
+
+  **Uhusiano wa Neva:** Huongeza shinikizo kwenye ubongo.
+
+  **Athari:** Huathiri kufikiri, kutembea, na kuona.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Head enlargement in infants', 'Balance problems'],
+          sw: ['Kichwa kuongezeka kwa watoto', 'Matatizo ya usawa'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Rapid head growth', 'Worsening balance or confusion'],
+          sw: ['Ukuaji wa haraka wa kichwa', 'Kuzorota kwa usawa au kuchanganyikiwa'],
+        },
+        reassurance: {
+          en: 'Surgical treatment can be life-changing.',
+          sw: 'Upasuaji unaweza kubadilisha maisha.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+      INSOMNIA (NEUROLOGICAL)
+    ─────────────────────────────── */
+  insomnia: {
+    slug: 'insomnia',
+    hero: {
+      title: { en: 'Insomnia', sw: 'Kukosa Usingizi' },
+      subtitle: {
+        en: 'Difficulty falling or staying asleep linked to brain activity.',
+        sw: 'Ugumu wa kupata au kudumisha usingizi unaohusiana na ubongo.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Insomnia is a sleep disorder where the brain remains overly alert, preventing restful sleep.
+
+  **Neurological Link:** Involves disrupted brain signaling that regulates sleep-wake cycles.
+
+  **Impact:** Affects mood, concentration, memory, and overall health.`,
+          sw: `Insomnia ni tatizo la usingizi ambapo ubongo hubaki katika hali ya tahadhari kupita kiasi.
+
+  **Uhusiano wa Neva:** Hutokana na kuvurugika kwa ishara za ubongo zinazosimamia usingizi.
+
+  **Athari:** Huathiri hisia, umakini, kumbukumbu, na afya kwa ujumla.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Difficulty falling asleep', 'Frequent waking', 'Daytime fatigue'],
+          sw: ['Ugumu wa kulala', 'Kuamka mara kwa mara', 'Uchovu wa mchana'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Persistent sleep problems', 'Daytime impairment'],
+          sw: ['Matatizo ya usingizi yanayoendelea', 'Kushindwa kufanya kazi za mchana'],
+        },
+        reassurance: {
+          en: 'Sleep-focused treatment can restore healthy rest.',
+          sw: 'Matibabu ya usingizi yanaweza kurejesha mapumziko bora.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+        INTRACRANIAL PRESSURE (INCREASED)
+    ─────────────────────────────── */
+  increasedIntracranialPressure: {
+    slug: 'increasedIntracranialPressure',
+    hero: {
+      title: { en: 'Increased Intracranial Pressure', sw: 'Shinikizo Kubwa Ndani ya Fuvu' },
+      subtitle: {
+        en: 'Raised pressure within the skull affecting the brain.',
+        sw: 'Kuongezeka kwa shinikizo ndani ya fuvu la kichwa.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `This condition occurs when pressure inside the skull increases due to swelling, bleeding, or fluid buildup.
+
+  **Neurological Link:** Compresses brain tissue and blood vessels.
+
+  **Impact:** Can cause severe headaches, vision problems, or loss of consciousness.`,
+          sw: `Hali hii hutokea shinikizo linapoongezeka ndani ya fuvu kutokana na uvimbe, damu, au maji kuzidi.
+
+  **Uhusiano wa Neva:** Hukandamiza tishu za ubongo na mishipa ya damu.
+
+  **Athari:** Huleta maumivu makali ya kichwa, matatizo ya kuona, au kupoteza fahamu.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Severe headache', 'Blurred vision', 'Nausea'],
+          sw: ['Maumivu makali ya kichwa', 'Kuona ukungu', 'Kichefuchefu'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Sudden severe headache', 'Vision loss', 'Confusion'],
+          sw: ['Maumivu makali ya ghafla', 'Kupoteza kuona', 'Kuchanganyikiwa'],
+        },
+        reassurance: {
+          en: 'Prompt treatment can prevent serious brain damage.',
+          sw: 'Matibabu ya haraka huzuia uharibifu mkubwa wa ubongo.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+        INTELLECTUAL DISABILITY (NEUROLOGICAL)
+    ─────────────────────────────── */
+  intellectualDisability: {
+    slug: 'intellectualDisability',
+    hero: {
+      title: { en: 'Intellectual Disability', sw: 'Ulemavu wa Akili' },
+      subtitle: {
+        en: 'Limitations in cognitive functioning due to brain development differences.',
+        sw: 'Upungufu wa uwezo wa kufikiri kutokana na maendeleo ya ubongo.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Intellectual disability involves challenges with learning, reasoning, and problem-solving.
+
+  **Neurological Link:** Results from differences or injury to the developing brain.
+
+  **Impact:** Affects education, communication, and independent living.`,
+          sw: `Ulemavu wa akili unahusisha changamoto katika kujifunza, kufikiri, na kutatua matatizo.
+
+  **Uhusiano wa Neva:** Hutokana na tofauti au jeraha katika ukuaji wa ubongo.
+
+  **Athari:** Huathiri elimu, mawasiliano, na kujitegemea.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Delayed development', 'Learning difficulties'],
+          sw: ['Ukuaji kuchelewa', 'Changamoto za kujifunza'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Developmental delays', 'School learning concerns'],
+          sw: ['Kuchelewa kwa maendeleo', 'Changamoto za masomo'],
+        },
+        reassurance: {
+          en: 'Early support can greatly improve outcomes.',
+          sw: 'Msaada wa mapema huboresha maisha kwa kiasi kikubwa.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+        ISCHEMIC STROKE
+    ─────────────────────────────── */
+  ischemicStroke: {
+    slug: 'ischemicStroke',
+    hero: {
+      title: { en: 'Ischemic Stroke', sw: 'Kiharusi cha Kuziba Mishipa' },
+      subtitle: {
+        en: 'A stroke caused by blocked blood flow to the brain.',
+        sw: 'Kiharusi kinachosababishwa na kuziba kwa mishipa ya damu.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `An ischemic stroke occurs when a blood vessel supplying the brain is blocked.
+
+  **Neurological Link:** Brain cells are damaged due to lack of oxygen.
+
+  **Impact:** Can impair movement, speech, vision, or cognition.`,
+          sw: `Kiharusi cha ischemic hutokea mshipa wa damu unapoziba na kuzuia damu kufika ubongoni.
+
+  **Uhusiano wa Neva:** Seli za ubongo huharibika kwa kukosa oksijeni.
+
+  **Athari:** Huathiri mwendo, usemi, kuona, au fikra.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Sudden weakness on one side', 'Slurred speech'],
+          sw: ['Udhaifu ghafla upande mmoja', 'Usemi usioeleweka'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Face drooping', 'Arm weakness', 'Speech difficulty'],
+          sw: ['Uso kulegea', 'Mkono kudhoofika', 'Ugumu wa kuzungumza'],
+        },
+        reassurance: {
+          en: 'Fast treatment can save brain function.',
+          sw: 'Matibabu ya haraka huokoa uwezo wa ubongo.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+      JUVENILE EPILEPSY
+   ─────────────────────────────── */
+  juvenileEpilepsy: {
+    slug: 'juvenileEpilepsy',
+    hero: {
+      title: { en: 'Juvenile Epilepsy', sw: 'Kifafa cha Vijana' },
+      subtitle: {
+        en: 'A seizure disorder beginning in childhood or adolescence.',
+        sw: 'Ugonjwa wa mshtuko unaoanza utotoni au ujana.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Juvenile epilepsy refers to forms of epilepsy that begin in childhood or teenage years.
+
+  **Neurological Link:** Caused by abnormal electrical activity in the brain.
+
+  **Impact:** Can affect learning, independence, and daily activities.`,
+          sw: `Kifafa cha vijana ni aina ya kifafa kinachoanza utotoni au kipindi cha ujana.
+
+  **Uhusiano wa Neva:** Husababishwa na shughuli zisizo za kawaida za umeme kwenye ubongo.
+
+  **Athari:** Huathiri masomo, kujitegemea, na shughuli za kila siku.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Seizures', 'Brief loss of awareness', 'Muscle jerks'],
+          sw: ['Mshtuko', 'Kupoteza fahamu kwa muda', 'Misuli kujitikisa'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['First seizure', 'Increasing seizure frequency'],
+          sw: ['Mshtuko wa kwanza', 'Kuongezeka kwa mshtuko'],
+        },
+        reassurance: {
+          en: 'Many young people achieve good seizure control with treatment.',
+          sw: 'Vijana wengi hudhibiti kifafa vizuri kwa matibabu.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+        JUVENILE MYOCLONIC EPILEPSY (JME)
+    ─────────────────────────────── */
+  juvenileMyoclonicEpilepsy: {
+    slug: 'juvenileMyoclonicEpilepsy',
+    hero: {
+      title: { en: 'Juvenile Myoclonic Epilepsy', sw: 'Kifafa cha Misuli kwa Vijana' },
+      subtitle: {
+        en: 'A common epilepsy syndrome with muscle jerks.',
+        sw: 'Aina ya kifafa kinachosababisha mishtuko ya misuli.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Juvenile myoclonic epilepsy is a common genetic epilepsy syndrome.
+
+  **Neurological Link:** Characterized by sudden muscle jerks due to abnormal brain signals.
+
+  **Impact:** Seizures often occur after waking and may affect daily routine.`,
+          sw: `Kifafa cha misuli kwa vijana ni ugonjwa wa kifafa unaotokana na vinasaba.
+
+  **Uhusiano wa Neva:** Huonekana kwa mishtuko ya ghafla ya misuli kutokana na ishara zisizo za kawaida za ubongo.
+
+  **Athari:** Mshtuko mara nyingi hutokea baada ya kuamka na huathiri ratiba ya siku.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Sudden muscle jerks', 'Morning seizures'],
+          sw: ['Mishtuko ya ghafla ya misuli', 'Mshtuko wa asubuhi'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Dropping objects suddenly', 'Recurrent morning jerks'],
+          sw: ['Kuangusha vitu ghafla', 'Mishtuko ya asubuhi inayojirudia'],
+        },
+        reassurance: {
+          en: 'Long-term treatment is often very effective.',
+          sw: 'Matibabu ya muda mrefu mara nyingi hufaulu sana.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+        JUVENILE PARKINSONISM
+    ─────────────────────────────── */
+  juvenileParkinsonism: {
+    slug: 'juvenileParkinsonism',
+    hero: {
+      title: { en: 'Juvenile Parkinsonism', sw: 'Parkinson kwa Vijana' },
+      subtitle: {
+        en: 'Early-onset movement disorder affecting young people.',
+        sw: 'Ugonjwa wa mwendo unaoanza mapema kwa vijana.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Juvenile parkinsonism is a rare condition where Parkinson-like symptoms appear at a young age.
+
+  **Neurological Link:** Involves disruption of dopamine pathways in the brain.
+
+  **Impact:** Causes stiffness, slowness, and movement difficulties.`,
+          sw: `Parkinson kwa vijana ni hali adimu ambapo dalili za Parkinson huanza mapema.
+
+  **Uhusiano wa Neva:** Hutokana na kuvurugika kwa njia za dopamini katika ubongo.
+
+  **Athari:** Husababisha kukakamaa, polepole wa mwendo, na ugumu wa harakati.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Muscle stiffness', 'Slow movement', 'Tremor'],
+          sw: ['Misuli kukakamaa', 'Mwendo wa polepole', 'Kutetemeka'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Progressive movement slowing', 'Unexplained stiffness in youth'],
+          sw: ['Kupungua kwa mwendo kunakoendelea', 'Kukakamaa bila sababu kwa vijana'],
+        },
+        reassurance: {
+          en: 'Specialized care can greatly improve quality of life.',
+          sw: 'Huduma maalum huboresha maisha kwa kiwango kikubwa.',
+        },
+      },
+    },
+  },
   
 };
