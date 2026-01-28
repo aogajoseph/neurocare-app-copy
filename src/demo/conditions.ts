@@ -4772,5 +4772,143 @@ bellsPalsy: {
       },
     },
   },
+
+  /* ───────────────────────────────
+      WILSON'S DISEASE
+   ─────────────────────────────── */
+  wilsonsDisease: {
+    slug: 'wilsonsDisease',
+    hero: {
+      title: { en: "Wilson's Disease", sw: 'Ugonjwa wa Wilson' },
+      subtitle: {
+        en: 'A genetic disorder causing copper buildup, affecting the liver and brain.',
+        sw: 'Ugonjwa wa urithi unaosababisha mkusanyiko wa shaba, ukidhuru ini na ubongo.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Wilson's disease leads to toxic copper accumulation in organs, including the brain.
+
+  **Neurological Link:** Copper deposits in basal ganglia can cause movement disorders, tremors, and cognitive changes.
+
+  **Impact:** Can affect coordination, speech, behavior, and muscle control.`,
+          sw: `Ugonjwa wa Wilson husababisha mkusanyiko hatari wa shaba katika viungo, ikiwemo ubongo.
+
+  **Uhusiano wa Neva:** Mkusanyiko wa shaba kwenye basal ganglia unaweza kusababisha matatizo ya mwendo, kutetemeka, na mabadiliko ya fikra.
+
+  **Athari:** Inaweza kuathiri uratibu, mazungumzo, tabia, na udhibiti wa misuli.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Tremors', 'Slurred speech', 'Poor coordination', 'Behavioral changes'],
+          sw: ['Kutetemeka', 'Ugumu wa kuzungumza', 'Uratibu duni', 'Mabadiliko ya tabia'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Movement difficulties', 'Behavior changes', 'Liver abnormalities'],
+          sw: ['Matatizo ya mwendo', 'Mabadiliko ya tabia', 'Upungufu wa ini'],
+        },
+        reassurance: {
+          en: 'Medication and dietary management can control copper levels and improve outcomes.',
+          sw: 'Dawa na usimamizi wa lishe husaidia kudhibiti kiwango cha shaba na kuboresha matokeo.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+        WERNICKE’S ENCEPHALOPATHY
+    ─────────────────────────────── */
+  wernickesEncephalopathy: {
+    slug: 'wernickesEncephalopathy',
+    hero: {
+      title: { en: "Wernicke's Encephalopathy", sw: 'Encephalopathy ya Wernicke' },
+      subtitle: {
+        en: 'A neurological emergency caused by thiamine (Vitamin B1) deficiency.',
+        sw: 'Dharura ya neva inayosababishwa na upungufu wa thiamine (Vitamin B1).',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Wernicke's encephalopathy results from severe thiamine deficiency, often associated with alcohol use or malnutrition.
+
+  **Neurological Link:** Affects regions of the brain controlling eye movement, coordination, and memory.
+
+  **Impact:** Causes confusion, ataxia, nystagmus, and can progress to Korsakoff syndrome if untreated.`,
+          sw: `Encephalopathy ya Wernicke hutokea kutokana na upungufu mkubwa wa thiamine, mara nyingi unaohusiana na matumizi ya pombe au lishe duni.
+
+  **Uhusiano wa Neva:** Huathiri sehemu za ubongo zinazodhibiti harakati za macho, uratibu, na kumbukumbu.
+
+  **Athari:** Husababisha kuchanganyikiwa, ataksia, nystagmus, na inaweza kuendelea kuwa syndrome ya Korsakoff ikiwa haitatibiwa.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Confusion', 'Unsteady gait', 'Abnormal eye movements', 'Memory problems'],
+          sw: ['Kuchanganyikiwa', 'Kutembea kwa kutokuwa na usawa', 'Harakati zisizo za kawaida za macho', 'Matatizo ya kumbukumbu'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Sudden confusion', 'Balance problems', 'Eye movement abnormalities'],
+          sw: ['Kuchanganyikiwa kwa ghafla', 'Matatizo ya usawa', 'Harakati zisizo za kawaida za macho'],
+        },
+        reassurance: {
+          en: 'Immediate thiamine administration can reverse symptoms if given early.',
+          sw: 'Utoaji wa haraka wa thiamine unaweza kurekebisha dalili ikiwa utatolewa mapema.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+        WEAKNESS SYNDROMES (NEUROLOGICAL)
+    ─────────────────────────────── */
+  weaknessSyndromes: {
+    slug: 'weaknessSyndromes',
+    hero: {
+      title: { en: 'Weakness Syndromes', sw: 'Syndrome za Udhaifu wa Misuli' },
+      subtitle: {
+        en: 'Neurological disorders primarily causing muscle weakness.',
+        sw: 'Magonjwa ya neva yanayosababisha udhaifu wa misuli hasa.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Weakness syndromes include conditions like myasthenia gravis, muscular dystrophy, and motor neuron diseases.
+
+  **Neurological Link:** Damage or dysfunction of motor neurons or neuromuscular junctions leads to impaired muscle function.
+
+  **Impact:** Can affect mobility, breathing, daily activities, and independence.`,
+          sw: `Syndrome za udhaifu wa misuli zinajumuisha hali kama myasthenia gravis, muscular dystrophy, na magonjwa ya neva za misuli.
+
+  **Uhusiano wa Neva:** Uharibifu au kushindwa kwa neva za misuli au sehemu ya neva na misuli husababisha kazi duni ya misuli.
+
+  **Athari:** Inaweza kuathiri uhamaji, upumuaji, shughuli za kila siku, na uhuru wa mtu binafsi.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Muscle fatigue', 'Drooping eyelids', 'Difficulty swallowing or walking'],
+          sw: ['Uchovu wa misuli', 'Kuanguka kwa mapaja ya macho', 'Ugumu wa kumeza au kutembea'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Progressive muscle weakness', 'Difficulty with daily tasks', 'Respiratory problems'],
+          sw: ['Udhaifu unaoendelea wa misuli', 'Ugumu wa shughuli za kila siku', 'Matatizo ya upumuaji'],
+        },
+        reassurance: {
+          en: 'Therapy, medication, and supportive care can improve quality of life.',
+          sw: 'Tiba, dawa, na huduma ya msaada huboresha ubora wa maisha.',
+        },
+      },
+    },
+  },
   
 };
