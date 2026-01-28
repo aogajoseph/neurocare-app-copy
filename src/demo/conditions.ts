@@ -4,6 +4,17 @@
 
 export type ConditionKey = 'overview' | 'symptoms' | 'help';
 
+export const conditionsIndexMeta = {
+  title: {
+    en: 'Neurological Conditions A – Z',
+    sw: 'Hali za Neva A – Z',
+  },
+  description: {
+    en: 'Explore common neurological conditions, their symptoms, and when to seek help. Tap a condition to learn more.',
+    sw: 'Chunguza hali za kawaida za neva, dalili zake, na wakati wa kutafuta msaada. Bonyeza hali kujifunza zaidi.',
+  },
+};
+
 export type Condition = {
   slug: string;
 
