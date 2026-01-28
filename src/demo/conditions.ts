@@ -4542,5 +4542,97 @@ bellsPalsy: {
       },
     },
   },
+
+  /* ───────────────────────────────
+      ULNAR NEUROPATHY
+   ─────────────────────────────── */
+  ulnarNeuropathy: {
+    slug: 'ulnarNeuropathy',
+    hero: {
+      title: { en: 'Ulnar Neuropathy', sw: 'Uharibifu wa Neva ya Ulnar' },
+      subtitle: {
+        en: 'Nerve compression affecting the ulnar nerve, often at the elbow or wrist.',
+        sw: 'Shinikizo la neva linalohusiana na neva ya ulnar, mara nyingi kwenye kiwiko au mkono.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Ulnar neuropathy occurs when the ulnar nerve is compressed or irritated.
+
+  **Neurological Link:** Disruption of nerve signals affects muscle control and sensation in the hand and arm.
+
+  **Impact:** Can cause numbness, tingling, weakness, and difficulty with grip or finger coordination.`,
+          sw: `Uharibifu wa neva ya ulnar hutokea pale neva ya ulnar inapobanwa au kuvimba.
+
+  **Uhusiano wa Neva:** Kuzuia ishara za neva huathiri udhibiti wa misuli na hisia katika mkono na mikono.
+
+  **Athari:** Husababisha ganzi, kuwashwa, udhaifu, na ugumu wa kushika au kuratibu vidole.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Tingling in ring and little finger', 'Weak grip', 'Hand muscle wasting'],
+          sw: ['Kuwashwa kwenye kidole cha pete na kidogo', 'Shikilia dhaifu', 'Upungufu wa misuli ya mkono'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Persistent hand numbness', 'Loss of finger coordination', 'Weak grip strength'],
+          sw: ['Ganzi la mkono linalodumu', 'Kupoteza uratibu wa vidole', 'Shikilia dhaifu'],
+        },
+        reassurance: {
+          en: 'Splints, therapy, or surgery can improve function and relieve symptoms.',
+          sw: 'Vifaa vya mkono, tiba, au upasuaji vinaweza kuboresha kazi na kupunguza dalili.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+        UNVERRICHT-LUNDBORG DISEASE
+    ─────────────────────────────── */
+  unverrichtLundborgDisease: {
+    slug: 'unverrichtLundborgDisease',
+    hero: {
+      title: { en: 'Unverricht-Lundborg Disease', sw: 'Ugonjwa wa Unverricht-Lundborg' },
+      subtitle: {
+        en: 'A rare genetic progressive myoclonic epilepsy.',
+        sw: 'Epilepsy nadra ya urithi inayoendelea yenye myoclonus.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Unverricht-Lundborg disease is a genetic disorder causing progressive myoclonic seizures.
+
+  **Neurological Link:** Abnormal neuronal activity in the brain leads to sudden muscle jerks and seizures.
+
+  **Impact:** Can affect daily functioning, balance, and independence.`,
+          sw: `Ugonjwa wa Unverricht-Lundborg ni ugonjwa wa urithi unaosababisha kichefuchefu cha myoclonic kinachoendelea.
+
+  **Uhusiano wa Neva:** Shughuli zisizo za kawaida za neva katika ubongo husababisha kichefuchefu cha misuli na kichefuchefu.
+
+  **Athari:** Inaweza kuathiri kazi za kila siku, usawa, na uhuru wa mtu binafsi.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Sudden muscle jerks', 'Seizures', 'Difficulty with coordination'],
+          sw: ['Kichefuchefu cha misuli ghafla', 'Kichefuchefu', 'Ugumu wa kuratibu'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Frequent myoclonic jerks', 'Progressive functional decline'],
+          sw: ['Kichefuchefu cha myoclonic kinachojirudia', 'Kupungua kwa kazi unaoendelea'],
+        },
+        reassurance: {
+          en: 'Medication and supportive therapy can help manage symptoms.',
+          sw: 'Dawa na tiba ya msaada husaidia kudhibiti dalili.',
+        },
+      },
+    },
+  },
   
 };
