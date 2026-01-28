@@ -458,5 +458,327 @@ export const conditionsData: Record<string, Condition> = {
       },
     },
   },
+
+  /* ───────────────────────────────
+     ATAXIA
+  ──────────────────────────────── */
+  ataxia: {
+    slug: 'ataxia',
+    hero: {
+      title: { en: 'Ataxia', sw: 'Ataksia' },
+      subtitle: {
+        en: 'A disorder affecting balance and coordination.',
+        sw: 'Hali inayohusisha uratibu na usawa wa mwili.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Ataxia is a neurological disorder that affects movement coordination, making everyday tasks challenging.
+
+  **Causes & Risk Factors:** Can be inherited, result from stroke, tumor, or brain injury.
+
+  **Symptoms & Signs:** Loss of coordination, unsteady gait, difficulty with fine motor tasks.
+
+  **Impact:** May affect walking, balance, speech, and eye movements.
+
+  **Long-Term Outlook:** Some forms are progressive, while others stabilize. Therapy improves function.`,
+          sw: `Ataksia ni hali ya neva inayohusisha uratibu wa mwendo, kufanya shughuli za kila siku kuwa ngumu.
+
+  **Sababu & Vizingiti:** Inaweza kurithiwa, au kutokana na kiharusi, tumor, au jeraha la ubongo.
+
+  **Dalili & Ishara:** Kupoteza uratibu, kutembea bila usawa, shida katika kazi ndogo za mikono.
+
+  **Athari:** Inaweza kuathiri kutembea, usawa, kuzungumza, na harakati za jicho.
+
+  **Matokeo ya Muda Mrefu:** Baadhi zinazidi polepole, zingine zinatulia. Tiba huongeza uwezo wa mwili.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: [
+            'Unsteady walking or imbalance',
+            'Clumsiness with hands',
+            'Slurred speech',
+          ],
+          sw: [
+            'Kutembea bila usawa',
+            'Kutokuwa makini kwa mikono',
+            'Kuzungumza kwa taratibu',
+          ],
+        },
+        other: {
+          en: ['Tremors', 'Difficulty swallowing', 'Vision problems'],
+          sw: ['Kutetemeka', 'Shida ya kumeza', 'Matatizo ya kuona'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: [
+            'Persistent imbalance or coordination problems',
+            'Sudden worsening of symptoms',
+            'Difficulty performing daily tasks safely',
+          ],
+          sw: [
+            'Shida ya kudumu ya usawa au uratibu',
+            'Kuongezeka ghafla kwa dalili',
+            'Shida ya kufanya shughuli za kila siku kwa usalama',
+          ],
+        },
+        reassurance: {
+          en: 'Therapies and supportive care can improve daily function and safety.',
+          sw: 'Tiba na msaada wa msaada huongeza uwezo wa kufanya shughuli za kila siku na usalama.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+      ALZHEIMER’S DISEASE
+  ──────────────────────────────── */
+  alzheimers: {
+    slug: 'alzheimers-disease',
+    hero: {
+      title: { en: "Alzheimer's Disease", sw: 'Ugonjwa wa Alzheimer' },
+      subtitle: {
+        en: 'A progressive condition affecting memory and thinking.',
+        sw: 'Hali inayozidi kuathiri kumbukumbu na ufikiri.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Alzheimer’s disease is a neurodegenerative disorder leading to memory loss, cognitive decline, and behavioral changes.
+
+  **Causes & Risk Factors:** Age, genetics, lifestyle, cardiovascular health.
+
+  **Impact:** Difficulty remembering recent events, impaired judgment, and personality changes.
+
+  **Long-Term Outlook:** Progressive condition; early intervention and supportive care help maintain quality of life.`,
+          sw: `Ugonjwa wa Alzheimer ni hali ya kuharibika kwa neva inayosababisha kupoteza kumbukumbu, kushuka kwa ufikiri, na mabadiliko ya tabia.
+
+  **Sababu & Vizingiti:** Umri, urithi wa familia, mtindo wa maisha, afya ya moyo.
+
+  **Athari:** Shida ya kukumbuka matukio ya hivi karibuni, kupoteza ufahamu, na mabadiliko ya tabia.
+
+  **Matokeo ya Muda Mrefu:** Hali inazidi; kuingilia mapema na msaada husaidia kudumisha maisha bora.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Memory lapses', 'Difficulty finding words', 'Disorientation'],
+          sw: ['Kupoteza kumbukumbu', 'Shida ya kupata maneno', 'Kuchanganyikiwa'],
+        },
+        other: {
+          en: ['Behavioral changes', 'Confusion about time', 'Difficulty performing tasks'],
+          sw: ['Mabadiliko ya tabia', 'Kuchanganyikiwa kuhusu muda', 'Shida ya kufanya shughuli'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: [
+            'Noticeable memory decline',
+            'Difficulty handling daily responsibilities',
+            'Confusion affecting safety',
+          ],
+          sw: [
+            'Kupungua kwa kumbukumbu kinachoonekana',
+            'Shida ya kushughulikia majukumu ya kila siku',
+            'Kuchanganyikiwa kunakoathiri usalama',
+          ],
+        },
+        reassurance: {
+          en: 'Early care, routine, and support help patients and caregivers adapt.',
+          sw: 'Huduma ya mapema, ratiba, na msaada husaidia wagonjwa na walezi kuzoea.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+      AMYOTROPHIC LATERAL SCLEROSIS (ALS)
+  ──────────────────────────────── */
+  als: {
+    slug: 'amyotrophic-lateral-sclerosis',
+    hero: {
+      title: { en: 'Amyotrophic Lateral Sclerosis (ALS)', sw: 'Ugonjwa wa ALS' },
+      subtitle: {
+        en: 'A degenerative disorder affecting motor neurons.',
+        sw: 'Hali inayoharibu seli za misuli na neva.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `ALS is a progressive disease that affects nerve cells controlling voluntary muscles.
+
+  **Causes & Risk Factors:** Mostly unknown; some cases are genetic.
+
+  **Impact:** Weakness, muscle wasting, difficulty speaking, swallowing, and breathing.
+
+  **Long-Term Outlook:** Progressive and fatal; supportive care improves quality of life.`,
+          sw: `ALS ni ugonjwa unaoendelea unaoathiri seli za neva zinazodhibiti misuli ya hiari.
+
+  **Sababu & Vizingiti:** Mara nyingi hazijulikani; baadhi ni za urithi.
+
+  **Athari:** Udhaifu, kupungua kwa misuli, shida ya kuzungumza, kumeza, na kupumua.
+
+  **Matokeo ya Muda Mrefu:** Unaendelea na unaweza kusababisha kifo; msaada huongeza maisha bora.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Muscle weakness', 'Difficulty speaking clearly', 'Hand or foot cramps'],
+          sw: ['Udhaifu wa misuli', 'Shida ya kuzungumza kwa uwazi', 'Mikono au miguu kukakamaa'],
+        },
+        other: {
+          en: ['Slurred speech', 'Trouble swallowing', 'Respiratory difficulties'],
+          sw: ['Kuzungumza kwa taratibu', 'Shida ya kumeza', 'Matatizo ya kupumua'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: [
+            'Noticeable weakness or muscle wasting',
+            'Difficulty with daily activities',
+            'Speech or swallowing problems',
+          ],
+          sw: [
+            'Udhaifu au kupungua kwa misuli kinachoonekana',
+            'Shida katika shughuli za kila siku',
+            'Shida ya kuzungumza au kumeza',
+          ],
+        },
+        reassurance: {
+          en: 'Specialist care and therapy can maintain comfort and function for longer.',
+          sw: 'Huduma maalumu na tiba husaidia kudumisha starehe na uwezo kwa muda mrefu.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+      APHASIA
+  ──────────────────────────────── */
+  aphasia: {
+    slug: 'aphasia',
+    hero: {
+      title: { en: 'Aphasia', sw: 'Afazia' },
+      subtitle: {
+        en: 'A language disorder affecting speaking, understanding, reading, or writing.',
+        sw: 'Hali ya lugha inayohusisha kuzungumza, kuelewa, kusoma, au kuandika.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Aphasia is a communication disorder resulting from brain injury or stroke.
+
+  **Causes & Risk Factors:** Stroke, brain trauma, infections, or tumors.
+
+  **Impact:** Difficulty with speaking, understanding language, reading, or writing.
+
+  **Long-Term Outlook:** Can improve with speech therapy and rehabilitation.`,
+          sw: `Afazia ni shida ya mawasiliano kutokana na jeraha la ubongo au kiharusi.
+
+  **Sababu & Vizingiti:** Kiharusi, jeraha la ubongo, maambukizi, au tumor.
+
+  **Athari:** Shida ya kuzungumza, kuelewa lugha, kusoma, au kuandika.
+
+  **Matokeo ya Muda Mrefu:** Inaweza kuimarika kwa tiba ya lugha na urejeshaji.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Trouble finding words', 'Difficulty speaking', 'Difficulty understanding speech'],
+          sw: ['Shida ya kupata maneno', 'Shida ya kuzungumza', 'Shida ya kuelewa maneno'],
+        },
+        other: {
+          en: ['Reading difficulties', 'Writing difficulties', 'Frustration with communication'],
+          sw: ['Shida ya kusoma', 'Shida ya kuandika', 'Kuchanganyikiwa kwa mawasiliano'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: [
+            'Persistent difficulty communicating',
+            'Sudden onset after stroke or injury',
+            'Impacting daily life or work',
+          ],
+          sw: [
+            'Shida inayoendelea ya mawasiliano',
+            'Kuibuka ghafla baada ya kiharusi au jeraha',
+            'Inaathiri maisha ya kila siku au kazi',
+          ],
+        },
+        reassurance: {
+          en: 'Speech therapy and supportive care help restore communication skills.',
+          sw: 'Tiba ya lugha na msaada husaidia kurejesha ujuzi wa mawasiliano.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+      AGNOSIA
+  ──────────────────────────────── */
+  agnosia: {
+    slug: 'agnosia',
+    hero: {
+      title: { en: 'Agnosia', sw: 'Agnosia' },
+      subtitle: {
+        en: 'Impairment in recognizing objects, people, sounds, shapes, or smells.',
+        sw: 'Shida ya kutambua vitu, watu, sauti, umbo, au harufu.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Agnosia is the inability to recognize familiar objects, faces, sounds, or smells, usually due to brain injury.
+
+  **Causes & Risk Factors:** Stroke, trauma, infections, or neurological disease.
+
+  **Impact:** Can interfere with daily activities and safety.
+
+  **Long-Term Outlook:** Depends on the brain area affected; rehabilitation can help.`,
+          sw: `Agnosia ni kushindwa kutambua vitu, nyuso, sauti, au harufu zinazojulikana, mara nyingi kutokana na jeraha la ubongo.
+
+  **Sababu & Vizingiti:** Kiharusi, jeraha, maambukizi, au ugonjwa wa neva.
+
+  **Athari:** Inaweza kuathiri shughuli za kila siku na usalama.
+
+  **Matokeo ya Muda Mrefu:** Inategemea sehemu ya ubongo iliyoharibika; urejeshaji unaweza kusaidia.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Cannot recognize familiar objects', 'Difficulty identifying faces', 'Confusion with sounds'],
+          sw: ['Hawezi kutambua vitu vinavyojulikana', 'Shida ya kutambua nyuso', 'Kuchanganyikiwa na sauti'],
+        },
+        other: {
+          en: ['Difficulty with shapes or colors', 'Loss of sense of smell', 'Trouble navigating familiar places'],
+          sw: ['Shida na maumbo au rangi', 'Kupoteza harufu', 'Shida ya kutembea kwenye sehemu zinazojulikana'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: [
+            'Sudden difficulty recognizing people or objects',
+            'Interference with daily life',
+            'After stroke or brain injury',
+          ],
+          sw: [
+            'Shida ghafla ya kutambua watu au vitu',
+            'Inaathiri maisha ya kila siku',
+            'Baada ya kiharusi au jeraha la ubongo',
+          ],
+        },
+        reassurance: {
+          en: 'Occupational therapy and supportive strategies improve adaptation.',
+          sw: 'Tiba ya kazi na mikakati ya msaada huongeza ufanisi wa kuzoea.',
+        },
+      },
+    },
+  },
   
 };
