@@ -130,6 +130,144 @@ export const conditionsData: Record<string, Condition> = {
   },
 
   /* ───────────────────────────────
+      SPINAL MUSCULAR ATROPHY (SMA)
+   ─────────────────────────────── */
+  spinalMuscularAtrophy: {
+    slug: 'spinalMuscularAtrophy',
+    hero: {
+      title: { en: 'Spinal Muscular Atrophy', sw: 'Uharibifu wa Misuli ya Uti wa Mgongo' },
+      subtitle: {
+        en: 'A genetic disorder affecting motor neurons and muscle strength.',
+        sw: 'Ugonjwa wa urithi unaoathiri neva za misuli na nguvu za misuli.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `SMA is caused by mutations in the SMN1 gene, leading to loss of motor neurons in the spinal cord.
+
+  **Neurological Link:** Reduced motor neuron function causes progressive muscle weakness.
+
+  **Impact:** Can affect movement, breathing, and overall mobility.`,
+          sw: `SMA husababishwa na mabadiliko katika jeni la SMN1, na kusababisha kupotea kwa neva za misuli kwenye uti wa mgongo.
+
+  **Uhusiano wa Neva:** Kupungua kwa kazi ya neva za misuli husababisha udhaifu unaoendelea wa misuli.
+
+  **Athari:** Inaweza kuathiri mwendo, upumuaji, na uhamaji kwa ujumla.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Muscle weakness', 'Poor head control', 'Difficulty sitting or walking'],
+          sw: ['Udhaifu wa misuli', 'Udhibiti duni wa kichwa', 'Ugumu wa kukaa au kutembea'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Delayed motor milestones', 'Progressive muscle weakness'],
+          sw: ['Mambo ya mwendo yanayochelewa', 'Udhaifu unaoendelea wa misuli'],
+        },
+        reassurance: {
+          en: 'Supportive care and therapy can improve quality of life.',
+          sw: 'Huduma ya msaada na tiba huboresha ubora wa maisha.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+        SEIZURE DISORDERS
+    ─────────────────────────────── */
+  seizureDisorders: {
+    slug: 'seizureDisorders',
+    hero: {
+      title: { en: 'Seizure Disorders', sw: 'Magonjwa ya Kichefuchefu cha Misuli' },
+      subtitle: {
+        en: 'Conditions causing sudden abnormal electrical activity in the brain.',
+        sw: 'Hali zinazosababisha shughuli za umeme zisizo za kawaida katika ubongo.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Seizure disorders include epilepsy and other conditions causing sudden, uncontrolled electrical activity in the brain.
+
+  **Neurological Link:** Abnormal neuronal firing leads to involuntary movements, sensations, or consciousness changes.
+
+  **Impact:** Can affect safety, cognition, and daily life activities.`,
+          sw: `Magonjwa ya kichefuchefu cha misuli yanajumuisha ugonjwa wa epilepsy na hali nyingine zinazosababisha shughuli zisizodhibitiwa za umeme katika ubongo.
+
+  **Uhusiano wa Neva:** Shughuli zisizo za kawaida za neva husababisha harakati zisizo za hiari, hisia, au mabadiliko ya fahamu.
+
+  **Athari:** Inaweza kuathiri usalama, fikra, na shughuli za kila siku.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Convulsions', 'Loss of consciousness', 'Staring spells', 'Muscle jerks'],
+          sw: ['Kichefuchefu cha misuli', 'Kupoteza fahamu', 'Kutazama bila kusogea', 'Kichezo cha misuli'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Repeated seizures', 'Injury during a seizure', 'Prolonged seizure activity'],
+          sw: ['Kichefuchefu cha misuli kinachojirudia', 'Kuumia wakati wa kichefuchefu', 'Shughuli ya kichefuchefu isiyoisha'],
+        },
+        reassurance: {
+          en: 'Medication and safety measures can effectively control seizures.',
+          sw: 'Dawa na hatua za usalama husaidia kudhibiti kichefuchefu kwa ufanisi.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+        SCIATICA
+    ─────────────────────────────── */
+  sciatica: {
+    slug: 'sciatica',
+    hero: {
+      title: { en: 'Sciatica', sw: 'Sciatica' },
+      subtitle: {
+        en: 'Pain along the sciatic nerve, often caused by compression or injury.',
+        sw: 'Maumivu kando ya neva ya sciatic, mara nyingi husababishwa na shinikizo au jeraha.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Sciatica occurs when the sciatic nerve is compressed or irritated, often by herniated discs or spinal stenosis.
+
+  **Neurological Link:** Pressure on nerve roots affects signal transmission to the legs.
+
+  **Impact:** Causes pain, numbness, tingling, or weakness in the lower limbs.`,
+          sw: `Sciatica hutokea pale neva ya sciatic inapobanwa au kuvimba, mara nyingi kutokana na diski zilizopandikizwa au kupungua kwa nafasi ya uti wa mgongo.
+
+  **Uhusiano wa Neva:** Shinikizo kwenye mizizi ya neva huathiri usambazaji wa ishara kwenda miguu.
+
+  **Athari:** Husababisha maumivu, ganzi, kuwashwa, au udhaifu katika viungo vya chini.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Lower back pain radiating to leg', 'Numbness', 'Tingling', 'Weakness in leg'],
+          sw: ['Maumivu ya mgongo yanayorushwa hadi mguu', 'Ganzi', 'Kuwashwa', 'Udhaifu wa mguu'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Persistent leg pain', 'Loss of function', 'Severe numbness'],
+          sw: ['Maumivu yanayoendelea ya mguu', 'Kupoteza kazi ya kiungo', 'Ganzi kubwa'],
+        },
+        reassurance: {
+          en: 'Physical therapy and targeted treatment can relieve symptoms.',
+          sw: 'Tiba ya mwili na matibabu maalum husaidia kupunguza dalili.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
      EPILEPSY
   ─────────────────────────────── */
   epilepsy: {
