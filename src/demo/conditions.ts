@@ -5048,5 +5048,51 @@ bellsPalsy: {
       },
     },
   },
+
+  /* ───────────────────────────────
+      ZELLWEGER SPECTRUM DISORDERS
+   ─────────────────────────────── */
+  zellwegerSpectrumDisorders: {
+    slug: 'zellwegerSpectrumDisorders',
+    hero: {
+      title: { en: 'Zellweger Spectrum Disorders', sw: 'Magonjwa ya Zellweger Spectrum' },
+      subtitle: {
+        en: 'Rare genetic disorders affecting peroxisome function and the nervous system.',
+        sw: 'Magonjwa nadra ya urithi yanayoathiri kazi ya peroxisome na mfumo wa neva.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Zellweger spectrum disorders result from mutations affecting peroxisomes, leading to widespread cellular and neurological dysfunction.
+
+  **Neurological Link:** Brain development and function are impaired, causing hypotonia, seizures, and developmental delays.
+
+  **Impact:** Affects muscle tone, cognition, vision, hearing, and overall growth.`,
+          sw: `Magonjwa ya Zellweger Spectrum husababishwa na mabadiliko yanayoathiri peroxisomes, na kusababisha uharibifu wa tishu na mfumo wa neva kwa ujumla.
+
+  **Uhusiano wa Neva:** Ukuaji na kazi ya ubongo huvurugika, kusababisha hypotonia, kichefuchefu, na ucheleweshaji wa maendeleo.
+
+  **Athari:** Inaathiri tone la misuli, fikra, kuona, kusikia, na ukuaji kwa ujumla.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Hypotonia (low muscle tone)', 'Seizures', 'Facial dysmorphisms', 'Delayed developmental milestones'],
+          sw: ['Hypotonia (tone duni wa misuli)', 'Kichefuchefu', 'Mabadiliko ya sura ya uso', 'Ucheleweshaji wa maendeleo'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Persistent developmental delays', 'Seizures', 'Feeding difficulties', 'Abnormal muscle tone'],
+          sw: ['Ucheleweshaji wa maendeleo unaodumu', 'Kichefuchefu', 'Ugumu wa kula', 'Tone isiyo ya kawaida ya misuli'],
+        },
+        reassurance: {
+          en: 'Supportive care, therapy, and specialized medical management can improve quality of life.',
+          sw: 'Huduma ya msaada, tiba, na usimamizi maalum wa matibabu husaidia kuboresha ubora wa maisha.',
+        },
+      },
+    },
+  },
   
 };
