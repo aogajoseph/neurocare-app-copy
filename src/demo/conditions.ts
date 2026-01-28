@@ -537,7 +537,7 @@ export const conditionsData: Record<string, Condition> = {
       ALZHEIMER’S DISEASE
   ──────────────────────────────── */
   alzheimers: {
-    slug: 'alzheimers-disease',
+    slug: 'alzheimers',
     hero: {
       title: { en: "Alzheimer's Disease", sw: 'Ugonjwa wa Alzheimer' },
       subtitle: {
@@ -599,7 +599,7 @@ export const conditionsData: Record<string, Condition> = {
       AMYOTROPHIC LATERAL SCLEROSIS (ALS)
   ──────────────────────────────── */
   als: {
-    slug: 'amyotrophic-lateral-sclerosis',
+    slug: 'als',
     hero: {
       title: { en: 'Amyotrophic Lateral Sclerosis (ALS)', sw: 'Ugonjwa wa ALS' },
       subtitle: {
@@ -776,6 +776,328 @@ export const conditionsData: Record<string, Condition> = {
         reassurance: {
           en: 'Occupational therapy and supportive strategies improve adaptation.',
           sw: 'Tiba ya kazi na mikakati ya msaada huongeza ufanisi wa kuzoea.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+     BELL’S PALSY
+──────────────────────────────── */
+bellsPalsy: {
+  slug: 'bellsPalsy',
+  hero: {
+    title: { en: "Bell’s Palsy", sw: 'Kupooza kwa Bell' },
+    subtitle: {
+      en: 'Sudden weakness or paralysis of facial muscles.',
+      sw: 'Udhaifu au kupooza ghafla kwa misuli ya uso.',
+    },
+  },
+  sections: {
+    overview: {
+      content: {
+        en: `Bell’s palsy is a condition that causes sudden weakness or paralysis of the muscles on one side of the face. It usually results from inflammation or compression of the facial nerve.
+
+**Causes & Risk Factors:** Often linked to viral infections. Pregnancy, diabetes, and recent infections increase risk.
+
+**What Happens in the Body:** The facial nerve becomes inflamed, disrupting signals to facial muscles.
+
+**Who is Affected:** Can affect any age group, most commonly adults.
+
+**Long-Term Outlook:** Most people recover fully within weeks to months, especially with early treatment.`,
+        sw: `Kupooza kwa Bell ni hali inayosababisha udhaifu au kupooza ghafla kwa misuli ya upande mmoja wa uso. Mara nyingi husababishwa na kuvimba kwa neva ya uso.
+
+**Sababu & Vizingiti:** Mara nyingi huhusishwa na maambukizi ya virusi. Ujauzito, kisukari, na maambukizi ya hivi karibuni huongeza hatari.
+
+**Kinachotokea Mwili:** Neva ya uso huvimba na kuathiri mawasiliano na misuli ya uso.
+
+**Wapi Wengi Wanaathirika:** Inaweza kutokea kwa umri wowote, zaidi kwa watu wazima.
+
+**Matokeo ya Muda Mrefu:** Wengi hupona kabisa ndani ya wiki au miezi, hasa kwa matibabu ya mapema.`,
+      },
+    },
+    symptoms: {
+      early: {
+        en: [
+          'Sudden facial drooping',
+          'Difficulty closing one eye',
+          'Loss of facial expression',
+        ],
+        sw: [
+          'Uso kudondoka ghafla',
+          'Shida ya kufumba jicho moja',
+          'Kupoteza mionekano ya uso',
+        ],
+      },
+      other: {
+        en: ['Drooling', 'Altered taste', 'Ear pain'],
+        sw: ['Kutoka mate', 'Kubadilika kwa ladha', 'Maumivu ya sikio'],
+      },
+    },
+    help: {
+      whenToSeekHelp: {
+        en: [
+          'Sudden facial weakness',
+          'Difficulty closing eye',
+          'Concern for stroke-like symptoms',
+        ],
+        sw: [
+          'Udhaifu wa ghafla wa uso',
+          'Shida ya kufumba jicho',
+          'Hofu ya dalili zinazofanana na kiharusi',
+        ],
+      },
+      reassurance: {
+        en: 'Most cases improve significantly with time and early care.',
+        sw: 'Kesi nyingi huimarika kwa muda na huduma ya mapema.',
+      },
+    },
+  },
+},
+
+/* ───────────────────────────────
+     BRAIN TUMOR
+  ──────────────────────────────── */
+  brainTumor: {
+    slug: 'brainTumor',
+    hero: {
+      title: { en: 'Brain Tumor', sw: 'Uvimbe wa Ubongo' },
+      subtitle: {
+        en: 'Abnormal growth of cells in or around the brain.',
+        sw: 'Ukuaji usio wa kawaida wa seli ndani au karibu na ubongo.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `A brain tumor is a mass of abnormal cells in the brain. Tumors may be benign or malignant and can disrupt brain function.
+
+  **Causes & Risk Factors:** Often unknown; genetics and radiation exposure may contribute.
+
+  **Impact:** Symptoms depend on tumor size and location.
+
+  **Long-Term Outlook:** Varies widely; early diagnosis improves treatment options.`,
+          sw: `Uvimbe wa ubongo ni mkusanyiko wa seli zisizo za kawaida ndani ya ubongo. Uvimbe unaweza kuwa hatari au usio hatari lakini huathiri kazi za ubongo.
+
+  **Sababu & Vizingiti:** Mara nyingi hazijulikani; urithi na mionzi vinaweza kuchangia.
+
+  **Athari:** Dalili hutegemea ukubwa na eneo la uvimbe.
+
+  **Matokeo ya Muda Mrefu:** Hutofautiana; utambuzi wa mapema huongeza chaguzi za matibabu.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Persistent headaches', 'Seizures', 'Nausea or vomiting'],
+          sw: ['Maumivu ya kichwa sugu', 'Degedege', 'Kichefuchefu au kutapika'],
+        },
+        other: {
+          en: ['Vision problems', 'Memory changes', 'Personality changes'],
+          sw: ['Matatizo ya kuona', 'Mabadiliko ya kumbukumbu', 'Mabadiliko ya tabia'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: [
+            'Severe or worsening headaches',
+            'New seizures',
+            'Neurological changes',
+          ],
+          sw: [
+            'Maumivu makali au yanayoongezeka ya kichwa',
+            'Degedege mpya',
+            'Mabadiliko ya neva',
+          ],
+        },
+        reassurance: {
+          en: 'Modern imaging and treatments offer effective management options.',
+          sw: 'Teknolojia za kisasa hutoa njia bora za kudhibiti hali hii.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+      BRAIN INJURY (TRAUMATIC)
+  ──────────────────────────────── */
+  brainInjury: {
+    slug: 'brainInjury',
+    hero: {
+      title: { en: 'Brain Injury (Traumatic)', sw: 'Jeraha la Ubongo' },
+      subtitle: {
+        en: 'Damage to the brain caused by an external force.',
+        sw: 'Uharibifu wa ubongo unaosababishwa na nguvu ya nje.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Traumatic brain injury (TBI) occurs when an external force injures the brain, often due to accidents or falls.
+
+  **Causes & Risk Factors:** Road accidents, falls, violence, sports injuries.
+
+  **Impact:** Can affect thinking, memory, emotions, and physical abilities.
+
+  **Long-Term Outlook:** Ranges from full recovery to long-term disability.`,
+          sw: `Jeraha la ubongo hutokea pale nguvu ya nje inapoharibu ubongo, mara nyingi kutokana na ajali au kuanguka.
+
+  **Sababu & Vizingiti:** Ajali za barabarani, kuanguka, vurugu, majeraha ya michezo.
+
+  **Athari:** Huathiri ufikiri, kumbukumbu, hisia, na uwezo wa mwili.
+
+  **Matokeo ya Muda Mrefu:** Hutofautiana kutoka kupona kabisa hadi ulemavu wa muda mrefu.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Loss of consciousness', 'Confusion', 'Headache'],
+          sw: ['Kupoteza fahamu', 'Kuchanganyikiwa', 'Maumivu ya kichwa'],
+        },
+        other: {
+          en: ['Memory problems', 'Mood changes', 'Difficulty concentrating'],
+          sw: ['Shida ya kumbukumbu', 'Mabadiliko ya hisia', 'Shida ya umakini'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: [
+            'Loss of consciousness',
+            'Persistent confusion',
+            'Worsening headaches',
+          ],
+          sw: [
+            'Kupoteza fahamu',
+            'Kuchanganyikiwa kunakoendelea',
+            'Maumivu ya kichwa yanayoongezeka',
+          ],
+        },
+        reassurance: {
+          en: 'Early treatment and rehabilitation greatly improve recovery.',
+          sw: 'Matibabu ya mapema na urejeshaji huongeza sana nafuu.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+      BRUXISM (NEUROLOGICAL-RELATED)
+  ──────────────────────────────── */
+  bruxism: {
+    slug: 'bruxism',
+    hero: {
+      title: { en: 'Bruxism', sw: 'Kukaza Meno' },
+      subtitle: {
+        en: 'Involuntary grinding or clenching of teeth.',
+        sw: 'Kukaza au kusaga meno bila hiari.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Bruxism involves involuntary grinding or clenching of teeth, often linked to neurological stress pathways.
+
+  **Causes & Risk Factors:** Stress, anxiety, sleep disorders, neurological conditions.
+
+  **Impact:** Jaw pain, headaches, tooth damage.
+
+  **Long-Term Outlook:** Manageable with therapy, stress control, and dental care.`,
+          sw: `Bruxism ni kukaza au kusaga meno bila hiari, mara nyingi huhusishwa na njia za neva zinazohusiana na msongo.
+
+  **Sababu & Vizingiti:** Msongo wa mawazo, wasiwasi, matatizo ya usingizi, hali za neva.
+
+  **Athari:** Maumivu ya taya, maumivu ya kichwa, uharibifu wa meno.
+
+  **Matokeo ya Muda Mrefu:** Inaweza kudhibitiwa kwa tiba, udhibiti wa msongo, na huduma ya meno.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Jaw tightness', 'Morning headaches', 'Tooth sensitivity'],
+          sw: ['Kukaza kwa taya', 'Maumivu ya kichwa asubuhi', 'Meno kuwa nyeti'],
+        },
+        other: {
+          en: ['Facial pain', 'Sleep disturbance', 'Worn teeth'],
+          sw: ['Maumivu ya uso', 'Kuvurugika kwa usingizi', 'Meno kuharibika'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: [
+            'Persistent jaw pain',
+            'Sleep disruption',
+            'Tooth damage',
+          ],
+          sw: [
+            'Maumivu ya taya yanayoendelea',
+            'Kuvurugika kwa usingizi',
+            'Uharibifu wa meno',
+          ],
+        },
+        reassurance: {
+          en: 'Lifestyle changes and therapy often reduce symptoms significantly.',
+          sw: 'Mabadiliko ya mtindo wa maisha na tiba hupunguza dalili kwa kiasi kikubwa.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+      BENIGN ESSENTIAL TREMOR
+  ──────────────────────────────── */
+  essentialTremor: {
+    slug: 'essential-tremor',
+    hero: {
+      title: { en: 'Benign Essential Tremor', sw: 'Mtikisiko wa Kawaida' },
+      subtitle: {
+        en: 'A common movement disorder causing rhythmic shaking.',
+        sw: 'Hali ya kawaida ya mwendo inayosababisha mtikisiko wa kurudia.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Essential tremor is a neurological condition causing rhythmic shaking, most commonly in the hands.
+
+  **Causes & Risk Factors:** Often inherited; worsens with stress or fatigue.
+
+  **Impact:** Difficulty with fine motor tasks like writing or eating.
+
+  **Long-Term Outlook:** Not life-threatening and manageable with treatment.`,
+          sw: `Mtikisiko wa kawaida ni hali ya neva inayosababisha mtikisiko wa kurudia, mara nyingi mikononi.
+
+  **Sababu & Vizingiti:** Mara nyingi hurithiwa; huongezeka kwa msongo au uchovu.
+
+  **Athari:** Shida ya kufanya kazi ndogo kama kuandika au kula.
+
+  **Matokeo ya Muda Mrefu:** Sio hatari kwa maisha na inaweza kudhibitiwa.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Hand tremors', 'Shaking during movement', 'Voice tremor'],
+          sw: ['Mikono kutetemeka', 'Mtikisiko wakati wa harakati', 'Sauti kutetemeka'],
+        },
+        other: {
+          en: ['Head nodding', 'Balance issues', 'Anxiety-related worsening'],
+          sw: ['Kichwa kutikisika', 'Shida ya usawa', 'Kuongezeka kwa msongo'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: [
+            'Tremors affecting daily activities',
+            'Worsening shaking',
+            'Difficulty with coordination',
+          ],
+          sw: [
+            'Mtikisiko unaoathiri maisha ya kila siku',
+            'Kuongezeka kwa mtikisiko',
+            'Shida ya uratibu',
+          ],
+        },
+        reassurance: {
+          en: 'Medications and lifestyle adjustments help control symptoms.',
+          sw: 'Dawa na marekebisho ya maisha husaidia kudhibiti dalili.',
         },
       },
     },
