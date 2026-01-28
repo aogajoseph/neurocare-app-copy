@@ -4036,5 +4036,189 @@ bellsPalsy: {
       },
     },
   },
+
+  /* ───────────────────────────────
+      RETT SYNDROME
+   ─────────────────────────────── */
+  rettSyndrome: {
+    slug: 'rettSyndrome',
+    hero: {
+      title: { en: 'Rett Syndrome', sw: 'Syndrome ya Rett' },
+      subtitle: {
+        en: 'A rare genetic neurological disorder primarily affecting girls.',
+        sw: 'Ugonjwa wa nadra wa urithi unaoathiri wasichana hasa.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Rett syndrome is a genetic disorder causing severe cognitive, motor, and communication impairments.
+
+  **Neurological Link:** Mutations in the MECP2 gene affect brain development.
+
+  **Impact:** Leads to loss of purposeful hand use, speech difficulties, and repetitive movements.`,
+          sw: `Syndrome ya Rett ni ugonjwa wa urithi unaosababisha uharibifu mkubwa wa fikra, mwendo, na mawasiliano.
+
+  **Uhusiano wa Neva:** Mabadiliko katika jeni la MECP2 huathiri ukuaji wa ubongo.
+
+  **Athari:** Husababisha kupoteza matumizi ya mikono kwa madhumuni, ugumu wa kuzungumza, na harakati za kurudia-rudia.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Loss of hand skills', 'Repetitive hand movements', 'Speech regression'],
+          sw: ['Kupoteza ujuzi wa mikono', 'Harakati za mikono za kurudia', 'Kupungua kwa uwezo wa kuzungumza'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Developmental regression', 'Loss of motor or speech skills'],
+          sw: ['Kupungua kwa maendeleo', 'Kupoteza ujuzi wa mwendo au kuzungumza'],
+        },
+        reassurance: {
+          en: 'Supportive therapy improves quality of life even though there is no cure.',
+          sw: 'Tiba ya msaada huboresha maisha ingawa hakuna tiba kamili.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+        RESTLESS LEG SYNDROME (RLS)
+    ─────────────────────────────── */
+  restlessLegSyndrome: {
+    slug: 'restlessLegSyndrome',
+    hero: {
+      title: { en: 'Restless Leg Syndrome', sw: 'Syndrome ya Miguu Isiyostahimili' },
+      subtitle: {
+        en: 'A condition causing uncomfortable urges to move the legs.',
+        sw: 'Hali inayosababisha tamaa isiyofurahisha ya kusogeza miguu.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `RLS causes an uncontrollable urge to move the legs, especially at rest or at night.
+
+  **Neurological Link:** Linked to dopamine dysfunction and nerve signaling issues.
+
+  **Impact:** Can disrupt sleep, focus, and overall quality of life.`,
+          sw: `RLS husababisha tamaa isiyoweza kudhibitiwa ya kusogeza miguu, hasa wakati wa kupumzika au usiku.
+
+  **Uhusiano wa Neva:** Inahusiana na kushindwa kwa dopamine na matatizo ya ishara za neva.
+
+  **Athari:** Inaweza kuvuruga usingizi, umakini, na ubora wa maisha kwa ujumla.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Uncomfortable leg sensations', 'Urge to move legs', 'Sleep disturbances'],
+          sw: ['Hisia zisizofurahisha miguu', 'Tamaa ya kusogeza miguu', 'Matatizo ya usingizi'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Persistent leg discomfort', 'Severe sleep disruption'],
+          sw: ['Miguu isiyofurahisha inayoendelea', 'Matatizo makubwa ya usingizi'],
+        },
+        reassurance: {
+          en: 'Lifestyle changes and medication can relieve symptoms effectively.',
+          sw: 'Mabadiliko ya mtindo wa maisha na dawa husaidia kupunguza dalili kwa ufanisi.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+        REYE'S SYNDROME
+    ─────────────────────────────── */
+  reyesSyndrome: {
+    slug: 'reyesSyndrome',
+    hero: {
+      title: { en: "Reye's Syndrome", sw: 'Syndrome ya Reye' },
+      subtitle: {
+        en: 'A rare but serious condition causing brain and liver swelling.',
+        sw: 'Hali ya nadra lakini hatari inayosababisha uvimbe wa ubongo na ini.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Reye's syndrome is a potentially life-threatening condition that can follow viral infections in children.
+
+  **Neurological Link:** Causes swelling of the brain (encephalopathy) and can impair liver function.
+
+  **Impact:** Rapid progression; can cause confusion, vomiting, seizures, and coma.`,
+          sw: `Syndrome ya Reye ni hali inayoweza kuwa hatari kwa maisha inayoweza kuibuka baada ya maambukizi ya virusi kwa watoto.
+
+  **Uhusiano wa Neva:** Husababisha uvimbe wa ubongo (encephalopathy) na kuathiri kazi ya ini.
+
+  **Athari:** Huendeleza haraka; inaweza kusababisha kuchanganyikiwa, kutapika, kichefuchefu, na usingizi wa kiumbe.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Persistent vomiting', 'Confusion', 'Lethargy', 'Seizures'],
+          sw: ['Kutapika kwa mara kwa mara', 'Kuchanganyikiwa', 'Uchovu mkubwa', 'Kichefuchefu/kichezo cha misuli'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Vomiting with lethargy', 'Rapid neurological changes after viral infection'],
+          sw: ['Kutapika na uchovu mkubwa', 'Mabadiliko ya haraka ya neva baada ya maambukizi ya virusi'],
+        },
+        reassurance: {
+          en: 'Immediate medical care is critical; early treatment can save lives.',
+          sw: 'Huduma ya haraka ya matibabu ni muhimu; matibabu ya mapema yanaweza kuokoa maisha.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+        RADICULOPATHY
+    ─────────────────────────────── */
+  radiculopathy: {
+    slug: 'radiculopathy',
+    hero: {
+      title: { en: 'Radiculopathy', sw: 'Radiculopathy' },
+      subtitle: {
+        en: 'Nerve pain caused by compression or irritation at the root.',
+        sw: 'Maumivu ya neva yanayosababishwa na shinikizo au kuwasha kwenye mzizi wa neva.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Radiculopathy occurs when a nerve root is compressed or irritated, often in the spine.
+
+  **Neurological Link:** Can result from herniated discs, spinal stenosis, or injury.
+
+  **Impact:** Pain, numbness, or weakness along the affected nerve path.`,
+          sw: `Radiculopathy hutokea pale mzizi wa neva unapobanwa au kuvimba, mara nyingi kwenye uti wa mgongo.
+
+  **Uhusiano wa Neva:** Husababishwa na diski zilizopandikizwa, kupungua kwa nafasi ya uti wa mgongo, au jeraha.
+
+  **Athari:** Maumivu, ganzi, au udhaifu kando ya njia ya neva iliyoharibiwa.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Shooting pain along limb', 'Numbness', 'Muscle weakness'],
+          sw: ['Maumivu yanayorushwa kando ya kiungo', 'Ganzi', 'Udhaifu wa misuli'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Persistent pain', 'Progressive weakness', 'Loss of function'],
+          sw: ['Maumivu yanayoendelea', 'Udhaifu unaoendelea', 'Kupoteza kazi ya kiungo'],
+        },
+        reassurance: {
+          en: 'Physical therapy and targeted treatments often relieve symptoms.',
+          sw: 'Tiba ya mwili na matibabu maalum mara nyingi hupunguza dalili.',
+        },
+      },
+    },
+  },
   
 };
