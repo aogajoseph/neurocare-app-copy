@@ -3162,5 +3162,189 @@ bellsPalsy: {
       },
     },
   },
+
+  /* ───────────────────────────────
+      LEARNING DISABILITY (NEUROLOGICAL)
+   ─────────────────────────────── */
+  learningDisability: {
+    slug: 'learningDisability',
+    hero: {
+      title: { en: 'Learning Disability', sw: 'Ulemavu wa Kujifunza' },
+      subtitle: {
+        en: 'Difficulties in learning due to brain processing differences.',
+        sw: 'Changamoto za kujifunza zinazotokana na tofauti za uchakataji wa ubongo.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Learning disabilities affect how the brain processes information, not intelligence.
+
+  **Neurological Link:** Involves differences in brain networks related to learning.
+
+  **Impact:** Can affect reading, writing, math, or attention.`,
+          sw: `Ulemavu wa kujifunza huathiri jinsi ubongo unavyochakata taarifa, si kiwango cha akili.
+
+  **Uhusiano wa Neva:** Hutokana na tofauti katika mitandao ya ubongo inayohusika na kujifunza.
+
+  **Athari:** Huathiri kusoma, kuandika, hesabu, au umakini.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Difficulty reading', 'Problems with math', 'Short attention span'],
+          sw: ['Ugumu wa kusoma', 'Changamoto za hesabu', 'Umakinifu mfupi'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['School learning difficulties', 'Delayed academic progress'],
+          sw: ['Changamoto za masomo shuleni', 'Maendeleo ya masomo kuchelewa'],
+        },
+        reassurance: {
+          en: 'With support, individuals can learn and thrive.',
+          sw: 'Kwa msaada, watu wanaweza kujifunza na kufanikiwa.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+        LEWY BODY DEMENTIA
+    ─────────────────────────────── */
+  lewyBodyDementia: {
+    slug: 'lewyBodyDementia',
+    hero: {
+      title: { en: 'Lewy Body Dementia', sw: 'Ugonjwa wa Akili wa Lewy Body' },
+      subtitle: {
+        en: 'A progressive dementia affecting thinking and movement.',
+        sw: 'Ugonjwa unaoendelea unaoathiri fikra na mwendo.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Lewy body dementia is caused by abnormal protein deposits in the brain.
+
+  **Neurological Link:** Affects both cognitive and motor brain systems.
+
+  **Impact:** Leads to memory issues, hallucinations, and movement problems.`,
+          sw: `Ugonjwa wa akili wa Lewy body husababishwa na mkusanyiko wa protini zisizo za kawaida kwenye ubongo.
+
+  **Uhusiano wa Neva:** Huathiri mifumo ya fikra na mwendo kwa pamoja.
+
+  **Athari:** Husababisha matatizo ya kumbukumbu, kuona vitu visivyopo, na changamoto za mwendo.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Fluctuating alertness', 'Visual hallucinations', 'Stiffness'],
+          sw: ['Kiwango cha fahamu kubadilika', 'Kuona vitu visivyopo', 'Kukakamaa'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Memory changes with movement symptoms'],
+          sw: ['Mabadiliko ya kumbukumbu yanayoambatana na matatizo ya mwendo'],
+        },
+        reassurance: {
+          en: 'Supportive care helps manage symptoms and comfort.',
+          sw: 'Huduma saidizi husaidia kudhibiti dalili na faraja.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+        LUMBAR RADICULOPATHY
+    ─────────────────────────────── */
+  lumbarRadiculopathy: {
+    slug: 'lumbarRadiculopathy',
+    hero: {
+      title: { en: 'Lumbar Radiculopathy', sw: 'Msukumo wa Neva ya Mgongo wa Chini' },
+      subtitle: {
+        en: 'Nerve compression in the lower spine.',
+        sw: 'Kubanwa kwa neva katika mgongo wa chini.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Lumbar radiculopathy occurs when nerves in the lower spine are compressed or irritated.
+
+  **Neurological Link:** Affects sensory and motor nerve roots.
+
+  **Impact:** Causes back pain, leg pain, numbness, or weakness.`,
+          sw: `Msukumo wa neva ya mgongo wa chini hutokea neva zinapobanwa au kuathiriwa.
+
+  **Uhusiano wa Neva:** Huathiri mizizi ya neva ya hisia na mwendo.
+
+  **Athari:** Husababisha maumivu ya mgongo, maumivu ya mguu, ganzi, au udhaifu.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Lower back pain', 'Pain radiating to leg'],
+          sw: ['Maumivu ya mgongo wa chini', 'Maumivu yanayosambaa mguuni'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Persistent leg weakness', 'Loss of bladder control'],
+          sw: ['Udhaifu wa mguu unaoendelea', 'Kupoteza udhibiti wa kibofu'],
+        },
+        reassurance: {
+          en: 'Many cases improve with targeted treatment.',
+          sw: 'Visa vingi huboreka kwa matibabu sahihi.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+        LYME NEUROBORRELIOSIS
+    ─────────────────────────────── */
+  lymeNeuroborreliosis: {
+    slug: 'lymeNeuroborreliosis',
+    hero: {
+      title: { en: 'Lyme Neuroborreliosis', sw: 'Ugonjwa wa Neva wa Lyme' },
+      subtitle: {
+        en: 'Neurological involvement of Lyme disease.',
+        sw: 'Athari za ugonjwa wa Lyme kwenye neva.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Lyme neuroborreliosis occurs when Lyme disease affects the nervous system.
+
+  **Neurological Link:** Infection leads to inflammation of nerves or brain tissue.
+
+  **Impact:** Can cause headaches, nerve pain, or cognitive changes.`,
+          sw: `Ugonjwa wa neva wa Lyme hutokea pale ugonjwa wa Lyme unapoathiri mfumo wa neva.
+
+  **Uhusiano wa Neva:** Maambukizi husababisha uvimbe wa neva au tishu za ubongo.
+
+  **Athari:** Huleta maumivu ya kichwa, maumivu ya neva, au mabadiliko ya fikra.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Facial nerve weakness', 'Headache', 'Neck stiffness'],
+          sw: ['Udhaifu wa neva ya uso', 'Maumivu ya kichwa', 'Shingo kukakamaa'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Neurological symptoms after tick exposure'],
+          sw: ['Dalili za neva baada ya kuumwa na kupe'],
+        },
+        reassurance: {
+          en: 'Antibiotic treatment is often effective when started early.',
+          sw: 'Matibabu ya antibiotiki hufanya kazi vizuri yakianza mapema.',
+        },
+      },
+    },
+  },
   
 };
