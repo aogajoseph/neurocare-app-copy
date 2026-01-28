@@ -4358,5 +4358,189 @@ bellsPalsy: {
       },
     },
   },
+
+  /* ───────────────────────────────
+      TRAUMATIC BRAIN INJURY (TBI)
+   ─────────────────────────────── */
+  traumaticBrainInjury: {
+    slug: 'traumaticBrainInjury',
+    hero: {
+      title: { en: 'Traumatic Brain Injury', sw: 'Jeraha la Ubongo la Kihisia' },
+      subtitle: {
+        en: 'Brain damage caused by an external force.',
+        sw: 'Uharibifu wa ubongo unaosababishwa na nguvu za nje.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `TBI occurs when an external force injures the brain, leading to temporary or permanent impairment.
+
+  **Neurological Link:** Direct damage to brain tissue affects cognition, movement, and emotional regulation.
+
+  **Impact:** Can cause memory loss, confusion, headaches, and physical or cognitive deficits.`,
+          sw: `TBI hutokea pale nguvu ya nje inapoumia ubongo, ikisababisha upungufu wa muda mfupi au wa kudumu.
+
+  **Uhusiano wa Neva:** Uharibifu wa moja kwa moja wa tishu za ubongo huathiri fikra, mwendo, na udhibiti wa hisia.
+
+  **Athari:** Inaweza kusababisha kupoteza kumbukumbu, kuchanganyikiwa, maumivu ya kichwa, na upungufu wa mwili au fikra.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Headache', 'Confusion', 'Dizziness', 'Memory problems'],
+          sw: ['Maumivu ya kichwa', 'Kuchanganyikiwa', 'Kizunguzungu', 'Matatizo ya kumbukumbu'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Loss of consciousness', 'Severe headache', 'Vomiting or seizures'],
+          sw: ['Kupoteza fahamu', 'Maumivu makali ya kichwa', 'Kutapika au kichefuchefu'],
+        },
+        reassurance: {
+          en: 'Early medical evaluation can prevent complications and support recovery.',
+          sw: 'Tathmini ya mapema ya matibabu inaweza kuzuia matatizo na kusaidia kupona.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+        TOURETTE SYNDROME
+    ─────────────────────────────── */
+  touretteSyndrome: {
+    slug: 'touretteSyndrome',
+    hero: {
+      title: { en: 'Tourette Syndrome', sw: 'Syndrome ya Tourette' },
+      subtitle: {
+        en: 'A neurological disorder characterized by repetitive movements or sounds (tics).',
+        sw: 'Ugonjwa wa neva unaojulikana kwa harakati au sauti za kurudia (tics).',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Tourette syndrome involves involuntary motor and vocal tics, often beginning in childhood.
+
+  **Neurological Link:** Thought to involve dysfunction in brain circuits controlling movement and behavior.
+
+  **Impact:** Can affect social interaction, learning, and self-esteem.`,
+          sw: `Syndrome ya Tourette inahusisha tics zisizo za hiari za misuli na sauti, mara nyingi huanza utotoni.
+
+  **Uhusiano wa Neva:** Inadhaniwa kuhusisha matatizo katika mizunguko ya ubongo inayodhibiti mwendo na tabia.
+
+  **Athari:** Inaweza kuathiri mwingiliano wa kijamii, ujifunzaji, na kujiamini.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Eye blinking', 'Grunting sounds', 'Shoulder shrugging', 'Facial movements'],
+          sw: ['Kupiga macho mara kwa mara', 'Sauti za kurungu', 'Kuzunguza mabega', 'Harakati za uso'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Persistent or worsening tics', 'Interference with daily life'],
+          sw: ['Tics zinazodumu au kuzidi', 'Kuzuia shughuli za kila siku'],
+        },
+        reassurance: {
+          en: 'Behavioral therapy and sometimes medication can help manage symptoms.',
+          sw: 'Tiba ya tabia na wakati mwingine dawa husaidia kudhibiti dalili.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+        TRANSIENT ISCHEMIC ATTACK (TIA)
+    ─────────────────────────────── */
+  transientIschemicAttack: {
+    slug: 'transientIschemicAttack',
+    hero: {
+      title: { en: 'Transient Ischemic Attack', sw: 'Shambulio la Ischemic la Muda Mfupi' },
+      subtitle: {
+        en: 'A temporary period of neurological dysfunction caused by reduced blood flow to the brain.',
+        sw: 'Kipindi cha muda mfupi cha upungufu wa neva kutokana na kupungua kwa mtiririko wa damu kwenda ubongo.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `TIA is a brief episode of neurological symptoms caused by temporary blockage of blood flow to the brain.
+
+  **Neurological Link:** Indicates transient brain ischemia; a warning sign for stroke risk.
+
+  **Impact:** Causes temporary weakness, numbness, speech difficulties, or vision changes.`,
+          sw: `TIA ni tukio fupi la dalili za neva kutokana na kuzuia kwa muda mtiririko wa damu kwenda ubongo.
+
+  **Uhusiano wa Neva:** Inaashiria ischemia ya muda wa ubongo; ishara ya hatari ya kiharusi.
+
+  **Athari:** Husababisha udhaifu wa muda, ganzi, ugumu wa kuzungumza, au mabadiliko ya kuona.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Sudden numbness or weakness', 'Slurred speech', 'Vision problems'],
+          sw: ['Ganzi au udhaifu wa ghafla', 'Ugumu wa kuzungumza', 'Matatizo ya kuona'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Symptoms lasting a few minutes or recurring', 'Neurological deficits'],
+          sw: ['Dalili zinazodumu dakika chache au kurudiarudia', 'Upungufu wa neva'],
+        },
+        reassurance: {
+          en: 'TIA is a medical emergency; early evaluation reduces stroke risk.',
+          sw: 'TIA ni dharura ya matibabu; tathmini ya mapema hupunguza hatari ya kiharusi.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+        TRIGEMINAL NEURALGIA
+    ─────────────────────────────── */
+  trigeminalNeuralgia: {
+    slug: 'trigeminalNeuralgia',
+    hero: {
+      title: { en: 'Trigeminal Neuralgia', sw: 'Neuralgia ya Trigeminal' },
+      subtitle: {
+        en: 'A chronic pain condition affecting the trigeminal nerve in the face.',
+        sw: 'Hali ya maumivu sugu inayohusisha neva ya trigeminal katika uso.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Trigeminal neuralgia causes severe, sudden facial pain along the distribution of the trigeminal nerve.
+
+  **Neurological Link:** Often due to nerve compression or blood vessel irritation.
+
+  **Impact:** Can significantly affect eating, speaking, and quality of life.`,
+          sw: `Neuralgia ya trigeminal husababisha maumivu makali, ghafla kwenye uso kando ya neva ya trigeminal.
+
+  **Uhusiano wa Neva:** Mara nyingi husababishwa na shinikizo la neva au kuvimba kwa mishipa ya damu.
+
+  **Athari:** Inaweza kuathiri sana kula, kuzungumza, na ubora wa maisha.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Sudden facial pain', 'Tingling or burning sensations', 'Triggered by touch or chewing'],
+          sw: ['Maumivu ghafla ya uso', 'Hisia za kuwashwa au moto', 'Kusababisha na kugusa au kumeza'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Severe or recurring facial pain', 'Difficulty eating due to pain'],
+          sw: ['Maumivu makali au yanayojirudia ya uso', 'Ugumu wa kula kutokana na maumivu'],
+        },
+        reassurance: {
+          en: 'Medications or surgical interventions can relieve pain effectively.',
+          sw: 'Dawa au upasuaji unaweza kupunguza maumivu kwa ufanisi.',
+        },
+      },
+    },
+  },
   
 };
