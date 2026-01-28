@@ -1122,6 +1122,94 @@ export const conditionsData: Record<string, Condition> = {
   },
 
   /* ───────────────────────────────
+  ATTENTION DEFICIT HYPERACTIVITY DISORDER (ADHD)
+  ──────────────────────────────── */
+  adhd: {
+    slug: 'adhd',
+    hero: {
+      title: { en: 'Attention Deficit Hyperactivity Disorder (ADHD)', sw: 'Upungufu wa Umakini na Msukumo (ADHD)' },
+      subtitle: {
+        en: 'A neurodevelopmental condition affecting attention, impulse control, and activity levels.',
+        sw: 'Hali ya ukuaji wa neva inayoathiri umakini, udhibiti wa msukumo, na kiwango cha shughuli.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `ADHD is a neurodevelopmental condition that affects the brain’s ability to regulate attention, impulses, and activity levels. It often begins in childhood and may continue into adolescence and adulthood.
+  
+  **Causes & Risk Factors:** Genetics play a major role. Other factors may include premature birth, low birth weight, exposure to toxins, and differences in brain development.
+  
+  **How It Affects the Brain:** ADHD is linked to differences in brain regions responsible for attention, planning, and self-control, particularly in how neurotransmitters function.
+  
+  **Who Is Affected:** ADHD affects children and adults of all genders. Symptoms may appear differently, with some people showing more inattentive traits and others more hyperactive or impulsive behaviors.
+  
+  **Long-Term Outlook:** With appropriate support, behavioral strategies, and when needed medication, individuals with ADHD can thrive academically, socially, and professionally.`,
+          sw: `ADHD ni hali ya ukuaji wa neva inayoathiri uwezo wa ubongo kudhibiti umakini, msukumo, na kiwango cha shughuli. Mara nyingi huanza utotoni na inaweza kuendelea hadi utu uzima.
+  
+  **Sababu & Vizingiti:** Urithi wa familia una mchango mkubwa. Sababu nyingine zinaweza kujumuisha kuzaliwa mapema, uzito mdogo wakati wa kuzaliwa, kuathiriwa na sumu, na tofauti za ukuaji wa ubongo.
+  
+  **Kinachotokea Ubongoni:** ADHD huhusishwa na tofauti katika maeneo ya ubongo yanayodhibiti umakini, kupanga, na kujizuia, hasa katika utendaji wa kemikali za neva.
+  
+  **Wapi Wengi Wanaathirika:** ADHD huathiri watoto na watu wazima wa jinsia zote. Dalili zinaweza kujitokeza kwa njia tofauti, wengine wakionyesha zaidi ukosefu wa umakini na wengine msukumo au shughuli kupita kiasi.
+  
+  **Matokeo ya Muda Mrefu:** Kwa msaada sahihi, mbinu za tabia, na inapohitajika dawa, watu wenye ADHD wanaweza kufanikiwa kielimu, kijamii, na kikazi.`,
+        },
+      },
+  
+      symptoms: {
+        early: {
+          en: [
+            'Difficulty sustaining attention',
+            'Easily distracted',
+            'Forgetfulness in daily activities',
+            'Difficulty following instructions',
+          ],
+          sw: [
+            'Shida ya kudumisha umakini',
+            'Kuvurugika kwa urahisi',
+            'Kusahau shughuli za kila siku',
+            'Shida ya kufuata maagizo',
+          ],
+        },
+        other: {
+          en: [
+            'Impulsivity or acting without thinking',
+            'Restlessness or excessive activity',
+            'Difficulty organizing tasks',
+            'Emotional regulation challenges',
+          ],
+          sw: [
+            'Msukumo wa kufanya mambo bila kufikiri',
+            'Kutotulia au shughuli kupita kiasi',
+            'Shida ya kupanga kazi',
+            'Changamoto za kudhibiti hisia',
+          ],
+        },
+      },
+  
+      help: {
+        whenToSeekHelp: {
+          en: [
+            'When attention or behavior interferes with learning or work',
+            'If symptoms affect relationships or self-esteem',
+            'When emotional or behavioral difficulties persist',
+          ],
+          sw: [
+            'Umakini au tabia zinapoathiri masomo au kazi',
+            'Dalili zinapoathiri mahusiano au kujiamini',
+            'Changamoto za kihisia au tabia zinapodumu',
+          ],
+        },
+        reassurance: {
+          en: 'ADHD is not a failure or lack of intelligence. With understanding, structure, and support, many people with ADHD lead highly successful and fulfilling lives.',
+          sw: 'ADHD si kushindwa wala ukosefu wa akili. Kwa uelewa, mpangilio, na msaada, watu wengi wenye ADHD huishi maisha yenye mafanikio na kuridhisha.',
+        },
+      },
+    },
+  },  
+
+  /* ───────────────────────────────
       ALZHEIMER’S DISEASE
   ──────────────────────────────── */
   alzheimers: {
@@ -2146,5 +2234,290 @@ bellsPalsy: {
       },
     },
   },
+
+  /* ───────────────────────────────
+     GUILLAIN-BARRÉ SYNDROME
+  ──────────────────────────────── */
+  guillainBarre: {
+    slug: 'guillainBarre',
+    hero: {
+      title: { en: 'Guillain-Barré Syndrome', sw: 'Ugonjwa wa Guillain-Barré' },
+      subtitle: {
+        en: 'A rare condition where the immune system attacks the nerves.',
+        sw: 'Hali nadra ambapo kinga ya mwili hushambulia mishipa ya fahamu.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Guillain-Barré Syndrome (GBS) is a rare neurological disorder in which the body’s immune system mistakenly attacks peripheral nerves. It often follows an infection and can progress rapidly.
+
+  **Causes & Triggers:** Often triggered by respiratory or gastrointestinal infections. In rare cases, surgery or vaccination may precede onset.
+
+  **What Happens in the Body:** Damage to the protective covering of nerves disrupts signal transmission, leading to weakness and paralysis.
+
+  **Who Is Affected:** Can affect people of all ages and genders.
+
+  **Long-Term Outlook:** Many people recover fully with treatment, though recovery may take months.`,
+          sw: `Guillain-Barré ni ugonjwa nadra wa neva ambapo kinga ya mwili hushambulia mishipa ya fahamu ya pembeni. Mara nyingi hutokea baada ya maambukizi na huweza kuendelea haraka.
+
+  **Sababu & Vichochezi:** Mara nyingi husababishwa na maambukizi ya mfumo wa kupumua au tumbo.
+
+  **Kinachotokea Mwili:** Uharibifu wa kinga ya mishipa husababisha udhaifu na kupooza.
+
+  **Wapi Wengi Wanaathirika:** Huathiri watu wa rika zote.
+
+  **Matokeo ya Muda Mrefu:** Wengi hupata nafuu kamili kwa matibabu, ingawa urejeshaji unaweza kuchukua muda.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: [
+            'Tingling or numbness in feet and hands',
+            'Progressive muscle weakness',
+            'Difficulty walking',
+          ],
+          sw: [
+            'Hisia za ganzi kwenye miguu na mikono',
+            'Udhaifu unaoongezeka',
+            'Shida ya kutembea',
+          ],
+        },
+        other: {
+          en: [
+            'Paralysis',
+            'Breathing difficulties',
+            'Irregular heart rate',
+          ],
+          sw: [
+            'Kupooza',
+            'Shida ya kupumua',
+            'Mapigo ya moyo yasiyo ya kawaida',
+          ],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: [
+            'Rapidly worsening weakness',
+            'Breathing or swallowing difficulty',
+            'Loss of movement',
+          ],
+          sw: [
+            'Udhaifu unaoongezeka haraka',
+            'Shida ya kupumua au kumeza',
+            'Kupoteza uwezo wa kusogea',
+          ],
+        },
+        reassurance: {
+          en: 'Early hospital care greatly improves recovery outcomes.',
+          sw: 'Huduma ya mapema hospitalini huongeza sana nafuu.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+      GENERALIZED ANXIETY DISORDER
+  ──────────────────────────────── */
+  generalizedAnxietyDisorder: {
+    slug: 'generalizedAnxietyDisorder',
+    hero: {
+      title: { en: 'Generalized Anxiety Disorder', sw: 'Wasiwasi wa Kudumu' },
+      subtitle: {
+        en: 'Persistent and excessive worry affecting daily life.',
+        sw: 'Wasiwasi unaoendelea na unaoathiri maisha ya kila siku.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Generalized Anxiety Disorder (GAD) is a condition characterized by persistent and excessive worry about everyday matters.
+
+  **Causes & Risk Factors:** Genetics, brain chemistry, trauma, and chronic stress.
+
+  **Brain Impact:** Overactivity in brain areas regulating fear and stress.
+
+  **Long-Term Outlook:** Highly manageable with therapy and support.`,
+          sw: `Wasiwasi wa Kudumu ni hali ya kiafya inayosababisha hofu na wasiwasi wa muda mrefu kuhusu mambo ya kawaida.
+
+  **Sababu & Vizingiti:** Urithi, kemikali za ubongo, msongo wa mawazo, na kiwewe.
+
+  **Athari Ubongoni:** Shughuli kupita kiasi katika maeneo ya ubongo yanayodhibiti hofu.
+
+  **Matokeo ya Muda Mrefu:** Hali inayoweza kudhibitiwa kwa matibabu.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Constant worrying', 'Restlessness', 'Difficulty concentrating'],
+          sw: ['Kuwaza kupita kiasi', 'Kutotulia', 'Shida ya kuzingatia'],
+        },
+        other: {
+          en: ['Sleep problems', 'Muscle tension', 'Fatigue'],
+          sw: ['Shida ya usingizi', 'Misuli kukakamaa', 'Uchovu'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: [
+            'Worry interferes with daily functioning',
+            'Physical symptoms persist',
+          ],
+          sw: [
+            'Wasiwasi unaathiri maisha ya kila siku',
+            'Dalili za mwili zinaendelea',
+          ],
+        },
+        reassurance: {
+          en: 'Anxiety disorders are common and very treatable.',
+          sw: 'Hali za wasiwasi ni za kawaida na zinatibika.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+      GLIOMA
+  ──────────────────────────────── */
+  glioma: {
+    slug: 'glioma',
+    hero: {
+      title: { en: 'Glioma', sw: 'Uvimbe wa Ubongo (Glioma)' },
+      subtitle: {
+        en: 'A type of tumor arising from brain or spinal cord cells.',
+        sw: 'Aina ya uvimbe unaotokana na seli za ubongo au uti wa mgongo.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Gliomas are tumors that develop from glial cells in the brain or spinal cord.
+
+  **Types:** Range from slow-growing to aggressive forms.
+
+  **Impact:** Symptoms depend on tumor location.
+
+  **Outlook:** Varies widely based on tumor type and treatment.`,
+          sw: `Glioma ni uvimbe unaokua kutoka seli za glia katika ubongo au uti wa mgongo.
+
+  **Aina:** Hutofautiana kutoka polepole hadi kali.
+
+  **Athari:** Dalili hutegemea eneo la uvimbe.
+
+  **Matokeo:** Hutofautiana kulingana na aina na matibabu.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Headaches', 'Seizures', 'Vision problems'],
+          sw: ['Maumivu ya kichwa', 'Degedege', 'Shida ya kuona'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Persistent headaches', 'New seizures'],
+          sw: ['Maumivu ya kichwa yasiyoisha', 'Degedege mpya'],
+        },
+        reassurance: {
+          en: 'Early diagnosis allows more treatment options.',
+          sw: 'Utambuzi wa mapema hutoa chaguo zaidi za matibabu.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+      GLOSSOPHARYNGEAL NEURALGIA
+  ──────────────────────────────── */
+  glossopharyngealNeuralgia: {
+    slug: 'glossopharyngealNeuralgia',
+    hero: {
+      title: { en: 'Glossopharyngeal Neuralgia', sw: 'Maumivu ya Neva ya Glossopharyngeal' },
+      subtitle: {
+        en: 'Severe throat and ear pain caused by nerve irritation.',
+        sw: 'Maumivu makali ya koo na sikio kutokana na neva.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `A rare pain disorder affecting the glossopharyngeal nerve.
+
+  **Trigger:** Swallowing, talking, or coughing.
+
+  **Impact:** Sudden intense pain episodes.`,
+          sw: `Hali nadra ya maumivu inayohusisha neva ya glossopharyngeal.
+
+  **Vichochezi:** Kumeza, kuzungumza, au kukohoa.
+
+  **Athari:** Maumivu makali ya ghafla.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Sharp throat pain', 'Ear pain'],
+          sw: ['Maumivu makali ya koo', 'Maumivu ya sikio'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Severe recurring pain'],
+          sw: ['Maumivu makali yanayorudia'],
+        },
+        reassurance: {
+          en: 'Treatment can greatly reduce pain episodes.',
+          sw: 'Matibabu hupunguza maumivu kwa kiasi kikubwa.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+      GROWTH HORMONE DEFICIENCY (NEUROLOGICAL CAUSE)
+  ──────────────────────────────── */
+  growthHormoneDeficiency: {
+    slug: 'growthHormoneDeficiency',
+    hero: {
+      title: { en: 'Growth Hormone Deficiency', sw: 'Upungufu wa Homoni ya Ukuaji' },
+      subtitle: {
+        en: 'A condition linked to pituitary and brain function.',
+        sw: 'Hali inayohusiana na kazi ya tezi ya pituitary na ubongo.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `This condition occurs when the pituitary gland does not produce enough growth hormone.
+
+  **Neurological Link:** Often related to brain injury or tumors.
+
+  **Impact:** Affects growth, energy, and metabolism.`,
+          sw: `Hali hii hutokea wakati tezi ya pituitary haitoi homoni ya ukuaji ya kutosha.
+
+  **Uhusiano wa Neva:** Mara nyingi huhusishwa na jeraha au uvimbe wa ubongo.
+
+  **Athari:** Huathiri ukuaji, nguvu, na kimetaboliki.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Poor growth in children', 'Low energy'],
+          sw: ['Ukuaji duni kwa watoto', 'Nguvu ndogo'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Delayed growth', 'Hormonal imbalance symptoms'],
+          sw: ['Ukuaji kuchelewa', 'Dalili za homoni'],
+        },
+        reassurance: {
+          en: 'Hormone therapy can be very effective.',
+          sw: 'Tiba ya homoni husaidia sana.',
+        },
+      },
+    },
+  },
+
   
 };
