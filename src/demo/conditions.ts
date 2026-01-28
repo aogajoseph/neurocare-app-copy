@@ -3530,5 +3530,143 @@ bellsPalsy: {
       },
     },
   },
+
+  /* ───────────────────────────────
+      NEUROPATHY (PERIPHERAL)
+   ─────────────────────────────── */
+  peripheralNeuropathy: {
+    slug: 'peripheralNeuropathy',
+    hero: {
+      title: { en: 'Peripheral Neuropathy', sw: 'Uharibifu wa Neva za Mwisho' },
+      subtitle: {
+        en: 'Damage to nerves outside the brain and spinal cord.',
+        sw: 'Uharibifu wa neva zilizo nje ya ubongo na uti wa mgongo.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Peripheral neuropathy affects the nerves that carry signals to and from the brain and spinal cord.
+
+  **Neurological Link:** Can result from diabetes, infections, toxins, or autoimmune disorders.
+
+  **Impact:** Causes numbness, tingling, pain, and weakness, especially in hands and feet.`,
+          sw: `Uharibifu wa neva za mwisho huathiri neva zinazobeba ishara kwenda na kutoka ubongo na uti wa mgongo.
+
+  **Uhusiano wa Neva:** Husababishwa na kisukari, maambukizi, sumu, au magonjwa ya kinga.
+
+  **Athari:** Husababisha ganzi, kuwashwa, maumivu, na udhaifu, hasa mikononi na miguu.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Numbness', 'Tingling', 'Burning pain', 'Muscle weakness'],
+          sw: ['Ganzi', 'Kuwashwa', 'Maumivu ya moto', 'Udhaifu wa misuli'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Persistent numbness', 'Loss of balance', 'Severe pain'],
+          sw: ['Ganzi linaloendelea', 'Kupoteza usawa', 'Maumivu makali'],
+        },
+        reassurance: {
+          en: 'Identifying the cause early can prevent further nerve damage.',
+          sw: 'Kutambua sababu mapema huzuia uharibifu zaidi wa neva.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+        NEURAL TUBE DEFECTS
+    ─────────────────────────────── */
+  neuralTubeDefects: {
+    slug: 'neuralTubeDefects',
+    hero: {
+      title: { en: 'Neural Tube Defects', sw: 'Hitilafu za Tupu la Neva' },
+      subtitle: {
+        en: 'Birth defects of the brain, spine, or spinal cord.',
+        sw: 'Hitilafu za kuzaliwa za ubongo, mgongo, au uti wa mgongo.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Neural tube defects occur when the neural tube does not close properly during early fetal development.
+
+  **Neurological Link:** Affects formation of brain and spinal cord structures.
+
+  **Impact:** Can cause paralysis, learning difficulties, or other lifelong disabilities.`,
+          sw: `Hitilafu za tupu la neva hutokea pale tupu la neva linaposhindwa kufungwa vizuri wakati wa mimba ya mwanzo.
+
+  **Uhusiano wa Neva:** Huathiri muundo wa ubongo na uti wa mgongo.
+
+  **Athari:** Husababisha kupooza, changamoto za kujifunza, au ulemavu wa maisha yote.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Visible spinal defect at birth', 'Weakness in limbs', 'Hydrocephalus'],
+          sw: ['Hitilafu ya mgongo inayoonekana kuzaliwa', 'Udhaifu wa viungo', 'Hydrocephalus'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Detected during pregnancy', 'Signs of paralysis in newborns'],
+          sw: ['Inapotambuliwa wakati wa ujauzito', 'Dalili za kupooza kwa watoto wachanga'],
+        },
+        reassurance: {
+          en: 'Early surgical and supportive care can improve outcomes.',
+          sw: 'Upasuaji na huduma za msaada mapema huboresha matokeo.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+        NEUROFIBROMATOSIS
+    ─────────────────────────────── */
+  neurofibromatosis: {
+    slug: 'neurofibromatosis',
+    hero: {
+      title: { en: 'Neurofibromatosis', sw: 'Neurofibromatosis' },
+      subtitle: {
+        en: 'A genetic disorder causing tumors on nerve tissue.',
+        sw: 'Ugonjwa wa kurithi unaosababisha uvimbe kwenye tishu za neva.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Neurofibromatosis causes tumors to grow along nerves in the skin, brain, and other parts of the body.
+
+  **Neurological Link:** Abnormal gene expression affects nerve cell growth.
+
+  **Impact:** May cause skin changes, hearing loss, pain, or neurological deficits.`,
+          sw: `Neurofibromatosis husababisha uvimbe kukua kando ya neva kwenye ngozi, ubongo, na sehemu nyingine za mwili.
+
+  **Uhusiano wa Neva:** Uonyeshaji usio wa kawaida wa jeni huathiri ukuaji wa seli za neva.
+
+  **Athari:** Inaweza kusababisha mabadiliko ya ngozi, kupoteza kusikia, maumivu, au upungufu wa neva.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Skin nodules', 'Freckling', 'Hearing loss'],
+          sw: ['Nodi za ngozi', 'Madoa ya ngozi', 'Kupoteza kusikia'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Rapid tumor growth', 'Neurological changes'],
+          sw: ['Ukuaji wa haraka wa uvimbe', 'Mabadiliko ya neva'],
+        },
+        reassurance: {
+          en: 'Regular monitoring helps manage complications effectively.',
+          sw: 'Ufuatiliaji wa kawaida husaidia kudhibiti matatizo kwa ufanisi.',
+        },
+      },
+    },
+  },
   
 };
