@@ -3668,5 +3668,143 @@ bellsPalsy: {
       },
     },
   },
+
+  /* ───────────────────────────────
+      OPTIC NEURITIS
+   ─────────────────────────────── */
+  opticNeuritis: {
+    slug: 'opticNeuritis',
+    hero: {
+      title: { en: 'Optic Neuritis', sw: 'Uvimbe wa Neva ya Optiki' },
+      subtitle: {
+        en: 'Inflammation of the optic nerve affecting vision.',
+        sw: 'Uvimbe wa neva ya macho unaoathiri kuona.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Optic neuritis is inflammation of the optic nerve, which transmits visual information from the eye to the brain.
+
+  **Neurological Link:** Often linked to autoimmune conditions like multiple sclerosis.
+
+  **Impact:** Can cause sudden vision loss, color vision changes, and eye pain.`,
+          sw: `Uvimbe wa neva ya optiki ni uvimbe wa neva ya macho inayobeba taarifa za kuona kutoka jicho hadi ubongo.
+
+  **Uhusiano wa Neva:** Mara nyingi huhusiana na magonjwa ya kingamwili kama multiple sclerosis.
+
+  **Athari:** Husababisha kupoteza kuona ghafla, mabadiliko ya kuona rangi, na maumivu ya jicho.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Sudden vision loss', 'Eye pain', 'Color vision changes'],
+          sw: ['Kupoteza kuona ghafla', 'Maumivu ya jicho', 'Mabadiliko ya kuona rangi'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Sudden blurry vision', 'Pain with eye movement'],
+          sw: ['Kuona ukungu ghafla', 'Maumivu wakati wa kusogeza jicho'],
+        },
+        reassurance: {
+          en: 'Prompt treatment can improve recovery and preserve vision.',
+          sw: 'Matibabu ya haraka yanaweza kusaidia kupona na kuhifadhi kuona.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+        OCULOMOTOR NERVE DISORDERS
+    ─────────────────────────────── */
+  oculomotorNerveDisorders: {
+    slug: 'oculomotorNerveDisorders',
+    hero: {
+      title: { en: 'Oculomotor Nerve Disorders', sw: 'Magonjwa ya Neva ya Oculomotor' },
+      subtitle: {
+        en: 'Conditions affecting the nerve that controls most eye movements.',
+        sw: 'Hali zinazohusisha neva inayodhibiti harakati nyingi za jicho.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Oculomotor nerve disorders affect eye movement and eyelid function.
+
+  **Neurological Link:** Damage can be caused by trauma, diabetes, or vascular problems.
+
+  **Impact:** May cause double vision, drooping eyelids, and difficulty moving the eye.`,
+          sw: `Magonjwa ya neva ya oculomotor huathiri harakati za jicho na kazi ya kope.
+
+  **Uhusiano wa Neva:** Uharibifu unaweza kusababishwa na jeraha, kisukari, au matatizo ya mishipa ya damu.
+
+  **Athari:** Inaweza kusababisha kuona mara mbili, kope kulegea, na ugumu wa kusogeza jicho.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Double vision', 'Drooping eyelid', 'Eye movement limitation'],
+          sw: ['Kuona mara mbili', 'Kope kulegea', 'Kukosa uwezo wa kusogeza jicho'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Sudden eyelid droop', 'New onset double vision'],
+          sw: ['Kope kulegea ghafla', 'Kuona mara mbili kwa mara ya kwanza'],
+        },
+        reassurance: {
+          en: 'Diagnosis and treatment can restore eye function in many cases.',
+          sw: 'Uchunguzi na matibabu yanaweza kurejesha kazi ya jicho katika visa vingi.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+        ORTHOSTATIC HYPOTENSION (NEUROLOGICAL)
+    ─────────────────────────────── */
+  orthostaticHypotension: {
+    slug: 'orthostaticHypotension',
+    hero: {
+      title: { en: 'Orthostatic Hypotension', sw: 'Shinikizo la Damu la Chini la Msimamizi' },
+      subtitle: {
+        en: 'A drop in blood pressure upon standing affecting the brain.',
+        sw: 'Kupungua kwa shinikizo la damu wakati wa kusimama unaoathiri ubongo.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Orthostatic hypotension occurs when blood pressure falls sharply upon standing, reducing blood flow to the brain.
+
+  **Neurological Link:** Can be caused by autonomic nervous system dysfunction.
+
+  **Impact:** Leads to dizziness, fainting, and risk of falls.`,
+          sw: `Shinikizo la damu la chini la msimamizi hutokea pale shinikizo la damu linapopungua ghafla wakati wa kusimama, likipunguza mtiririko wa damu kwenda ubongo.
+
+  **Uhusiano wa Neva:** Husababishwa na kuvurugika kwa mfumo wa neva wa hiari.
+
+  **Athari:** Husababisha kizunguzungu, kuanguka fahamu, na hatari ya kuanguka.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Dizziness when standing', 'Blurred vision', 'Fainting'],
+          sw: ['Kizunguzungu wakati wa kusimama', 'Kuona ukungu', 'Kupoteza fahamu'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Repeated fainting', 'Severe dizziness', 'Falls'],
+          sw: ['Kupoteza fahamu mara kwa mara', 'Kizunguzungu kikali', 'Kuanguka'],
+        },
+        reassurance: {
+          en: 'Management includes lifestyle changes and medications.',
+          sw: 'Udhibiti unajumuisha mabadiliko ya mtindo wa maisha na dawa.',
+        },
+      },
+    },
+  },
   
 };
