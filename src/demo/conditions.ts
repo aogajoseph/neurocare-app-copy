@@ -4956,5 +4956,97 @@ bellsPalsy: {
       },
     },
   },
+
+  /* ───────────────────────────────
+      YOUNG-ONSET PARKINSONISM (YOPD)
+   ─────────────────────────────── */
+  youngOnsetParkinsonism: {
+    slug: 'youngOnsetParkinsonism',
+    hero: {
+      title: { en: 'Young-Onset Parkinsonism', sw: 'Parkinsonism ya Utoto au Vijana' },
+      subtitle: {
+        en: 'Parkinson-like symptoms appearing before age 50.',
+        sw: 'Dalili zinazofanana na Parkinson zinazoanza kabla ya umri wa miaka 50.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Young-Onset Parkinsonism presents with tremors, stiffness, and movement difficulties in younger adults.
+
+  **Neurological Link:** Degeneration of dopamine-producing neurons in the basal ganglia.
+
+  **Impact:** Can affect motor skills, daily activities, and quality of life, often with slower progression than typical Parkinson’s disease.`,
+          sw: `Parkinsonism ya vijana hujulikana kwa kutetemeka, ugumu wa mwendo, na matatizo ya mwendo kwa watu wachanga.
+
+  **Uhusiano wa Neva:** Kuanguka kwa neva zinazozalisha dopamine katika basal ganglia.
+
+  **Athari:** Inaweza kuathiri ujuzi wa mwendo, shughuli za kila siku, na ubora wa maisha, mara nyingi kwa kasi ya kuendelea polepole kuliko ugonjwa wa kawaida wa Parkinson.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Tremor in hands', 'Slowness of movement', 'Stiffness', 'Balance issues'],
+          sw: ['Kutetemeka kwa mikono', 'Polepole kwa mwendo', 'Ugumu', 'Matatizo ya usawa'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Persistent tremor', 'Difficulty with daily tasks', 'Changes in walking or balance'],
+          sw: ['Kutetemeka kunakoendelea', 'Ugumu wa shughuli za kila siku', 'Mabadiliko ya kutembea au usawa'],
+        },
+        reassurance: {
+          en: 'Medication and therapy can manage symptoms and maintain independence.',
+          sw: 'Dawa na tiba husaidia kudhibiti dalili na kudumisha uhuru.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+        Y-GENE LINKED NEUROLOGICAL TRAITS
+    ─────────────────────────────── */
+  yGeneNeurologicalTraits: {
+    slug: 'yGeneNeurologicalTraits',
+    hero: {
+      title: { en: 'Y-Gene Linked Neurological Traits', sw: 'Sifa za Neva Zinazohusiana na Jeni la Y' },
+      subtitle: {
+        en: 'Rare neurological traits linked to genes on the Y chromosome.',
+        sw: 'Sifa nadra za neva zinazohusiana na jeni kwenye kromosomu Y.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Some neurological traits and predispositions are influenced by genes on the Y chromosome.
+
+  **Neurological Link:** Can affect brain development, motor coordination, or susceptibility to certain neurological conditions.
+
+  **Impact:** Typically subtle, may influence cognitive or behavioral tendencies in males.`,
+          sw: `Baadhi ya sifa za neva na uwezekano wa kupata magonjwa huathiriwa na jeni kwenye kromosomu Y.
+
+  **Uhusiano wa Neva:** Inaweza kuathiri ukuaji wa ubongo, uratibu wa mwendo, au uwezekano wa magonjwa fulani ya neva.
+
+  **Athari:** Kwa kawaida ni nyepesi, inaweza kuathiri tabia au fikra za kiume.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Mild coordination differences', 'Subtle cognitive variations'],
+          sw: ['Tofauti ndogo za uratibu', 'Mabadiliko madogo ya fikra'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Noticeable coordination or cognitive difficulties'],
+          sw: ['Matatizo yanayoonekana ya uratibu au fikra'],
+        },
+        reassurance: {
+          en: 'Traits are usually mild; therapy can support any functional challenges.',
+          sw: 'Sifa hizi kwa kawaida ni nyepesi; tiba inaweza kusaidia katika changamoto za kazi.',
+        },
+      },
+    },
+  },
   
 };
