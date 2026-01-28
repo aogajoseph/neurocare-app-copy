@@ -656,6 +656,190 @@ export const conditionsData: Record<string, Condition> = {
       },
     },
   },
+
+  /* ───────────────────────────────
+      MENINGITIS
+   ─────────────────────────────── */
+  meningitis: {
+    slug: 'meningitis',
+    hero: {
+      title: { en: 'Meningitis', sw: 'Ugonjwa wa Utando wa Ubongo' },
+      subtitle: {
+        en: 'Inflammation of the protective membranes around the brain and spinal cord.',
+        sw: 'Uvimbe wa utando unaolinda ubongo na uti wa mgongo.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Meningitis is the inflammation of the meninges, the protective layers of the brain and spinal cord.
+
+  **Neurological Link:** Infection or immune response damages protective membranes.
+
+  **Impact:** Can cause headaches, neck stiffness, fever, and in severe cases, brain damage.`,
+          sw: `Meningitis ni uvimbe wa meninges, tabaka la kinga la ubongo na uti wa mgongo.
+
+  **Uhusiano wa Neva:** Maambukizi au mwitikio wa kinga huharibu tabaka za kinga.
+
+  **Athari:** Husababisha maumivu ya kichwa, shingo kukakamaa, homa, na katika hali mbaya, uharibifu wa ubongo.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Severe headache', 'Stiff neck', 'Fever', 'Nausea'],
+          sw: ['Maumivu makali ya kichwa', 'Shingo kukakamaa', 'Homa', 'Kichefuchefu'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['High fever with stiff neck', 'Severe headache', 'Confusion or drowsiness'],
+          sw: ['Homa kali na shingo kukakamaa', 'Maumivu makali ya kichwa', 'Kuchanganyikiwa au usingizi mwingi'],
+        },
+        reassurance: {
+          en: 'Early medical treatment is critical and can save lives.',
+          sw: 'Matibabu ya mapema ni muhimu na yanaweza kuokoa maisha.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+        MULTIPLE SCLEROSIS (MS)
+    ─────────────────────────────── */
+  multipleSclerosis: {
+    slug: 'multipleSclerosis',
+    hero: {
+      title: { en: 'Multiple Sclerosis', sw: 'Ugonjwa wa Multiple Sclerosis' },
+      subtitle: {
+        en: 'An autoimmune condition affecting the central nervous system.',
+        sw: 'Ugonjwa wa kingamwili unaoathiri mfumo wa neva wa kati.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Multiple sclerosis is a chronic disease where the immune system attacks nerve coverings.
+
+  **Neurological Link:** Damages myelin in the brain and spinal cord.
+
+  **Impact:** Can affect movement, vision, balance, and cognition.`,
+          sw: `Multiple sclerosis ni ugonjwa sugu ambapo kinga ya mwili hushambulia kifuniko cha neva.
+
+  **Uhusiano wa Neva:** Huharibu myelin katika ubongo na uti wa mgongo.
+
+  **Athari:** Huathiri mwendo, kuona, usawa, na fikra.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Vision problems', 'Numbness', 'Muscle weakness'],
+          sw: ['Matatizo ya kuona', 'Ganzi', 'Udhaifu wa misuli'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Unexplained neurological symptoms', 'Relapsing symptoms'],
+          sw: ['Dalili za neva zisizoeleweka', 'Dalili zinazojirudia'],
+        },
+        reassurance: {
+          en: 'Modern treatments help many people live full lives.',
+          sw: 'Matibabu ya kisasa husaidia wengi kuishi maisha kamili.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+        MOTOR NEURON DISEASE (MND)
+    ─────────────────────────────── */
+  motorNeuronDisease: {
+    slug: 'motorNeuronDisease',
+    hero: {
+      title: { en: 'Motor Neuron Disease', sw: 'Ugonjwa wa Neva za Mwendo' },
+      subtitle: {
+        en: 'A group of disorders affecting motor nerves.',
+        sw: 'Kundi la magonjwa yanayoathiri neva za mwendo.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Motor neuron disease involves progressive damage to nerves controlling movement.
+
+  **Neurological Link:** Degeneration of motor neurons in the brain and spinal cord.
+
+  **Impact:** Leads to muscle weakness, wasting, and loss of mobility.`,
+          sw: `Ugonjwa wa neva za mwendo husababisha uharibifu unaoendelea wa neva zinazodhibiti harakati.
+
+  **Uhusiano wa Neva:** Kuharibika kwa neva za mwendo katika ubongo na uti wa mgongo.
+
+  **Athari:** Husababisha udhaifu wa misuli, kupungua kwa misuli, na kupoteza uwezo wa kusonga.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Muscle twitching', 'Weak grip', 'Slurred speech'],
+          sw: ['Misuli kujitikisa', 'Mkono kudhoofika', 'Usemi usio wazi'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Progressive weakness', 'Speech or swallowing difficulty'],
+          sw: ['Udhaifu unaoendelea', 'Ugumu wa kuzungumza au kumeza'],
+        },
+        reassurance: {
+          en: 'Care focuses on comfort, support, and quality of life.',
+          sw: 'Huduma hulenga faraja, msaada, na ubora wa maisha.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+        MYASTHENIA GRAVIS
+    ─────────────────────────────── */
+  myastheniaGravis: {
+    slug: 'myastheniaGravis',
+    hero: {
+      title: { en: 'Myasthenia Gravis', sw: 'Myasthenia Gravis' },
+      subtitle: {
+        en: 'A condition causing muscle weakness that worsens with activity.',
+        sw: 'Hali inayosababisha udhaifu wa misuli unaoongezeka kwa matumizi.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Myasthenia gravis is an autoimmune disorder affecting nerve-muscle communication.
+
+  **Neurological Link:** Disrupts signals between nerves and muscles.
+
+  **Impact:** Causes fluctuating weakness, especially in eyes, face, and limbs.`,
+          sw: `Myasthenia gravis ni ugonjwa wa kingamwili unaoathiri mawasiliano kati ya neva na misuli.
+
+  **Uhusiano wa Neva:** Huvuruga ishara kati ya neva na misuli.
+
+  **Athari:** Husababisha udhaifu unaobadilika, hasa kwenye macho, uso, na viungo.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Drooping eyelids', 'Double vision', 'Muscle fatigue'],
+          sw: ['Kope kulegea', 'Kuona mara mbili', 'Misuli kuchoka haraka'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Breathing difficulty', 'Severe swallowing problems'],
+          sw: ['Ugumu wa kupumua', 'Matatizo makubwa ya kumeza'],
+        },
+        reassurance: {
+          en: 'Treatment can significantly improve muscle strength.',
+          sw: 'Matibabu yanaweza kuboresha nguvu ya misuli kwa kiasi kikubwa.',
+        },
+      },
+    },
+  },
   
   /* ───────────────────────────────
      DEMENTIA
