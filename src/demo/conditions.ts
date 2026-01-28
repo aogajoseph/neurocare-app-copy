@@ -4910,5 +4910,51 @@ bellsPalsy: {
       },
     },
   },
+
+  /* ───────────────────────────────
+      X-LINKED ADRENOLEUKODYSTROPHY (X-ALD)
+   ─────────────────────────────── */
+  xLinkedAdrenoleukodystrophy: {
+    slug: 'xLinkedAdrenoleukodystrophy',
+    hero: {
+      title: { en: 'X-Linked Adrenoleukodystrophy', sw: 'X-Linked Adrenoleukodystrophy' },
+      subtitle: {
+        en: 'A genetic disorder affecting the nervous system and adrenal glands.',
+        sw: 'Ugonjwa wa urithi unaoathiri mfumo wa neva na tezi za adrenal.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `X-ALD is caused by mutations in the ABCD1 gene, leading to accumulation of very long chain fatty acids that damage myelin and adrenal function.
+
+  **Neurological Link:** Demyelination affects nerve signal transmission in the central nervous system.
+
+  **Impact:** Can cause cognitive decline, behavioral changes, motor difficulties, and adrenal insufficiency.`,
+          sw: `X-ALD husababishwa na mabadiliko katika jeni la ABCD1, na kusababisha mkusanyiko wa asidi ya mafuta ya mnyororo mrefu sana inayoharibu myelin na kazi ya tezi za adrenal.
+
+  **Uhusiano wa Neva:** Kuanguka kwa myelin kunathiri usambazaji wa ishara za neva katika mfumo wa neva mkuu.
+
+  **Athari:** Inaweza kusababisha kupungua kwa fikra, mabadiliko ya tabia, matatizo ya mwendo, na upungufu wa adrenal.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Behavioral changes', 'Learning difficulties', 'Muscle weakness', 'Fatigue'],
+          sw: ['Mabadiliko ya tabia', 'Matatizo ya kujifunza', 'Udhaifu wa misuli', 'Uchovu'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Progressive neurological symptoms', 'Signs of adrenal insufficiency'],
+          sw: ['Dalili zinazoongezeka za neva', 'Ishara za upungufu wa adrenal'],
+        },
+        reassurance: {
+          en: 'Early diagnosis and treatment can slow disease progression and support quality of life.',
+          sw: 'Uchunguzi wa mapema na matibabu yanaweza kupunguza kasi ya ugonjwa na kusaidia ubora wa maisha.',
+        },
+      },
+    },
+  },
   
 };
