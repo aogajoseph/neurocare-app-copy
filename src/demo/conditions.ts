@@ -216,6 +216,284 @@ export const conditionsData: Record<string, Condition> = {
   },
 
   /* ───────────────────────────────
+     ENCEPHALITIS
+  ──────────────────────────────── */
+  encephalitis: {
+    slug: 'encephalitis',
+    hero: {
+      title: { en: 'Encephalitis', sw: 'Uvimbe wa Ubongo' },
+      subtitle: {
+        en: 'Inflammation of the brain, often caused by infection or autoimmune reactions.',
+        sw: 'Uvimbe wa ubongo, mara nyingi unasababishwa na maambukizi au mwitikio wa kinga ya mwili.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Encephalitis is brain inflammation that can lead to severe neurological symptoms.
+
+  **Causes & Risk Factors:** Viral infections, autoimmune disorders, bacterial infections.
+
+  **Impact:** Fever, headache, confusion, seizures.
+
+  **Long-Term Outlook:** Prompt treatment improves outcomes; severe cases may leave lasting impairment.`,
+          sw: `Uvimbe wa ubongo ni hali inayosababisha dalili kubwa za neva.
+
+  **Sababu & Vizingiti:** Maambukizi ya virusi, matatizo ya kinga ya mwili, maambukizi ya bakteria.
+
+  **Athari:** Homa, maumivu ya kichwa, kuchanganyikiwa, degedege.
+
+  **Matokeo ya Muda Mrefu:** Matibabu ya haraka huboresha matokeo; kesi mbaya zinaweza kuacha ulemavu.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Fever', 'Headache', 'Confusion', 'Fatigue'],
+          sw: ['Homa', 'Maumivu ya kichwa', 'Kuchanganyikiwa', 'Uchovu'],
+        },
+        other: {
+          en: ['Seizures', 'Sensitivity to light', 'Memory problems'],
+          sw: ['Degedege', 'Hisia za mwanga', 'Matatizo ya kumbukumbu'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['High fever with confusion', 'Seizures', 'Neurological deterioration'],
+          sw: ['Homa kubwa na kuchanganyikiwa', 'Degedege', 'Kupungua kwa hali ya neva'],
+        },
+        reassurance: {
+          en: 'Early diagnosis and treatment prevent severe complications.',
+          sw: 'Uchunguzi na matibabu mapema huzuia matatizo makubwa.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+      ESSENTIAL TREMOR
+  ──────────────────────────────── */
+  essentialTremor: {
+    slug: 'essentialTremor',
+    hero: {
+      title: { en: 'Essential Tremor', sw: 'Kutetemeka kwa Asili' },
+      subtitle: {
+        en: 'A nervous system disorder causing involuntary shaking, typically in hands.',
+        sw: 'Tatizo la mfumo wa neva linasababisha kutetemeka kisichokusudiwa, kawaida mikononi.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Essential tremor is a common movement disorder, often hereditary, causing rhythmic shaking.
+
+  **Causes & Risk Factors:** Genetics, aging.
+
+  **Impact:** Difficulty with fine motor tasks like writing or eating.
+
+  **Long-Term Outlook:** Medications or therapy improve control; rarely disabling.`,
+          sw: `Kutetemeka kwa asili ni tatizo la mwendo linalojitokeza mara nyingi, mara nyingi la urithi, linasababisha kutetemeka kwa midundo.
+
+  **Sababu & Vizingiti:** Urithi, kuzeeka.
+
+  **Athari:** Shida katika kazi za mikono ndogo kama kuandika au kula.
+
+  **Matokeo ya Muda Mrefu:** Dawa au tiba huboresha udhibiti; mara chache husababisha ulemavu.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Shaking hands', 'Head nodding', 'Voice tremor'],
+          sw: ['Mikono kutetemeka', 'Kichwa kinakikutikia', 'Kizunguzungu cha sauti'],
+        },
+        other: {
+          en: ['Difficulty with writing', 'Difficulty drinking from cup', 'Balance issues'],
+          sw: ['Shida ya kuandika', 'Shida ya kunywa kutoka kikombe', 'Matatizo ya usawa'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Interferes with daily tasks', 'Progressive worsening', 'Severe tremors'],
+          sw: ['Inaathiri shughuli za kila siku', 'Inazidi kuwa mbaya', 'Kutetemeka kwa kiwango kikubwa'],
+        },
+        reassurance: {
+          en: 'Treatment options improve function and quality of life.',
+          sw: 'Chaguzi za matibabu huboresha utendaji na ubora wa maisha.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+      ENCEPHALOPATHY
+  ──────────────────────────────── */
+  encephalopathy: {
+    slug: 'encephalopathy',
+    hero: {
+      title: { en: 'Encephalopathy', sw: 'Hali ya Ubongo' },
+      subtitle: {
+        en: 'General term for brain dysfunction from various causes.',
+        sw: 'Neno la jumla kwa uharibifu wa ubongo unaosababishwa na sababu mbalimbali.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Encephalopathy encompasses disorders where brain function is impaired by toxins, lack of oxygen, infection, or metabolic issues.
+
+  **Causes & Risk Factors:** Liver disease, infections, hypoxia, metabolic disorders.
+
+  **Impact:** Confusion, memory problems, reduced alertness.
+
+  **Long-Term Outlook:** Addressing underlying causes often improves outcomes.`,
+          sw: `Encephalopathy inahusu matatizo ambapo kazi ya ubongo inaathirika na sumu, upungufu wa oksijeni, maambukizi, au matatizo ya metabolism.
+
+  **Sababu & Vizingiti:** Ugonjwa wa ini, maambukizi, upungufu wa oksijeni, matatizo ya metabolism.
+
+  **Athari:** Kuchanganyikiwa, matatizo ya kumbukumbu, kupungua kwa tahadhari.
+
+  **Matokeo ya Muda Mrefu:** Kutatua sababu zinazochangia huboresha matokeo mara nyingi.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Confusion', 'Memory loss', 'Lethargy'],
+          sw: ['Kuchanganyikiwa', 'Kupoteza kumbukumbu', 'Uchovu'],
+        },
+        other: {
+          en: ['Difficulty concentrating', 'Mood changes', 'Seizures'],
+          sw: ['Shida ya kuzingatia', 'Mabadiliko ya hisia', 'Degedege'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Sudden confusion', 'Seizures', 'Worsening neurological function'],
+          sw: ['Kuchanganyikiwa ghafla', 'Degedege', 'Kupungua kwa hali ya neva'],
+        },
+        reassurance: {
+          en: 'Treatment of underlying cause can reverse or reduce symptoms.',
+          sw: 'Matibabu ya sababu msingi yanaweza kurudisha au kupunguza dalili.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+      EXTRAPYRAMIDAL DISORDER
+  ──────────────────────────────── */
+  extrapyramidal: {
+    slug: 'extrapyramidal',
+    hero: {
+      title: { en: 'Extrapyramidal Disorder', sw: 'Tatizo la Extrapyramidal' },
+      subtitle: {
+        en: 'Movement disorders caused by basal ganglia or medication side effects.',
+        sw: 'Matatizo ya mwendo yanayosababishwa na basal ganglia au madhara ya dawa.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Extrapyramidal disorders affect motor control, often due to neurological conditions or medications.
+
+  **Causes & Risk Factors:** Parkinson’s medications, antipsychotics, basal ganglia disorders.
+
+  **Impact:** Tremors, rigidity, abnormal movements.
+
+  **Long-Term Outlook:** Adjusting medications and therapy improve mobility and function.`,
+          sw: `Tatizo la extrapyramidal linaathiri udhibiti wa mwendo, mara nyingi kutokana na hali za neva au dawa.
+
+  **Sababu & Vizingiti:** Dawa za Parkinson, antipsychotics, matatizo ya basal ganglia.
+
+  **Athari:** Kutetemeka, ukimya wa misuli, mienendo isiyo ya kawaida.
+
+  **Matokeo ya Muda Mrefu:** Kubadilisha dawa na tiba huboresha mwendo na utendaji.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Tremors', 'Stiffness', 'Abnormal posture'],
+          sw: ['Kutetemeka', 'Ukimya wa misuli', 'Mwenendo usio wa kawaida'],
+        },
+        other: {
+          en: ['Slowed movements', 'Difficulty walking', 'Speech changes'],
+          sw: ['Mwendo wa polepole', 'Shida ya kutembea', 'Mabadiliko ya kuzungumza'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: [
+            'Progressive movement difficulties',
+            'Severe tremors affecting daily life',
+            'Medication side effects causing dysfunction',
+          ],
+          sw: [
+            'Shida za mwendo zinazozidi',
+            'Kutetemeka kwa kiwango kikubwa kinachoathiri maisha ya kila siku',
+            'Madhara ya dawa yanayosababisha kazi mbaya',
+          ],
+        },
+        reassurance: {
+          en: 'Therapy and medication adjustment improve quality of life.',
+          sw: 'Tiba na kurekebisha dawa huboresha ubora wa maisha.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+      EPILEPTIFORM DISORDERS (non-Epilepsy)
+  ──────────────────────────────── */
+  epileptiformDisorders: {
+    slug: 'epileptiformDisorders',
+    hero: {
+      title: { en: 'Epileptiform Disorders', sw: 'Matatizo ya Epileptiform' },
+      subtitle: {
+        en: 'Seizure-like disorders not classified as epilepsy.',
+        sw: 'Matatizo yanayofanana na degedege lakini hayahesabiwi kama kifafa.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Epileptiform disorders mimic seizures but differ in cause, frequency, or severity.
+
+  **Causes & Risk Factors:** Brain injury, metabolic disorders, sleep deprivation.
+
+  **Impact:** Temporary seizure-like episodes, confusion.
+
+  **Long-Term Outlook:** Managing triggers and therapy reduces episodes.`,
+          sw: `Matatizo ya Epileptiform yanafanana na degedege lakini yanatofautiana kwa sababu, mara za kutokea, au ukali.
+
+  **Sababu & Vizingiti:** Jeraha la ubongo, matatizo ya metabolism, usingizi mdogo.
+
+  **Athari:** Vipindi vya muda vya kufanana na degedege, kuchanganyikiwa.
+
+  **Matokeo ya Muda Mrefu:** Kudhibiti vichocheo na tiba hupunguza vipindi.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Brief seizure-like episodes', 'Confusion', 'Mild twitching'],
+          sw: ['Vipindi vya muda vinavyofanana na degedege', 'Kuchanganyikiwa', 'Kutetemeka kidogo'],
+        },
+        other: {
+          en: ['Fatigue', 'Headache', 'Mood changes'],
+          sw: ['Uchovu', 'Maumivu ya kichwa', 'Mabadiliko ya hisia'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Frequent episodes', 'Loss of consciousness', 'Injury during episodes'],
+          sw: ['Vipindi vinavyorudiwa', 'Kupoteza fahamu', 'Jeraha wakati wa vipindi'],
+        },
+        reassurance: {
+          en: 'Tracking triggers and medical follow-up improves outcomes.',
+          sw: 'Kufuata vichocheo na ufuatiliaji wa kitiba huboresha matokeo.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
   PARKINSON’S DISEASE
   ─────────────────────────────── */
   'parkinsons': {
@@ -711,7 +989,7 @@ export const conditionsData: Record<string, Condition> = {
       DIFFUSE AXONAL INJURY
   ──────────────────────────────── */
   diffuseAxonalInjury: {
-    slug: 'diffuse-axonal-injury',
+    slug: 'diffuseAxonalInjury',
     hero: {
       title: { en: 'Diffuse Axonal Injury', sw: 'Jeraha la Axonal Lenyeene' },
       subtitle: {
@@ -1352,68 +1630,6 @@ bellsPalsy: {
   },
 
   /* ───────────────────────────────
-      BENIGN ESSENTIAL TREMOR
-  ──────────────────────────────── */
-  essentialTremor: {
-    slug: 'essential-tremor',
-    hero: {
-      title: { en: 'Benign Essential Tremor', sw: 'Mtikisiko wa Kawaida' },
-      subtitle: {
-        en: 'A common movement disorder causing rhythmic shaking.',
-        sw: 'Hali ya kawaida ya mwendo inayosababisha mtikisiko wa kurudia.',
-      },
-    },
-    sections: {
-      overview: {
-        content: {
-          en: `Essential tremor is a neurological condition causing rhythmic shaking, most commonly in the hands.
-
-  **Causes & Risk Factors:** Often inherited; worsens with stress or fatigue.
-
-  **Impact:** Difficulty with fine motor tasks like writing or eating.
-
-  **Long-Term Outlook:** Not life-threatening and manageable with treatment.`,
-          sw: `Mtikisiko wa kawaida ni hali ya neva inayosababisha mtikisiko wa kurudia, mara nyingi mikononi.
-
-  **Sababu & Vizingiti:** Mara nyingi hurithiwa; huongezeka kwa msongo au uchovu.
-
-  **Athari:** Shida ya kufanya kazi ndogo kama kuandika au kula.
-
-  **Matokeo ya Muda Mrefu:** Sio hatari kwa maisha na inaweza kudhibitiwa.`,
-        },
-      },
-      symptoms: {
-        early: {
-          en: ['Hand tremors', 'Shaking during movement', 'Voice tremor'],
-          sw: ['Mikono kutetemeka', 'Mtikisiko wakati wa harakati', 'Sauti kutetemeka'],
-        },
-        other: {
-          en: ['Head nodding', 'Balance issues', 'Anxiety-related worsening'],
-          sw: ['Kichwa kutikisika', 'Shida ya usawa', 'Kuongezeka kwa msongo'],
-        },
-      },
-      help: {
-        whenToSeekHelp: {
-          en: [
-            'Tremors affecting daily activities',
-            'Worsening shaking',
-            'Difficulty with coordination',
-          ],
-          sw: [
-            'Mtikisiko unaoathiri maisha ya kila siku',
-            'Kuongezeka kwa mtikisiko',
-            'Shida ya uratibu',
-          ],
-        },
-        reassurance: {
-          en: 'Medications and lifestyle adjustments help control symptoms.',
-          sw: 'Dawa na marekebisho ya maisha husaidia kudhibiti dalili.',
-        },
-      },
-    },
-  },
-
-  /* ───────────────────────────────
      CEREBRAL PALSY
   ──────────────────────────────── */
   cerebralPalsy: {
@@ -1656,6 +1872,276 @@ bellsPalsy: {
         reassurance: {
           en: 'Early detection and treatment prevent long-term neurological damage.',
           sw: 'Uchunguzi na matibabu ya mapema huzuia uharibifu wa neva wa muda mrefu.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+     FACIAL NEUROPATHY
+  ──────────────────────────────── */
+  facialNeuropathy: {
+    slug: 'facialNeuropathy',
+    hero: {
+      title: { en: 'Facial Neuropathy', sw: 'Neuropathi ya Uso' },
+      subtitle: {
+        en: 'Damage to facial nerves causing weakness or paralysis of facial muscles.',
+        sw: 'Uharibifu wa neva za uso unasababisha udhaifu au kupooza kwa misuli ya uso.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Facial neuropathy affects the nerves controlling facial expression, often sudden in onset.
+
+  **Causes & Risk Factors:** Viral infections (like Bell’s palsy), trauma, diabetes.
+
+  **Impact:** Drooping of one side of the face, difficulty closing eyes, speaking or eating.
+
+  **Long-Term Outlook:** Most recover fully; therapy may accelerate improvement.`,
+          sw: `Neuropathi ya uso inaathiri neva zinazosimamia usemi wa uso, mara nyingi hujitokeza ghafla.
+
+  **Sababu & Vizingiti:** Maambukizi ya virusi (kama Bell’s palsy), jeraha, kisukari.
+
+  **Athari:** Upooza upande mmoja wa uso, shida kufunga macho, kuzungumza au kula.
+
+  **Matokeo ya Muda Mrefu:** Wengi hurudi kwenye afya kamili; tiba inaweza kuharakisha nafuu.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Sudden facial droop', 'Difficulty closing eye', 'Loss of facial expression'],
+          sw: ['Kupooza ghafla uso', 'Shida kufunga jicho', 'Kupoteza hisia za uso'],
+        },
+        other: {
+          en: ['Pain around ear', 'Tingling or numbness', 'Headache'],
+          sw: ['Maumivu karibu na sikio', 'Kuchanganyikiwa au ganzi', 'Maumivu ya kichwa'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Sudden facial weakness', 'Difficulty speaking or swallowing', 'Eye irritation due to incomplete closure'],
+          sw: ['Udhaifu wa ghafla wa uso', 'Shida ya kuzungumza au kumeza', 'Ishara za jicho kutokana na kufunga kisichokamilika'],
+        },
+        reassurance: {
+          en: 'Early therapy improves recovery; most patients regain full function.',
+          sw: 'Tiba ya mapema huboresha nafuu; wagonjwa wengi hurudi kwenye afya kamili.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+      FIBROMYALGIA (NEUROLOGICAL ASPECT)
+  ──────────────────────────────── */
+  fibromyalgia: {
+    slug: 'fibromyalgia',
+    hero: {
+      title: { en: 'Fibromyalgia', sw: 'Fibromyalgia' },
+      subtitle: {
+        en: 'Chronic disorder characterized by widespread pain and nervous system sensitivity.',
+        sw: 'Hali ya muda mrefu inayojitokeza kwa maumivu panapoenea na unyeti wa mfumo wa neva.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Fibromyalgia involves chronic widespread musculoskeletal pain, fatigue, and nervous system hypersensitivity.
+
+  **Causes & Risk Factors:** Genetic predisposition, infections, stress.
+
+  **Impact:** Pain, fatigue, sleep disturbances, cognitive difficulties.
+
+  **Long-Term Outlook:** Symptom management improves quality of life.`,
+          sw: `Fibromyalgia inahusisha maumivu ya muda mrefu katika misuli na mifupa, uchovu, na unyeti wa mfumo wa neva.
+
+  **Sababu & Vizingiti:** Urithi, maambukizi, msongo wa mawazo.
+
+  **Athari:** Maumivu, uchovu, matatizo ya usingizi, changamoto za kifikra.
+
+  **Matokeo ya Muda Mrefu:** Kudhibiti dalili huboresha ubora wa maisha.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Widespread pain', 'Fatigue', 'Sleep disturbances'],
+          sw: ['Maumivu panapoenea', 'Uchovu', 'Matatizo ya usingizi'],
+        },
+        other: {
+          en: ['Cognitive difficulties', 'Headaches', 'Mood changes'],
+          sw: ['Changamoto za kifikra', 'Maumivu ya kichwa', 'Mabadiliko ya hisia'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Persistent pain affecting daily life', 'Severe fatigue', 'Sleep problems'],
+          sw: ['Maumivu endelevu yanayoathiri maisha ya kila siku', 'Uchovu mkali', 'Matatizo ya usingizi'],
+        },
+        reassurance: {
+          en: 'Lifestyle changes, therapy, and medication help manage symptoms effectively.',
+          sw: 'Mabadiliko ya mtindo wa maisha, tiba, na dawa husaidia kudhibiti dalili kwa ufanisi.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+      FRONTAL LOBE DISORDER
+  ──────────────────────────────── */
+  frontalLobeDisorder: {
+    slug: 'frontalLobeDisorder',
+    hero: {
+      title: { en: 'Frontal Lobe Disorder', sw: 'Tatizo la Frontal Lobe' },
+      subtitle: {
+        en: 'Impairment of the frontal lobe affecting personality, behavior, and executive function.',
+        sw: 'Uharibifu wa frontal lobe unaoathiri tabia, mienendo, na utendaji wa akili.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Frontal lobe disorders impact planning, judgment, personality, and voluntary movement.
+
+  **Causes & Risk Factors:** Trauma, stroke, tumors, neurodegenerative diseases.
+
+  **Impact:** Changes in behavior, poor decision-making, motor impairments.
+
+  **Long-Term Outlook:** Rehabilitation and therapy may help regain function.`,
+          sw: `Matatizo ya frontal lobe huathiri kupanga, uamuzi, tabia, na mwendo wa hiari.
+
+  **Sababu & Vizingiti:** Jeraha, kiharusi, uvimbe, magonjwa yanayoharibu neva.
+
+  **Athari:** Mabadiliko ya tabia, uamuzi mbaya, ulemavu wa mwendo.
+
+  **Matokeo ya Muda Mrefu:** Urejeshaji na tiba huweza kusaidia kurudisha kazi.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Personality changes', 'Impulsivity', 'Difficulty planning'],
+          sw: ['Mabadiliko ya tabia', 'Uamuzi wa haraka bila fikiria', 'Shida ya kupanga'],
+        },
+        other: {
+          en: ['Poor judgment', 'Reduced motor control', 'Speech difficulties'],
+          sw: ['Uamuzi mbaya', 'Udhibiti mdogo wa mwendo', 'Shida ya kuzungumza'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Sudden behavioral changes', 'Cognitive decline', 'Motor difficulties'],
+          sw: ['Mabadiliko ya tabia ghafla', 'Kupungua kwa kifikra', 'Shida za mwendo'],
+        },
+        reassurance: {
+          en: 'Early intervention and therapy improve outcomes.',
+          sw: 'Uingiliaji na tiba ya mapema huboresha matokeo.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+      FOCAL SEIZURES
+  ──────────────────────────────── */
+  focalSeizures: {
+    slug: 'focalSeizures',
+    hero: {
+      title: { en: 'Focal Seizures', sw: 'Degedege za Eneo' },
+      subtitle: {
+        en: 'Seizures that affect a specific part of the brain, causing localized symptoms.',
+        sw: 'Degedege zinazoathiri sehemu maalum ya ubongo, zikiwa na dalili za eneo hilo.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Focal seizures originate in one area of the brain and can cause motor, sensory, or cognitive symptoms.
+
+  **Causes & Risk Factors:** Brain injury, stroke, tumors, infections.
+
+  **Impact:** Twitching, abnormal sensations, confusion in affected areas.
+
+  **Long-Term Outlook:** Medications usually control seizures effectively.`,
+          sw: `Degedege za eneo huanza katika sehemu moja ya ubongo na zinaweza kusababisha dalili za mwendo, hisia, au kifikra.
+
+  **Sababu & Vizingiti:** Jeraha la ubongo, kiharusi, uvimbe, maambukizi.
+
+  **Athari:** Kutetemeka, hisia zisizo za kawaida, kuchanganyikiwa katika maeneo yaliyoathirika.
+
+  **Matokeo ya Muda Mrefu:** Dawa kwa kawaida hudhibiti degedege kwa ufanisi.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Localized twitching', 'Unusual sensations', 'Brief confusion'],
+          sw: ['Kutetemeka eneo maalum', 'Hisia zisizo za kawaida', 'Kuchanganyikiwa kwa muda mfupi'],
+        },
+        other: {
+          en: ['Changes in vision', 'Speech disturbances', 'Emotional changes'],
+          sw: ['Mabadiliko ya kuona', 'Matatizo ya kuzungumza', 'Mabadiliko ya hisia'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Seizures that interfere with daily life', 'Frequent episodes', 'Seizures lasting more than 5 minutes'],
+          sw: ['Degedege zinazoharibu shughuli za kila siku', 'Vipindi vinavyorudiwa', 'Degedege zinazoendelea zaidi ya dakika 5'],
+        },
+        reassurance: {
+          en: 'With treatment and monitoring, most people regain control.',
+          sw: 'Kwa matibabu na ufuatiliaji, wengi hurudisha udhibiti.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+      FREY SYNDROME
+  ──────────────────────────────── */
+  freySyndrome: {
+    slug: 'freySyndrome',
+    hero: {
+      title: { en: 'Frey Syndrome', sw: 'Syndrome ya Frey' },
+      subtitle: {
+        en: 'Sweating and flushing in the cheek area due to nerve injury.',
+        sw: 'Kukohoa na kupasha sehemu ya shavu kutokana na jeraha la neva.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Frey syndrome is a rare condition where nerves controlling salivation are damaged, causing sweating while eating.
+
+  **Causes & Risk Factors:** Surgery near parotid gland, trauma, nerve injury.
+
+  **Impact:** Facial flushing, sweating, discomfort while eating.
+
+  **Long-Term Outlook:** Symptoms can be managed with therapy or botox injections.`,
+          sw: `Syndrome ya Frey ni hali ya nadra ambapo neva zinazodhibiti mate zimeharibiwa, husababisha kukohoa wakati wa kula.
+
+  **Sababu & Vizingiti:** Upasuaji karibu na tezi ya parotid, jeraha, uharibifu wa neva.
+
+  **Athari:** Kupasha uso, kukohoa, usumbufu wakati wa kula.
+
+  **Matokeo ya Muda Mrefu:** Dalili zinaweza kudhibitiwa kwa tiba au sindano za botox.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Flushing of cheek while eating', 'Sweating in cheek area', 'Mild discomfort'],
+          sw: ['Kupasha shavu wakati wa kula', 'Kukohoa sehemu ya shavu', 'Usumbufu mdogo'],
+        },
+        other: {
+          en: ['Itching', 'Burning sensation', 'Embarrassment during meals'],
+          sw: ['Kuchoka', 'Hisia ya kuchoma', 'Aibu wakati wa kula'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Severe or bothersome symptoms', 'Interference with eating', 'Emotional distress'],
+          sw: ['Dalili mbaya au zinazosumbua', 'Inaathiri kula', 'Msongo wa kihisia'],
+        },
+        reassurance: {
+          en: 'Most cases are manageable with therapy or minor procedures.',
+          sw: 'Kesi nyingi zinaweza kudhibitiwa kwa tiba au taratibu ndogo.',
         },
       },
     },
