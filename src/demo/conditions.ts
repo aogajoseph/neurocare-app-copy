@@ -3944,5 +3944,97 @@ bellsPalsy: {
       },
     },
   },
+
+  /* ───────────────────────────────
+      QUADRIPLEGIA (NEUROLOGICAL)
+   ─────────────────────────────── */
+  quadriplegia: {
+    slug: 'quadriplegia',
+    hero: {
+      title: { en: 'Quadriplegia', sw: 'Kupooza Viungo Vyote Vinne' },
+      subtitle: {
+        en: 'Paralysis of all four limbs due to spinal cord or brain injury.',
+        sw: 'Kupooza kwa viungo vyote vinne kutokana na jeraha la uti wa mgongo au ubongo.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Quadriplegia results from damage to the spinal cord or brain affecting motor control of all four limbs.
+
+  **Neurological Link:** Injury or disease disrupts nerve signaling from the brain/spinal cord to muscles.
+
+  **Impact:** Loss of movement and sensation in arms and legs; may affect respiratory function.`,
+          sw: `Kupooza viungo vyote vinne hutokea kutokana na uharibifu wa uti wa mgongo au ubongo unaoathiri udhibiti wa misuli ya viungo vyote vinne.
+
+  **Uhusiano wa Neva:** Jeraha au ugonjwa huvuruga ishara za neva kutoka ubongo/uti wa mgongo hadi misuli.
+
+  **Athari:** Kupoteza mwendo na hisia mikononi na miguu; inaweza kuathiri pia upumuaji.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Loss of movement in arms and legs', 'Numbness', 'Difficulty breathing'],
+          sw: ['Kupoteza mwendo mikononi na miguu', 'Ganzi', 'Ugumu wa kupumua'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Sudden paralysis', 'Severe spinal injury'],
+          sw: ['Kupooza ghafla', 'Jeraha kubwa la uti wa mgongo'],
+        },
+        reassurance: {
+          en: 'Immediate medical care and rehabilitation are critical for recovery.',
+          sw: 'Huduma ya haraka ya matibabu na urejeshaji ni muhimu kwa kupona.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+        Q FEVER NEUROLOGICAL COMPLICATIONS
+    ─────────────────────────────── */
+  qFeverNeurological: {
+    slug: 'qFeverNeurological',
+    hero: {
+      title: { en: 'Q Fever Neurological Complications', sw: 'Changamoto za Neva za Homa ya Q' },
+      subtitle: {
+        en: 'Rare nervous system involvement following Q fever infection.',
+        sw: 'Uhusiano adimu wa mfumo wa neva baada ya maambukizi ya homa ya Q.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Q fever can rarely affect the brain or peripheral nerves, causing neurological symptoms.
+
+  **Neurological Link:** Infection or inflammation disrupts nerve function.
+
+  **Impact:** May result in headaches, confusion, meningitis, or peripheral neuropathy.`,
+          sw: `Homa ya Q inaweza kwa nadra kuathiri ubongo au neva za mwisho, ikisababisha dalili za neva.
+
+  **Uhusiano wa Neva:** Maambukizi au uvimbe huvuruga kazi za neva.
+
+  **Athari:** Inaweza kusababisha maumivu ya kichwa, kuchanganyikiwa, meningitis, au uharibifu wa neva za mwisho.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Headache', 'Confusion', 'Weakness or numbness'],
+          sw: ['Maumivu ya kichwa', 'Kuchanganyikiwa', 'Udhaifu au ganzi'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Neurological symptoms after Q fever infection'],
+          sw: ['Dalili za neva baada ya maambukizi ya homa ya Q'],
+        },
+        reassurance: {
+          en: 'Early antibiotic treatment can prevent serious complications.',
+          sw: 'Matibabu ya mapema ya antibiotiki yanaweza kuzuia matatizo makubwa.',
+        },
+      },
+    },
+  },
   
 };
