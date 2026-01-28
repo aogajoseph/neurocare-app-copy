@@ -576,6 +576,144 @@ export const conditionsData: Record<string, Condition> = {
       },
     },
   },
+
+  /* ───────────────────────────────
+      POST-STROKE SYNDROMES
+   ─────────────────────────────── */
+  postStrokeSyndromes: {
+    slug: 'postStrokeSyndromes',
+    hero: {
+      title: { en: 'Post-Stroke Syndromes', sw: 'Syndromes Baada ya Kiharusi' },
+      subtitle: {
+        en: 'Neurological complications following a stroke.',
+        sw: 'Changamoto za neva baada ya kiharusi.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Post-stroke syndromes occur after brain injury caused by stroke.
+
+  **Neurological Link:** Damage to specific brain regions leads to deficits.
+
+  **Impact:** Can cause paralysis, speech difficulties, cognitive changes, and emotional challenges.`,
+          sw: `Syndromes baada ya kiharusi hutokea baada ya kuumia kwa ubongo kutokana na kiharusi.
+
+  **Uhusiano wa Neva:** Uharibifu wa sehemu maalum za ubongo husababisha upungufu.
+
+  **Athari:** Husababisha kupooza, matatizo ya kuzungumza, mabadiliko ya fikra, na changamoto za hisia.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Weakness on one side', 'Speech difficulty', 'Cognitive changes'],
+          sw: ['Udhaifu upande mmoja', 'Ugumu wa kuzungumza', 'Mabadiliko ya fikra'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Sudden weakness or numbness', 'New speech difficulties'],
+          sw: ['Udhaifu au ganzi ghafla', 'Ugumu mpya wa kuzungumza'],
+        },
+        reassurance: {
+          en: 'Rehabilitation therapy can significantly improve function.',
+          sw: 'Tiba ya urejeshaji huweza kuboresha kazi kwa kiasi kikubwa.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+        PRION DISEASES
+    ─────────────────────────────── */
+  prionDiseases: {
+    slug: 'prionDiseases',
+    hero: {
+      title: { en: 'Prion Diseases', sw: 'Magonjwa ya Prion' },
+      subtitle: {
+        en: 'Rare, progressive neurological disorders caused by misfolded proteins.',
+        sw: 'Magonjwa adimu, yanayoendelea ya neva yanayosababishwa na protini zisizo sahihi.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Prion diseases are caused by abnormal proteins that damage brain tissue.
+
+  **Neurological Link:** Leads to neurodegeneration affecting movement, cognition, and behavior.
+
+  **Impact:** Rapidly progressive; often fatal without intervention.`,
+          sw: `Magonjwa ya prion husababishwa na protini zisizo za kawaida zinazoharibu tishu za ubongo.
+
+  **Uhusiano wa Neva:** Husababisha uharibifu wa neva unaoathiri mwendo, fikra, na tabia.
+
+  **Athari:** Huendeleza haraka; mara nyingi ni hatari bila tiba.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Memory loss', 'Behavior changes', 'Coordination problems'],
+          sw: ['Kupoteza kumbukumbu', 'Mabadiliko ya tabia', 'Matatizo ya uratibu'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Rapid neurological decline', 'Unexplained movement or cognitive changes'],
+          sw: ['Kupungua kwa neva haraka', 'Mabadiliko yasiyoeleweka ya mwendo au fikra'],
+        },
+        reassurance: {
+          en: 'Supportive care focuses on comfort and symptom management.',
+          sw: 'Huduma saidizi hulenga faraja na kudhibiti dalili.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+      POST-TRAUMATIC STRESS DISORDER (PTSD)
+   ─────────────────────────────── */
+  ptsd: {
+    slug: 'ptsd',
+    hero: {
+      title: { en: 'Post-Traumatic Stress Disorder', sw: 'Hali ya Msongo wa Mawazo Baada ya Tukio' },
+      subtitle: {
+        en: 'A mental health condition triggered by traumatic events.',
+        sw: 'Hali ya afya ya akili inayosababishwa na matukio ya kutisha.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `PTSD is a disorder that can develop after experiencing or witnessing a traumatic event.
+
+  **Neurological Link:** Alters brain circuits related to fear, memory, and stress regulation.
+
+  **Impact:** Causes intrusive memories, nightmares, hypervigilance, anxiety, and emotional distress.`,
+          sw: `PTSD ni hali inayoweza kuibuka baada ya kushuhudia au kupitia tukio la kutisha.
+
+  **Uhusiano wa Neva:** Hubadilisha mizunguko ya ubongo inayohusiana na hofu, kumbukumbu, na udhibiti wa msongo.
+
+  **Athari:** Husababisha kumbukumbu zisizotakiwa, ndoto mbaya, uangalizi mwingi, hofu, na msongo wa hisia.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Flashbacks', 'Nightmares', 'Irritability', 'Avoidance of triggers'],
+          sw: ['Kumbukumbu zisizotakiwa', 'Ndoto mbaya', 'Kukasirika kwa urahisi', 'Kuepuka vitu vinavyokumbusha tukio'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Persistent anxiety', 'Intrusive memories', 'Sleep disturbances'],
+          sw: ['Hofu inayodumu', 'Kumbukumbu zisizotakiwa', 'Matatizo ya usingizi'],
+        },
+        reassurance: {
+          en: 'Therapy, support, and sometimes medication can greatly improve quality of life.',
+          sw: 'Tiba, msaada, na wakati mwingine dawa husaidia kuboresha maisha kwa kiasi kikubwa.',
+        },
+      },
+    },
+  },
   
   /* ───────────────────────────────
      MIGRAINE
