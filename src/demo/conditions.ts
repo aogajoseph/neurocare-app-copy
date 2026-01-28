@@ -3070,5 +3070,97 @@ bellsPalsy: {
       },
     },
   },
+
+  /* ───────────────────────────────
+      KERNS–SAYRE SYNDROME
+   ─────────────────────────────── */
+  kearnsSayreSyndrome: {
+    slug: 'kearnsSayreSyndrome',
+    hero: {
+      title: { en: 'Kearns–Sayre Syndrome', sw: 'Ugonjwa wa Kearns–Sayre' },
+      subtitle: {
+        en: 'A rare neurological disorder caused by mitochondrial dysfunction.',
+        sw: 'Ugonjwa adimu wa neva unaotokana na hitilafu za mitochondria.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Kearns–Sayre syndrome is a rare genetic disorder that affects the brain, eyes, and muscles.
+
+  **Neurological Link:** Caused by mitochondrial DNA abnormalities affecting nerve cells.
+
+  **Impact:** Leads to muscle weakness, vision loss, and coordination problems.`,
+          sw: `Ugonjwa wa Kearns–Sayre ni ugonjwa adimu wa kijenetiki unaoathiri ubongo, macho, na misuli.
+
+  **Uhusiano wa Neva:** Hutokana na hitilafu za DNA ya mitochondria zinazoathiri seli za neva.
+
+  **Athari:** Husababisha udhaifu wa misuli, kupoteza uwezo wa kuona, na matatizo ya uratibu.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Drooping eyelids', 'Muscle weakness', 'Vision problems'],
+          sw: ['Kope kulegea', 'Udhaifu wa misuli', 'Matatizo ya kuona'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Early vision loss', 'Progressive muscle weakness'],
+          sw: ['Kupoteza kuona mapema', 'Udhaifu wa misuli unaoendelea'],
+        },
+        reassurance: {
+          en: 'Supportive care can help manage symptoms.',
+          sw: 'Huduma saidizi husaidia kudhibiti dalili.',
+        },
+      },
+    },
+  },
+
+  /* ───────────────────────────────
+        KURU
+    ─────────────────────────────── */
+  kuru: {
+    slug: 'kuru',
+    hero: {
+      title: { en: 'Kuru', sw: 'Kuru' },
+      subtitle: {
+        en: 'A rare neurodegenerative prion disease.',
+        sw: 'Ugonjwa adimu wa neva unaosababishwa na prion.',
+      },
+    },
+    sections: {
+      overview: {
+        content: {
+          en: `Kuru is a fatal neurodegenerative disease historically found in specific populations.
+
+  **Neurological Link:** Caused by prions that damage brain tissue.
+
+  **Impact:** Leads to loss of coordination, tremors, and cognitive decline.`,
+          sw: `Kuru ni ugonjwa hatari wa neva uliopatikana kihistoria katika jamii fulani.
+
+  **Uhusiano wa Neva:** Husababishwa na prion zinazoharibu tishu za ubongo.
+
+  **Athari:** Husababisha kupoteza uratibu, kutetemeka, na kupungua kwa uwezo wa kufikiri.`,
+        },
+      },
+      symptoms: {
+        early: {
+          en: ['Unsteady walking', 'Tremors', 'Mood changes'],
+          sw: ['Kutembea bila usawa', 'Kutetemeka', 'Mabadiliko ya hisia'],
+        },
+      },
+      help: {
+        whenToSeekHelp: {
+          en: ['Progressive coordination loss'],
+          sw: ['Kupoteza uratibu kunakoendelea'],
+        },
+        reassurance: {
+          en: 'Modern public health practices have made this condition extremely rare.',
+          sw: 'Hatua za kisasa za afya ya jamii zimeufanya ugonjwa huu kuwa nadra sana.',
+        },
+      },
+    },
+  },
   
 };
